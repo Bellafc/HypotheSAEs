@@ -1,0 +1,51 @@
+hypothesis,separation_score,separation_pval,regression_coef,regression_pval,feature_prevalence
+is about a professional athlete who is currently active in their sport,0.09611535118150427,0.0017394242005523853,0.5426159124174955,0.019461019314144387,0.147
+is about an Australian rules footballer and their career trajectory,0.08890929965556832,0.0025486211452754584,0.5329988289944059,0.02441280051293846,0.1625
+"is about a specific species or genus of arthropods, crustaceans, or other invertebrates",0.08416491663728659,0.0006111768691826719,0.6474027635248524,7.246241461918999e-05,0.267
+is about a genus or species of spider,0.07133008548579833,0.49415021033535483,0.20406028689236927,0.6784983530809249,0.011
+"is about a financial institution or company providing banking, investment, or financial services",0.07095022099427484,0.08677815988495487,0.5953647806585056,0.04313847553400705,0.0745
+"is about amphibians or reptiles, often mentioning their habitat and threats to their survival",0.06685735748750393,0.02216758532898123,0.2917136281434252,0.19465282069031276,0.166
+is about an Irish hurler or Gaelic football player and their achievements,0.05411764705882355,0.07565880415652151,-0.07939988281283065,0.7501237442570602,0.15
+describes the final match or event of a football (soccer) tournament or competition,0.053502177087257796,0.07244873894439713,0.29595993826022626,0.27857237912352295,0.1585
+is about a footballer or football manager and their career achievements,0.05050606947106495,0.10931796922162389,-0.2660231655480306,0.31302740005902085,0.138
+"is about a species of moth, including details such as wingspan, coloration, and habitats",0.05006663528133204,0.1326974017055764,0.10378867674542758,0.6852001389589951,0.1215
+is about a species of gastropod mollusk,0.04558290707587381,0.10445507510530617,0.030374844391524245,0.8886461620914278,0.184
+describes a military unit and its organizational structure,0.04004930996121353,0.17938310178679487,0.16869717390647698,0.5237721024256308,0.158
+"is about a Japanese manga series, including details about its publication or adaptation into other media",0.03890433777992719,0.3293009673514285,-0.036872132911442985,0.9020229456767481,0.081
+is about a judge or justice and their professional career,0.03832820103331186,0.12487656000302735,0.35409175207434296,0.10605866664736677,0.2545
+is about cricket or cricketers,0.03624364950505421,0.42535159934682404,0.07714134051230391,0.8132955141387,0.061
+describes an election or voting process,0.035422971811198634,0.21813989446984963,0.21882875501653712,0.33974779180457604,0.173
+"is about a horse race, including details about its distance, location, and participants",0.03345145287030471,0.24813787271535107,0.18165162791118472,0.4512858136833414,0.17
+"describes a video game, including its gameplay, development, and release details",0.033245893624422984,0.3190192620766004,-0.14561771182989894,0.5892292506898573,0.121
+"is about a historical noble or royal figure, including their lineage and familial relationships",0.03133270494135448,0.25342503541532696,0.11921312650227689,0.5899784930945435,0.1955
+"is about an asteroid, including details about its discovery, orbit, physical characteristics, and/or naming history",0.03020102851799905,0.1992049378501826,0.1919162178967447,0.27053893903791104,0.31
+"describes an Olympic event, including details such as the event type, participants, rules, or medal outcomes",0.0298137617664766,0.24635465402433548,0.011907374570563527,0.9531644050997283,0.2335
+is about a figure skater or pair skater and their achievements,0.025988392038254482,0.23239910492856714,0.22254569733968954,0.1088000951973445,0.4935
+is about a swimmer or swimming event at the Olympics or Paralympics,0.02565741953544315,0.5259707668375808,-0.11032134941572565,0.7181896302052413,0.0785
+"is about a politician who has held a significant governmental leadership role (e.g., governor, mayor, premier, president, cabinet member)",0.024758206056984977,0.4564711740223652,-0.06685254149549842,0.7569736626228354,0.122
+"is about a gymnast who has competed in international artistic or rhythmic gymnastics competitions, including world championships",0.023794025032415178,0.2878733286356638,0.15877045742704746,0.34181189168617754,0.3825
+"is about American football in the National Football League (NFL), including teams, players, or seasons",0.01995606952506196,0.49241919508329013,-0.4176986781434762,0.11898716098763681,0.1685
+"is about a United States Supreme Court case, including its decision and constitutional implications",0.015621128288219321,0.5556882502707003,0.06615741105788578,0.740547877737931,0.2145
+"is about military personnel, organizations, or units",0.008389756840602558,0.7848477099623263,-0.5342221770648379,0.05447470385263251,0.147
+"is about a musical band and its history, including its formation, members, albums, and significant events",0.006668427695107282,0.7773459934648614,0.04499626569021589,0.8153699572439144,0.3075
+"describes a village, including its location and population details",0.005541125541125513,0.8465839828961232,-0.10010154186083528,0.6707579368455912,0.175
+"describes a lake, including its location, physical characteristics, and surrounding environment",0.0027876535229476307,0.9092435730885438,2.9706993045543867e-05,0.9998712789116356,0.272
+"is about a sports stadium, including details like location, capacity, and usage",0.001652397873802336,0.941043409324208,0.25733945886301274,0.12049958327051197,0.387
+"is about a shopping mall, including details about its location, anchor stores, and history",-5.553636851157728e-05,0.9984545286617803,-0.0730295653562997,0.745573026169181,0.1745
+"is about a railway line, including its route, history, and operational details",-0.0016810671274035682,0.9490175571864492,-0.07871902024061976,0.7280509877704735,0.2195
+describes satellites or spacecraft and their missions,-0.0037504507753335914,0.8751085441047209,-0.08762117012542738,0.6697586144303336,0.295
+is about an architect or their architectural works,-0.0046026609133405505,0.8532746721233659,-0.048326760262886154,0.8243238686497713,0.2575
+is about a politician who served in a national legislature,-0.006330340417285751,0.7721834871230983,0.05944129788002564,0.6816634358935634,0.452
+is about a hospital or healthcare institution,-0.00721511073760156,0.8576543733972314,-0.32771337707328707,0.2595255909679578,0.0795
+is about a bishop or cardinal in the Christian church,-0.0088180160189123,0.8314999704693676,-0.47626997458230164,0.11689113330324545,0.0745
+"is about a song, its artist(s), and its impact or context",-0.009296564758038084,0.6744097549101111,0.019350735750011235,0.9189034379929243,0.4095
+"is about a professor, academic, or researcher and their contributions to their field",-0.010775028785812324,0.6309580761166727,-0.14127965312968496,0.40752293090700675,0.379
+"is about historical rulers or nobles, describing their reign, titles, or lineage",-0.012761003270824522,0.5873997285664523,-0.19081085516917107,0.3266046365108122,0.3105
+describes a peer-reviewed academic or scientific journal and its characteristics,-0.013715511170859784,0.5286045354136931,-0.03999898680481339,0.7938344170097622,0.492
+is about a painter and their artistic works,-0.015106423710819883,0.5056972934946742,-0.1687871886781233,0.382959296674234,0.358
+"is about a radio station, including its format, location, and ownership",-0.01931256769966444,0.48982146997875675,-0.2582530852889585,0.24108351561803387,0.186
+"is about a theatrical play or musical, often describing its production, history, or storyline",-0.01966647066918542,0.3761161259776752,-0.09944209350286624,0.6007902163066314,0.399
+"describes a highway or road, including its route, location, and connections",-0.02165413533834587,0.3203097400702961,-0.005805733498295619,0.9719373743323466,0.475
+"is about a record label, including details such as its origin, founders, location, and artists or genres associated with it",-0.03045127246743251,0.1909541451770435,-0.21009759764539612,0.23382353744485174,0.322
+"is about a bridge, describing its location, design, and historical or functional significance",-0.048147081413210446,0.02686310500947361,-0.4102520181597287,0.009748976871955528,0.504
+"is about a church or religious diocese, including its history, architecture, or associated figures",-0.05545545464483975,0.028194685205986423,-0.7161448515899732,0.00047555996279917954,0.2455

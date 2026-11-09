@@ -1,0 +1,27 @@
+n_select,pair,shared,jaccard
+20,correlation vs separation_score,14,0.538
+20,correlation vs lasso,18,0.818
+20,correlation vs correlation_posonly,17,0.739
+20,correlation vs correlation_quota80,19,0.905
+20,separation_score vs lasso,14,0.538
+20,separation_score vs separation_score_posonly,15,0.6
+20,separation_score vs separation_score_quota80,19,0.905
+20,lasso vs correlation_posonly,18,0.818
+20,lasso vs correlation_quota80,17,0.739
+20,lasso vs separation_score_posonly,16,0.667
+20,lasso vs separation_score_quota80,15,0.6
+20,lasso vs lasso_posonly,19,0.905
+20,lasso vs lasso_quota80,17,0.739
+50,correlation vs separation_score,44,0.786
+50,correlation vs lasso,43,0.754
+50,correlation vs correlation_posonly,32,0.471
+50,correlation vs correlation_quota80,42,0.724
+50,separation_score vs lasso,38,0.613
+50,separation_score vs separation_score_posonly,27,0.37
+50,separation_score vs separation_score_quota80,37,0.587
+50,lasso vs correlation_posonly,39,0.639
+50,lasso vs correlation_quota80,48,0.923
+50,lasso vs separation_score_posonly,39,0.639
+50,lasso vs separation_score_quota80,43,0.754
+50,lasso vs lasso_posonly,39,0.639
+50,lasso vs lasso_quota80,49,0.961

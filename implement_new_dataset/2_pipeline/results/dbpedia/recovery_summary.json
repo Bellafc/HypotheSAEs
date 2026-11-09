@@ -1,0 +1,13 @@
+{
+  "n_references": 50,
+  "n_hypotheses": 50,
+  "n_matched": 50,
+  "sim_model": "gpt-4o-2024-11-20",
+  "sim_samples": 5,
+  "mean_f1_similarity": 0.5662384398331051,
+  "mean_surface_similarity": 0.7495,
+  "mean_holdout_corr": 0.5909103826706003,
+  "n_exact_surface_sim_eq_1": 32,
+  "n_surface_sim_ge_0.5": 41,
+  "n_refs_any_hyp_f1_ge_0.5": 32
+}

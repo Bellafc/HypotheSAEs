@@ -1,0 +1,149 @@
+{
+ "min_cluster_size": 50,
+ "val_metric": 0.11319339779659132,
+ "hypotheses": [
+  "discusses clinical trials or product development efforts in the healthcare or pharmaceutical industry",
+  "Discusses energy generation, transmission, or utility operations.",
+  "Discusses real estate investment trusts (REITs) and the management, leasing, or ownership of real estate properties.",
+  "focuses on insurance and reinsurance operations, including claims, premiums, and loss reserves",
+  "Discusses mining, exploration, or production of gold or other minerals.",
+  "mentions \"Item 7A. Quantitative and Qualitative Disclosures About Market Risk\".",
+  "Discusses batteries or energy storage technologies.",
+  "discusses oil and natural gas exploration, production, or reserves",
+  "discusses water and wastewater services or utilities",
+  "discusses advertising revenue in broadcasting, radio, television, or newspapers",
+  "discusses coal mining and its use in steel production or electricity generation",
+  "discusses vehicles, automotive sales, or automotive parts and services",
+  "discusses revenue recognition in the context of multiple-element arrangements",
+  "discusses investments in equity and debt securities, particularly in portfolio companies.",
+  "discusses online advertising or digital marketing strategies",
+  "discusses education programs, institutions, or services for students.",
+  "Discusses exposure to and management of financial risks related to interest rates and foreign currency exchange rates.",
+  "discusses wireless communication technologies or services.",
+  "mentions risks or uncertainties that could adversely affect business operations or financial results.",
+  "discusses beverages or coffee products"
+ ],
+ "topics": [
+  {
+   "topic": 0,
+   "keywords": "org, development, we, clinical, in, and, of, to, the, our",
+   "size": 3054,
+   "hypothesis": "discusses clinical trials or product development efforts in the healthcare or pharmaceutical industry"
+  },
+  {
+   "topic": 14,
+   "keywords": "electric, energy, gas, org, utility, natural, power, generation, and, transmission",
+   "size": 264,
+   "hypothesis": "Discusses energy generation, transmission, or utility operations."
+  },
+  {
+   "topic": 5,
+   "keywords": "properties, real, estate, tenants, of, lease, the, leases, we, square",
+   "size": 839,
+   "hypothesis": "Discusses real estate investment trusts (REITs) and the management, leasing, or ownership of real estate properties."
+  },
+  {
+   "topic": 7,
+   "keywords": "insurance, reinsurance, claims, loss, losses, the, and, reserves, of, premiums",
+   "size": 588,
+   "hypothesis": "focuses on insurance and reinsurance operations, including claims, premiums, and loss reserves"
+  },
+  {
+   "topic": 18,
+   "keywords": "gold, exploration, mineral, mine, mining, the, project, of, at, production",
+   "size": 212,
+   "hypothesis": "Discusses mining, exploration, or production of gold or other minerals."
+  },
+  {
+   "topic": 17,
+   "keywords": "reference, incorporated, 7a, quantitative, qualitative, risk, item, disclosures, herein, report",
+   "size": 222,
+   "hypothesis": "mentions \"Item 7A. Quantitative and Qualitative Disclosures About Market Risk\"."
+  },
+  {
+   "topic": 63,
+   "keywords": "battery, lithium, batteries, we, energy, storage, separators, applications, leadacid, in",
+   "size": 50,
+   "hypothesis": "Discusses batteries or energy storage technologies."
+  },
+  {
+   "topic": 3,
+   "keywords": "oil, gas, natural, drilling, production, reserves, and, in, the, wells",
+   "size": 1387,
+   "hypothesis": "discusses oil and natural gas exploration, production, or reserves"
+  },
+  {
+   "topic": 58,
+   "keywords": "water, wastewater, company, customers, service, maryland, the, org, to, and",
+   "size": 62,
+   "hypothesis": "discusses water and wastewater services or utilities"
+  },
+  {
+   "topic": 22,
+   "keywords": "advertising, stations, radio, television, revenue, newspapers, the, broadcasting, in, local",
+   "size": 171,
+   "hypothesis": "discusses advertising revenue in broadcasting, radio, television, or newspapers"
+  },
+  {
+   "topic": 61,
+   "keywords": "coal, tons, metallurgical, mines, mining, steel, reserves, million, coking, midwest",
+   "size": 52,
+   "hypothesis": "discusses coal mining and its use in steel production or electricity generation"
+  },
+  {
+   "topic": 45,
+   "keywords": "vehicles, vehicle, dealerships, automotive, parts, miles, new, we, dealership, used",
+   "size": 105,
+   "hypothesis": "discusses vehicles, automotive sales, or automotive parts and services"
+  },
+  {
+   "topic": 37,
+   "keywords": "revenue, arrangement, evidence, element, elements, undelivered, arrangements, recognition, is, delivered",
+   "size": 130,
+   "hypothesis": "discusses revenue recognition in the context of multiple-element arrangements"
+  },
+  {
+   "topic": 51,
+   "keywords": "investments, investment, companies, debt, portfolio, equity, 1940, we, act, securities",
+   "size": 91,
+   "hypothesis": "discusses investments in equity and debt securities, particularly in portfolio companies."
+  },
+  {
+   "topic": 23,
+   "keywords": "advertising, online, search, web, advertisers, our, marketing, we, media, and",
+   "size": 164,
+   "hypothesis": "discusses online advertising or digital marketing strategies"
+  },
+  {
+   "topic": 47,
+   "keywords": "students, student, education, programs, tuition, faculty, institution, university, online, org",
+   "size": 99,
+   "hypothesis": "discusses education programs, institutions, or services for students."
+  },
+  {
+   "topic": 21,
+   "keywords": "rate, interest, foreign, debt, rates, currency, risk, exchange, fair, swap",
+   "size": 177,
+   "hypothesis": "Discusses exposure to and management of financial risks related to interest rates and foreign currency exchange rates."
+  },
+  {
+   "topic": 6,
+   "keywords": "wireless, org, and, products, our, services, network, we, to, voice",
+   "size": 658,
+   "hypothesis": "discusses wireless communication technologies or services."
+  },
+  {
+   "topic": 9,
+   "keywords": "could, may, our, or, adversely, be, to, business, and, we",
+   "size": 543,
+   "hypothesis": "mentions risks or uncertainties that could adversely affect business operations or financial results."
+  },
+  {
+   "topic": 24,
+   "keywords": "beverages, coffee, beverage, brands, our, and, products, in, we, brand",
+   "size": 154,
+   "hypothesis": "discusses beverages or coffee products"
+  }
+ ],
+ "labeling_cost_usd": 0.2595175
+}

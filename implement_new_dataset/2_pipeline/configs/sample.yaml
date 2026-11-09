@@ -1,0 +1,83 @@
+# Sample config: every option of run_pipeline.py, set to its default value (the paper's settings, in
+# PAPER_DEFAULTS). Not runnable as is: copy it to configs/<dataset>.yaml, fill in the REQUIRED fields, and delete
+# every line you do not change, so that the dataset config shows only what differs from the paper.
+#   python implement_new_dataset/2_pipeline/run_pipeline.py --config <dataset> --stage grid | select | llm | holdout | recovery
+
+name: my_dataset                         # REQUIRED. Used in path templates as {name}
+vars: {}                                 # extra template variables for the paths below, e.g. {size: 12k} -> {size}
+
+data:
+  dir: data/{name}                       # REQUIRED. Folder with train.json, val.json, holdout.json (JSON lines)
+  text_col: text                         # column with the text
+  label_col: label                       # REQUIRED. Column with the target
+  task: classification                   # REQUIRED. classification | regression
+  group_col: null                        # optional id column (e.g. report): grid stage also reports val R^2 per group
+
+# Paths. Templates may use {name}, {embedding_tag} (last part of embedding.model) and anything in vars.
+# They are also cache keys: renaming them makes the scripts call the API again.
+cache_name: "{name}_{embedding_tag}"     # REQUIRED. Embedding and annotation caches
+checkpoint_dir: "checkpoints/{name}_{embedding_tag}"   # REQUIRED. SAE weights
+output_dir: "implement_new_dataset/2_pipeline/results/{name}"   # REQUIRED. All outputs of the pipeline
+
+embedding:
+  model: text-embedding-3-small          # paper: OpenAI text-embedding-3-small, or e.g. Qwen/Qwen3-Embedding-0.6B
+  backend: openai                        # openai | local
+  batch_size: 64                         # local backend only
+
+sae:
+  grid: [[256, 8]]                       # REQUIRED. List of [M, K]. Several entries: the grid stage picks one on validation (paper).
+  n_epochs: 100                          # library default
+  patience: 3                            # library default (early stopping on validation loss)
+
+selection:
+  method: lasso                          # lasso | correlation | separation_score
+  n_select: 20                           # H, the number of neurons / hypotheses
+
+interpretation:
+  model: gpt-4o                          # interpreter LLM
+  temperature: 0.7
+  n_candidates: 3                        # candidate interpretations per neuron; the best by fidelity F1 is kept
+  n_examples: 20                         # texts shown to the interpreter per candidate
+  max_words: 128                         # max words per text shown (paper's reproduction notebook)
+  high_pct: [90, 100]                    # highly activating texts: this percentile bin of the positive activations
+  low_pct: [0, 10]                       # weakly activating "hard negatives"; or "zero" for zero-activating texts
+  task_instructions: null                # text describing the dataset for the interpreter; null = library default
+  n_workers: 10                          # parallel interpretation requests
+
+scoring:                                 # step 5, fidelity of each candidate interpretation
+  model: gpt-4o-mini                     # LLM answering yes/no for "does this text match the interpretation?"
+  temperature: 0.0
+  reasoning_effort: null                 # gpt-5 family only, e.g. low
+  max_words: 256                         # max words per text sent to it (library default)
+  n_examples: 200                        # TRAIN texts per candidate: half from the high_pct bin (label 1), half from
+                                         # the low_pct bin (label 0), the same bins as in interpretation;
+                                         # fidelity = F1 of the yes/no answers against these labels
+  n_workers: 120                         # parallel requests
+
+annotation:                              # step 6, holdout: yes/no for every holdout text x final hypothesis
+  model: gpt-4o-mini                     # may differ from scoring.model
+  temperature: 0.0
+  reasoning_effort: null
+  max_words: 256
+  n_workers: 120
+# Note: cached annotations are keyed by (hypothesis, text) only, not by model. run_pipeline.py records in
+# annotation_cache/cache_models.json which model filled each cache file and refuses a different model with the
+# same cache_name; to try another annotator, give the run its own cache_name.
+
+evaluation:
+  pval: 0.05                             # significance threshold = pval / H (Bonferroni; library default is 0.1)
+
+select_report_split: val                 # split for the no-LLM baselines of the select stage: val | holdout
+diagnostic_col: null                     # optional column (e.g. a fine label) summarized per neuron / hypothesis
+
+after_holdout: []                        # analyses run right after the holdout stage: [recovery] or []
+
+# Optional analysis (default: off).
+recovery: null                           # synthetic tasks with known positive classes (paper section 5.2):
+#   positive_classes_file: data/my_dataset/positive_classes.json   # REQUIRED. JSON file with the class list
+#   positive_classes_key: positive_classes                         # REQUIRED. Key of that list in the file
+#   hierarchy_cols: [l1, l2, l3]         # REQUIRED. Label columns, coarse to fine; the last one holds the class.
+#                                        #   The reference hypothesis of a class is "l1 >> l2 >> l3".
+#   sim_model: gpt-4o                    # REQUIRED. LLM judging surface similarity of matched pairs
+#   sim_samples: 5                       # samples averaged per pair (library default)
+#   sim_temperature: 0.7

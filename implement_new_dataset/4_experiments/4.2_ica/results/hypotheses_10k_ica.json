@@ -1,0 +1,651 @@
+{
+  "features": "ica_256_p99",
+  "selected": [
+    11,
+    103,
+    148,
+    94,
+    134,
+    137,
+    173,
+    107,
+    92,
+    187,
+    161,
+    4,
+    39,
+    217,
+    191,
+    179,
+    0,
+    54,
+    240,
+    172
+  ],
+  "hypotheses": [
+    {
+      "feature_idx": 11,
+      "lasso_coef": -0.06779517233371735,
+      "interpretation": "discusses the generation, transmission, and distribution of electricity as part of the company's core operations",
+      "f1_fidelity": 0.8387096774193549
+    },
+    {
+      "feature_idx": 103,
+      "lasso_coef": 0.04067595303058624,
+      "interpretation": "discusses business operations, risks, or financial details specifically related to the People's Republic of China (PRC)",
+      "f1_fidelity": 0.7228915662650602
+    },
+    {
+      "feature_idx": 148,
+      "lasso_coef": -0.03978518769145012,
+      "interpretation": "discusses reinsurance strategies, including specific details about reinsurance treaties, coverage limits, reinsurer selection criteria, or credit risk mitigation practices",
+      "f1_fidelity": 0.5454545454545455
+    },
+    {
+      "feature_idx": 94,
+      "lasso_coef": 0.03823287785053253,
+      "interpretation": "discusses policies, programs, or technologies related to renewable energy, specifically solar power systems or components",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 134,
+      "lasso_coef": 0.03426901623606682,
+      "interpretation": "describes a company with significant accumulated deficits and ongoing operating losses due to research and development activities, including clinical trials, with expectations of continued losses in the foreseeable future",
+      "f1_fidelity": 0.8823529411764706
+    },
+    {
+      "feature_idx": 137,
+      "lasso_coef": 0.03125855326652527,
+      "interpretation": "describes the development or mechanism of action of novel targeted cancer therapies",
+      "f1_fidelity": 0.8148148148148148
+    },
+    {
+      "feature_idx": 173,
+      "lasso_coef": 0.024462757632136345,
+      "interpretation": "discusses gold mining operations, including exploration, production, or development activities specific to gold and related by-products like silver",
+      "f1_fidelity": 0.9473684210526316
+    },
+    {
+      "feature_idx": 107,
+      "lasso_coef": 0.024088740348815918,
+      "interpretation": "describes clinical trials evaluating the safety and efficacy of treatments for specific medical conditions, including detailed endpoints and statistical criteria for success",
+      "f1_fidelity": 0.8787878787878789
+    },
+    {
+      "feature_idx": 92,
+      "lasso_coef": -0.023591259494423866,
+      "interpretation": "explicitly states that information required by Item 7 or Item 7A is incorporated by reference from another document",
+      "f1_fidelity": 0.9565217391304348
+    },
+    {
+      "feature_idx": 187,
+      "lasso_coef": 0.02307734452188015,
+      "interpretation": "mentions the development, commercialization, or clinical trials of vaccines or antibody therapies targeted at infectious diseases, including influenza, anthrax, or herpes zoster",
+      "f1_fidelity": 0.9
+    },
+    {
+      "feature_idx": 161,
+      "lasso_coef": 0.01730966567993164,
+      "interpretation": "discusses the development or commercialization of stem cell-based therapies or technologies",
+      "f1_fidelity": 0.9375
+    },
+    {
+      "feature_idx": 4,
+      "lasso_coef": -0.013848131522536278,
+      "interpretation": "discusses compliance with REIT (Real Estate Investment Trust) tax requirements, including distribution of taxable income and qualification criteria",
+      "f1_fidelity": 0.7843137254901961
+    },
+    {
+      "feature_idx": 39,
+      "lasso_coef": 0.011036223731935024,
+      "interpretation": "provides detailed breakdown and categorization of research and development (R&D) expenses, including specific activities, cost components, or project stages",
+      "f1_fidelity": 0.7096774193548386
+    },
+    {
+      "feature_idx": 217,
+      "lasso_coef": 0.009996132925152779,
+      "interpretation": "describes monetization strategies for web publishers through contextual or pay-per-click advertising",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 191,
+      "lasso_coef": -0.009210756048560143,
+      "interpretation": "discusses challenges or strategies related to tenant lease renewals, including retention rates, rollover risks, or efforts to re-lease vacant spaces",
+      "f1_fidelity": 0.8666666666666667
+    },
+    {
+      "feature_idx": 179,
+      "lasso_coef": -0.007532223127782345,
+      "interpretation": "describes manufacturing or sales of packaging products with a focus on food, beverage, or consumer goods markets, including metal, plastic, or vacuum closures",
+      "f1_fidelity": 0.9
+    },
+    {
+      "feature_idx": 0,
+      "lasso_coef": -0.0024266031105071306,
+      "interpretation": "discusses the impact of U.S. federal budget decisions, including defense spending levels and sequestration, on the company\u2019s future revenues and operations",
+      "f1_fidelity": 0.9473684210526316
+    },
+    {
+      "feature_idx": 54,
+      "lasso_coef": 0.0020685784984380007,
+      "interpretation": "describes revenue recognition criteria for product sales, including conditions such as transfer of title, risk of loss, and customer collectability",
+      "f1_fidelity": 0.7317073170731707
+    },
+    {
+      "feature_idx": 240,
+      "lasso_coef": 0.0009380797855556011,
+      "interpretation": "mentions revenue generated by radio broadcasting or radio stations",
+      "f1_fidelity": 0.8928571428571429
+    },
+    {
+      "feature_idx": 172,
+      "lasso_coef": -0.0004788469523191452,
+      "interpretation": "discusses tobacco-related business operations, including cigarette manufacturing, marketing, sales, or legal/regulatory issues specific to the tobacco industry",
+      "f1_fidelity": 0.9655172413793104
+    }
+  ],
+  "all_candidates": {
+    "11": [
+      "discusses the generation, transmission, and distribution of electricity as part of the company's core operations",
+      "discusses electricity generation capacity and its breakdown by fuel type (e.g., coal, nuclear, wind, natural gas)",
+      "discusses regulatory frameworks, rate increases, or performance-based ratemaking processes for utility services"
+    ],
+    "103": [
+      "discusses business operations, risks, or financial details specifically related to the People's Republic of China (PRC)",
+      "discusses the influence of Chinese government policies or regulations on business operations",
+      "discusses the influence of Chinese government policies or regulations on the company's industry or operations"
+    ],
+    "148": [
+      "discusses reinsurance arrangements, including types of reinsurance (e.g., pro rata, excess-of-loss), terms, and catastrophic event coverage",
+      "discusses market conditions and cyclical trends in the insurance and reinsurance industry",
+      "discusses reinsurance strategies, including specific details about reinsurance treaties, coverage limits, reinsurer selection criteria, or credit risk mitigation practices"
+    ],
+    "94": [
+      "discusses photovoltaic (PV) solar technology or products",
+      "discusses policies, programs, or technologies related to renewable energy, specifically solar power systems or components",
+      "discusses the development, sale, or application of renewable energy technologies or products"
+    ],
+    "134": [
+      "describes a company with significant accumulated deficits and ongoing operating losses due to research and development activities, including clinical trials, with expectations of continued losses in the foreseeable future",
+      "mentions substantial accumulated deficits or losses since inception and expresses uncertainty about achieving profitability",
+      "mentions significant accumulated deficits or net losses since inception due to research and development activities"
+    ],
+    "137": [
+      "describes the development or mechanism of action of novel targeted cancer therapies",
+      "discusses clinical trials or development of therapies specifically targeting breast cancer",
+      "describes the development or clinical testing of anti-cancer drugs, including specific phases of clinical trials (e.g., Phase 1, Phase 2, Phase 3)"
+    ],
+    "173": [
+      "discusses gold mining operations, including exploration, production, or development activities specific to gold and related by-products like silver",
+      "describes mining activities or projects related to gold, silver, or other minerals, including exploration, production, or feasibility studies",
+      "describes mining operations or exploration activities related to gold, silver, or copper, including reserve estimates, production plans, or drilling programs"
+    ],
+    "107": [
+      "describes Phase 3 clinical trials as pivotal studies evaluating safety and efficacy with non-inferiority endpoints",
+      "describes clinical trials with specific endpoints, including efficacy and safety, often mentioning phases (e.g., Phase II, Phase III)",
+      "describes clinical trials evaluating the safety and efficacy of treatments for specific medical conditions, including detailed endpoints and statistical criteria for success"
+    ],
+    "92": [
+      "incorporates information by reference to specific sections or pages of the Annual Report",
+      "explicitly states that information required by Item 7 or Item 7A is incorporated by reference from another document",
+      "explicitly incorporates information by reference to other sections or reports"
+    ],
+    "187": [
+      "mentions the development, commercialization, or clinical trials of vaccines or antibody therapies targeted at infectious diseases, including influenza, anthrax, or herpes zoster",
+      "discusses the development, manufacturing, or clinical trials of vaccines, specifically mentioning influenza or other infectious disease vaccines",
+      "describes the development or testing of vaccines, including clinical trials or regulatory approval processes"
+    ],
+    "161": [
+      "discusses the development or commercialization of stem cell-based therapies or technologies",
+      "describes the development or commercialization of stem cell-based therapies or products",
+      "discusses the development, commercialization, or therapeutic application of stem cell technologies or products"
+    ],
+    "4": [
+      "discusses compliance with REIT-specific tax and operational requirements",
+      "discusses compliance with REIT (Real Estate Investment Trust) qualification requirements, including distribution of at least 90% of taxable income to shareholders",
+      "discusses compliance with REIT (Real Estate Investment Trust) tax requirements, including distribution of taxable income and qualification criteria"
+    ],
+    "39": [
+      "breaks down research and development expenses into detailed categories such as clinical trials, regulatory costs, manufacturing costs, and personnel expenses",
+      "describes the breakdown or categorization of research and development (R&D) expenses into specific components such as clinical trials, personnel expenses, lab supplies, stock-based compensation, or facilities costs",
+      "provides detailed breakdown and categorization of research and development (R&D) expenses, including specific activities, cost components, or project stages"
+    ],
+    "217": [
+      "describes revenue generation through pay-per-click or call-based advertising models",
+      "describes pay-per-click or call-based advertising services, including revenue models based on advertiser payments for clicks or calls and sharing revenue with publishers or partners",
+      "describes monetization strategies for web publishers through contextual or pay-per-click advertising"
+    ],
+    "191": [
+      "discusses challenges or strategies related to tenant lease renewals, including retention rates, rollover risks, or efforts to re-lease vacant spaces",
+      "discusses tenant lease expirations and their associated financial impact, including metrics like annualized base rent, square footage, or retention rates",
+      "discusses challenges related to leasing vacant spaces, including uncertainty about rental rates and tenant retention efforts"
+    ],
+    "179": [
+      "describes manufacturing or sales of packaging products with a focus on food, beverage, or consumer goods markets, including metal, plastic, or vacuum closures",
+      "describes acquisitions as a key strategy for business growth and market expansion",
+      "discusses strategies or actions related to acquisitions and plant closures as part of operational or cost optimization initiatives"
+    ],
+    "0": [
+      "discusses the impact of U.S. federal budget decisions, including defense spending levels and sequestration, on the company\u2019s future revenues and operations",
+      "discusses U.S. Department of Defense (DoD) budget levels, funding priorities, or the impact of federal budget constraints on defense programs",
+      "discusses U.S. Department of Defense (DoD) budgets, funding levels, or procurement and R&D investment accounts"
+    ],
+    "54": [
+      "discusses revenue recognition policies with detailed criteria for customer acceptance and payment terms",
+      "describes revenue recognition criteria for product sales, including conditions such as transfer of title, risk of loss, and customer collectability",
+      "describes revenue recognition practices related to the transfer of title and risk of loss upon shipment"
+    ],
+    "240": [
+      "discusses the impact of advertising revenue and audience metrics on financial performance",
+      "mentions revenue generated by radio broadcasting or radio stations",
+      "mentions reliance on radio broadcasting as a significant revenue source"
+    ],
+    "172": [
+      "discusses tobacco product advertising, marketing restrictions, or promotional programs",
+      "discusses tobacco industry-specific regulations, legal settlements, or marketing restrictions",
+      "discusses tobacco-related business operations, including cigarette manufacturing, marketing, sales, or legal/regulatory issues specific to the tobacco industry"
+    ]
+  },
+  "all_fidelity": {
+    "11": {
+      "discusses the generation, transmission, and distribution of electricity as part of the company's core operations": {
+        "recall": 0.896551724137931,
+        "precision": 0.7878787878787878,
+        "f1": 0.8387096774193549,
+        "correlation": 0.6543064451465399
+      },
+      "discusses electricity generation capacity and its breakdown by fuel type (e.g., coal, nuclear, wind, natural gas)": {
+        "recall": 0.1724137931034483,
+        "precision": 0.8333333333333334,
+        "f1": 0.28571428571428575,
+        "correlation": 0.23714383080598359
+      },
+      "discusses regulatory frameworks, rate increases, or performance-based ratemaking processes for utility services": {
+        "recall": 0.7241379310344828,
+        "precision": 0.6363636363636364,
+        "f1": 0.6774193548387097,
+        "correlation": 0.2723490801074294
+      }
+    },
+    "103": {
+      "discusses business operations, risks, or financial details specifically related to the People's Republic of China (PRC)": {
+        "recall": 1.0,
+        "precision": 0.5660377358490566,
+        "f1": 0.7228915662650602,
+        "correlation": 0.35860447674027784
+      },
+      "discusses the influence of Chinese government policies or regulations on business operations": {
+        "recall": 0.6,
+        "precision": 0.9,
+        "f1": 0.7200000000000001,
+        "correlation": 0.6127341695442033
+      },
+      "discusses the influence of Chinese government policies or regulations on the company's industry or operations": {
+        "recall": 0.6,
+        "precision": 0.8571428571428571,
+        "f1": 0.7058823529411764,
+        "correlation": 0.5720305836755417
+      }
+    },
+    "148": {
+      "discusses reinsurance arrangements, including types of reinsurance (e.g., pro rata, excess-of-loss), terms, and catastrophic event coverage": {
+        "recall": 0.36666666666666664,
+        "precision": 0.8461538461538461,
+        "f1": 0.5116279069767441,
+        "correlation": 0.4201339465227878
+      },
+      "discusses market conditions and cyclical trends in the insurance and reinsurance industry": {
+        "recall": 0.5333333333333333,
+        "precision": 0.5161290322580645,
+        "f1": 0.5245901639344263,
+        "correlation": 0.044060335577175
+      },
+      "discusses reinsurance strategies, including specific details about reinsurance treaties, coverage limits, reinsurer selection criteria, or credit risk mitigation practices": {
+        "recall": 0.4,
+        "precision": 0.8571428571428571,
+        "f1": 0.5454545454545455,
+        "correlation": 0.4395603730783564
+      }
+    },
+    "94": {
+      "discusses photovoltaic (PV) solar technology or products": {
+        "recall": 0.8333333333333334,
+        "precision": 0.8928571428571429,
+        "f1": 0.8620689655172413,
+        "correlation": 0.7570753489905232
+      },
+      "discusses policies, programs, or technologies related to renewable energy, specifically solar power systems or components": {
+        "recall": 0.9333333333333333,
+        "precision": 0.8484848484848485,
+        "f1": 0.888888888888889,
+        "correlation": 0.7589920877367643
+      },
+      "discusses the development, sale, or application of renewable energy technologies or products": {
+        "recall": 1.0,
+        "precision": 0.7894736842105263,
+        "f1": 0.8823529411764706,
+        "correlation": 0.7343172005739312
+      }
+    },
+    "134": {
+      "describes a company with significant accumulated deficits and ongoing operating losses due to research and development activities, including clinical trials, with expectations of continued losses in the foreseeable future": {
+        "recall": 1.0,
+        "precision": 0.7894736842105263,
+        "f1": 0.8823529411764706,
+        "correlation": 0.7253863861129828
+      },
+      "mentions substantial accumulated deficits or losses since inception and expresses uncertainty about achieving profitability": {
+        "recall": 1.0,
+        "precision": 0.6976744186046512,
+        "f1": 0.8219178082191781,
+        "correlation": 0.5996317923685625
+      },
+      "mentions significant accumulated deficits or net losses since inception due to research and development activities": {
+        "recall": 1.0,
+        "precision": 0.75,
+        "f1": 0.8571428571428571,
+        "correlation": 0.6760521039765347
+      }
+    },
+    "137": {
+      "describes the development or mechanism of action of novel targeted cancer therapies": {
+        "recall": 0.7333333333333333,
+        "precision": 0.9166666666666666,
+        "f1": 0.8148148148148148,
+        "correlation": 0.6926471782659049
+      },
+      "discusses clinical trials or development of therapies specifically targeting breast cancer": {
+        "recall": 0.3333333333333333,
+        "precision": 0.9090909090909091,
+        "f1": 0.4878048780487804,
+        "correlation": 0.386812056785269
+      },
+      "describes the development or clinical testing of anti-cancer drugs, including specific phases of clinical trials (e.g., Phase 1, Phase 2, Phase 3)": {
+        "recall": 0.5666666666666667,
+        "precision": 0.7083333333333334,
+        "f1": 0.6296296296296297,
+        "correlation": 0.32990996445670334
+      }
+    },
+    "173": {
+      "discusses gold mining operations, including exploration, production, or development activities specific to gold and related by-products like silver": {
+        "recall": 0.9,
+        "precision": 1.0,
+        "f1": 0.9473684210526316,
+        "correlation": 0.9031084388211357
+      },
+      "describes mining activities or projects related to gold, silver, or other minerals, including exploration, production, or feasibility studies": {
+        "recall": 1.0,
+        "precision": 0.75,
+        "f1": 0.8571428571428571,
+        "correlation": 0.7037729278399073
+      },
+      "describes mining operations or exploration activities related to gold, silver, or copper, including reserve estimates, production plans, or drilling programs": {
+        "recall": 0.9333333333333333,
+        "precision": 0.8235294117647058,
+        "f1": 0.8749999999999999,
+        "correlation": 0.7306732878578912
+      }
+    },
+    "107": {
+      "describes Phase 3 clinical trials as pivotal studies evaluating safety and efficacy with non-inferiority endpoints": {
+        "recall": 0.16666666666666666,
+        "precision": 0.8333333333333334,
+        "f1": 0.2777777777777778,
+        "correlation": 0.1867945580358336
+      },
+      "describes clinical trials with specific endpoints, including efficacy and safety, often mentioning phases (e.g., Phase II, Phase III)": {
+        "recall": 0.9666666666666667,
+        "precision": 0.6904761904761905,
+        "f1": 0.8055555555555556,
+        "correlation": 0.5806523272731946
+      },
+      "describes clinical trials evaluating the safety and efficacy of treatments for specific medical conditions, including detailed endpoints and statistical criteria for success": {
+        "recall": 0.9666666666666667,
+        "precision": 0.8055555555555556,
+        "f1": 0.8787878787878789,
+        "correlation": 0.7372582692973348
+      }
+    },
+    "92": {
+      "incorporates information by reference to specific sections or pages of the Annual Report": {
+        "recall": 1.0,
+        "precision": 0.6875,
+        "f1": 0.8148148148148148,
+        "correlation": 0.5903450020013582
+      },
+      "explicitly states that information required by Item 7 or Item 7A is incorporated by reference from another document": {
+        "recall": 1.0,
+        "precision": 0.9166666666666666,
+        "f1": 0.9565217391304348,
+        "correlation": 0.9091619990372984
+      },
+      "explicitly incorporates information by reference to other sections or reports": {
+        "recall": 1.0,
+        "precision": 0.5892857142857143,
+        "f1": 0.7415730337078651,
+        "correlation": 0.37114884833137146
+      }
+    },
+    "187": {
+      "mentions the development, commercialization, or clinical trials of vaccines or antibody therapies targeted at infectious diseases, including influenza, anthrax, or herpes zoster": {
+        "recall": 0.8709677419354839,
+        "precision": 0.9310344827586207,
+        "f1": 0.9,
+        "correlation": 0.7626597356838365
+      },
+      "discusses the development, manufacturing, or clinical trials of vaccines, specifically mentioning influenza or other infectious disease vaccines": {
+        "recall": 0.6451612903225806,
+        "precision": 1.0,
+        "f1": 0.7843137254901961,
+        "correlation": 0.6674652342394206
+      },
+      "describes the development or testing of vaccines, including clinical trials or regulatory approval processes": {
+        "recall": 0.7741935483870968,
+        "precision": 0.7058823529411765,
+        "f1": 0.7384615384615385,
+        "correlation": 0.4272124568675805
+      }
+    },
+    "161": {
+      "discusses the development or commercialization of stem cell-based therapies or technologies": {
+        "recall": 1.0,
+        "precision": 0.8823529411764706,
+        "f1": 0.9375,
+        "correlation": 0.8217507428224662
+      },
+      "describes the development or commercialization of stem cell-based therapies or products": {
+        "recall": 0.9333333333333333,
+        "precision": 0.875,
+        "f1": 0.9032258064516129,
+        "correlation": 0.786330327353535
+      },
+      "discusses the development, commercialization, or therapeutic application of stem cell technologies or products": {
+        "recall": 1.0,
+        "precision": 0.8571428571428571,
+        "f1": 0.923076923076923,
+        "correlation": 0.794435671884046
+      }
+    },
+    "4": {
+      "discusses compliance with REIT-specific tax and operational requirements": {
+        "recall": 0.6666666666666666,
+        "precision": 0.8695652173913043,
+        "f1": 0.7547169811320754,
+        "correlation": 0.5724425932700715
+      },
+      "discusses compliance with REIT (Real Estate Investment Trust) qualification requirements, including distribution of at least 90% of taxable income to shareholders": {
+        "recall": 0.5333333333333333,
+        "precision": 1.0,
+        "f1": 0.6956521739130436,
+        "correlation": 0.6116216999825119
+      },
+      "discusses compliance with REIT (Real Estate Investment Trust) tax requirements, including distribution of taxable income and qualification criteria": {
+        "recall": 0.6666666666666666,
+        "precision": 0.9523809523809523,
+        "f1": 0.7843137254901961,
+        "correlation": 0.6505405596040591
+      }
+    },
+    "39": {
+      "breaks down research and development expenses into detailed categories such as clinical trials, regulatory costs, manufacturing costs, and personnel expenses": {
+        "recall": 0.43333333333333335,
+        "precision": 0.8666666666666667,
+        "f1": 0.5777777777777778,
+        "correlation": 0.45324327001668874
+      },
+      "describes the breakdown or categorization of research and development (R&D) expenses into specific components such as clinical trials, personnel expenses, lab supplies, stock-based compensation, or facilities costs": {
+        "recall": 0.5666666666666667,
+        "precision": 0.85,
+        "f1": 0.68,
+        "correlation": 0.5098935274460286
+      },
+      "provides detailed breakdown and categorization of research and development (R&D) expenses, including specific activities, cost components, or project stages": {
+        "recall": 0.7333333333333333,
+        "precision": 0.6875,
+        "f1": 0.7096774193548386,
+        "correlation": 0.4124995183996567
+      }
+    },
+    "217": {
+      "describes revenue generation through pay-per-click or call-based advertising models": {
+        "recall": 0.7,
+        "precision": 1.0,
+        "f1": 0.8235294117647058,
+        "correlation": 0.7987390950018859
+      },
+      "describes pay-per-click or call-based advertising services, including revenue models based on advertiser payments for clicks or calls and sharing revenue with publishers or partners": {
+        "recall": 0.7,
+        "precision": 1.0,
+        "f1": 0.8235294117647058,
+        "correlation": 0.7987390950018859
+      },
+      "describes monetization strategies for web publishers through contextual or pay-per-click advertising": {
+        "recall": 0.8,
+        "precision": 1.0,
+        "f1": 0.888888888888889,
+        "correlation": 0.863356597675818
+      }
+    },
+    "191": {
+      "discusses challenges or strategies related to tenant lease renewals, including retention rates, rollover risks, or efforts to re-lease vacant spaces": {
+        "recall": 0.8666666666666667,
+        "precision": 0.8666666666666667,
+        "f1": 0.8666666666666667,
+        "correlation": 0.7272324921442288
+      },
+      "discusses tenant lease expirations and their associated financial impact, including metrics like annualized base rent, square footage, or retention rates": {
+        "recall": 0.8,
+        "precision": 0.8888888888888888,
+        "f1": 0.8421052631578948,
+        "correlation": 0.6458342124069494
+      },
+      "discusses challenges related to leasing vacant spaces, including uncertainty about rental rates and tenant retention efforts": {
+        "recall": 0.8333333333333334,
+        "precision": 0.8333333333333334,
+        "f1": 0.8333333333333334,
+        "correlation": 0.6487751439755268
+      }
+    },
+    "179": {
+      "describes manufacturing or sales of packaging products with a focus on food, beverage, or consumer goods markets, including metal, plastic, or vacuum closures": {
+        "recall": 0.9,
+        "precision": 0.9,
+        "f1": 0.9,
+        "correlation": 0.7876394397143334
+      },
+      "describes acquisitions as a key strategy for business growth and market expansion": {
+        "recall": 0.5333333333333333,
+        "precision": 0.7619047619047619,
+        "f1": 0.6274509803921569,
+        "correlation": 0.4399095997425821
+      },
+      "discusses strategies or actions related to acquisitions and plant closures as part of operational or cost optimization initiatives": {
+        "recall": 0.5666666666666667,
+        "precision": 0.6538461538461539,
+        "f1": 0.6071428571428571,
+        "correlation": 0.27623765558530844
+      }
+    },
+    "0": {
+      "discusses the impact of U.S. federal budget decisions, including defense spending levels and sequestration, on the company\u2019s future revenues and operations": {
+        "recall": 0.9,
+        "precision": 1.0,
+        "f1": 0.9473684210526316,
+        "correlation": 0.9074640931206608
+      },
+      "discusses U.S. Department of Defense (DoD) budget levels, funding priorities, or the impact of federal budget constraints on defense programs": {
+        "recall": 0.9,
+        "precision": 1.0,
+        "f1": 0.9473684210526316,
+        "correlation": 0.9074640931206608
+      },
+      "discusses U.S. Department of Defense (DoD) budgets, funding levels, or procurement and R&D investment accounts": {
+        "recall": 0.9,
+        "precision": 1.0,
+        "f1": 0.9473684210526316,
+        "correlation": 0.9074640931206608
+      }
+    },
+    "54": {
+      "discusses revenue recognition policies with detailed criteria for customer acceptance and payment terms": {
+        "recall": 1.0,
+        "precision": 0.5357142857142857,
+        "f1": 0.6976744186046512,
+        "correlation": 0.2652721901152667
+      },
+      "describes revenue recognition criteria for product sales, including conditions such as transfer of title, risk of loss, and customer collectability": {
+        "recall": 1.0,
+        "precision": 0.5769230769230769,
+        "f1": 0.7317073170731707,
+        "correlation": 0.3838379859256902
+      },
+      "describes revenue recognition practices related to the transfer of title and risk of loss upon shipment": {
+        "recall": 0.8666666666666667,
+        "precision": 0.5909090909090909,
+        "f1": 0.7027027027027029,
+        "correlation": 0.3151830753981545
+      }
+    },
+    "240": {
+      "discusses the impact of advertising revenue and audience metrics on financial performance": {
+        "recall": 0.6333333333333333,
+        "precision": 0.9047619047619048,
+        "f1": 0.7450980392156863,
+        "correlation": 0.6065558863341205
+      },
+      "mentions revenue generated by radio broadcasting or radio stations": {
+        "recall": 0.8333333333333334,
+        "precision": 0.9615384615384616,
+        "f1": 0.8928571428571429,
+        "correlation": 0.8141281168928637
+      },
+      "mentions reliance on radio broadcasting as a significant revenue source": {
+        "recall": 0.3333333333333333,
+        "precision": 0.9090909090909091,
+        "f1": 0.4878048780487804,
+        "correlation": 0.4114913760762095
+      }
+    },
+    "172": {
+      "discusses tobacco product advertising, marketing restrictions, or promotional programs": {
+        "recall": 0.7,
+        "precision": 1.0,
+        "f1": 0.8235294117647058,
+        "correlation": 0.813966023613035
+      },
+      "discusses tobacco industry-specific regulations, legal settlements, or marketing restrictions": {
+        "recall": 0.7,
+        "precision": 1.0,
+        "f1": 0.8235294117647058,
+        "correlation": 0.7984236151227451
+      },
+      "discusses tobacco-related business operations, including cigarette manufacturing, marketing, sales, or legal/regulatory issues specific to the tobacco industry": {
+        "recall": 0.9333333333333333,
+        "precision": 1.0,
+        "f1": 0.9655172413793104,
+        "correlation": 0.9327861748130736
+      }
+    }
+  }
+}

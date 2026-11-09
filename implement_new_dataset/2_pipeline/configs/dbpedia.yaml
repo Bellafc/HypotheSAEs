@@ -1,0 +1,56 @@
+# DBpedia (synthetic task with ground truth). Everything not listed here uses the paper defaults in
+# run_pipeline.py (PAPER_DEFAULTS). Every value below is either dataset-specific or a change we made.
+#   python implement_new_dataset/2_pipeline/run_pipeline.py --config dbpedia --stage select | llm | holdout | recovery
+# (no grid stage needed: sae.grid has a single entry)
+name: dbpedia
+vars:
+  size: 12k                    # data size used for all reported results (prepare_dbpedia.py also makes full)
+
+data:
+  dir: data/dbpedia/processed/{size}
+  label_col: label             # 1 = l3 class is one of the 50 positive classes
+  task: classification
+
+# paths ({embedding_tag} = last part of embedding.model); they are also cache keys, renaming them re-calls the API
+cache_name: dbpedia_{embedding_tag}
+checkpoint_dir: checkpoints/dbpedia_{embedding_tag}_{size}
+output_dir: implement_new_dataset/2_pipeline/results/dbpedia
+
+embedding:
+  model: text-embedding-3-small        # paper default; written out because it names the cache and output folder
+
+sae:
+  grid: [[256, 8]]             # changed: a single (M, K), so no validation search; the repo README's rule of thumb
+                               #          for ~10k texts (train has 8k texts). The paper picks (M, K) on validation.
+  n_epochs: 200                # changed: library defaults are 100 epochs, patience 3
+  patience: 5
+
+selection:
+  n_select: 50                 # changed: H = number of positive classes (paper: 20 for real tasks, H = #topics
+                               #          for its synthetic Wiki / Bills tasks)
+
+interpretation:
+  model: gpt-4o-2024-11-20     # changed: pinned snapshot of the paper's gpt-4o
+  max_words: 256               # changed: library default (the paper's notebook uses 128)
+  high_pct: [80, 100]          # changed: the paper's setting for its Wiki task (default [90, 100] is for Yelp/Congress)
+  task_instructions: |
+    All of the texts are the opening paragraphs of English Wikipedia articles.
+    Features should describe what kind of entity the article is about, or a specific characteristic of that entity. For example:
+    - "describes a musical instrument and how it is played"
+    - "is about a person who held a religious office"
+
+scoring:
+  model: gpt-4o-mini-2024-07-18  # changed: pinned snapshot of the paper's gpt-4o-mini
+
+annotation:
+  model: gpt-4o-mini-2024-07-18  # changed: pinned snapshot of the paper's gpt-4o-mini
+
+select_report_split: holdout   # the no-LLM baselines of the select stage are reported on the holdout (section 2.3)
+diagnostic_col: l3             # list the l3 classes each neuron / hypothesis fires on (diagnostic only)
+
+after_holdout: [recovery]
+recovery:                      # paper section 5.2, implemented by us (not in the library)
+  positive_classes_file: data/dbpedia/positive_l3_classes.json
+  positive_classes_key: positive_l3_classes
+  hierarchy_cols: [l1, l2, l3] # reference hypothesis = "l1 >> l2 >> l3", like the paper's Wiki topics
+  sim_model: gpt-4o-2024-11-20 # LLM judging surface similarity

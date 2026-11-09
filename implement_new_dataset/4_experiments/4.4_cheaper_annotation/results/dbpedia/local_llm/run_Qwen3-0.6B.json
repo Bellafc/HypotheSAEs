@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "wall_min": 15.799074530601501,
+  "n_annotations": 100000,
+  "parse_failures": 0,
+  "calls": 100000,
+  "prompt_tokens": 65265750,
+  "completion_tokens": 3777042,
+  "throughput_per_s": 105.49141112275096,
+  "auroc": 0.5567389153814936,
+  "significant": [
+    5,
+    30
+  ],
+  "n_dropped_constant": 20
+}

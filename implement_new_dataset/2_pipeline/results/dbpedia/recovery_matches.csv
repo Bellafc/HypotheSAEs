@@ -1,0 +1,51 @@
+reference_class,reference,hypothesis,holdout_corr,f1_similarity,surface_similarity
+FigureSkater,Agent >> Winter Sport Player >> Figure Skater,is about a figure skater or pair skater and their achievements,1.0,1.0,1.0
+GaelicGamesPlayer,Agent >> Athlete >> Gaelic Games Player,is about an Irish hurler or Gaelic football player and their achievements,1.0,1.0,1.0
+VideoGame,Work >> Software >> Video Game,"describes a video game, including its gameplay, development, and release details",1.0,1.0,1.0
+ShoppingMall,Place >> Building >> Shopping Mall,"is about a shopping mall, including details about its location, anchor stores, and history",1.0,1.0,1.0
+AustralianRulesFootballPlayer,Agent >> Athlete >> Australian Rules Football Player,is about an Australian rules footballer and their career trajectory,0.9999999999999999,1.0,1.0
+SupremeCourtOfTheUnitedStatesCase,Unit Of Work >> Legal Case >> Supreme Court Of The United States Case,"is about a United States Supreme Court case, including its decision and constitutional implications",0.9999999999999984,1.0,1.0
+Bridge,Place >> Route Of Transportation >> Bridge,"is about a bridge, describing its location, design, and historical or functional significance",0.9369959677419356,0.9375,1.0
+Planet,Place >> Celestial Body >> Planet,"is about an asteroid, including details about its discovery, orbit, physical characteristics, and/or naming history",0.9349432238498563,0.9333333333333333,0.5
+Swimmer,Agent >> Athlete >> Swimmer,is about a swimmer or swimming event at the Olympics or Paralympics,0.9349432238498561,0.9333333333333333,1.0
+Arachnid,Species >> Animal >> Arachnid,is about a genus or species of spider,0.9194036179632045,0.9166666666666666,1.0
+Painter,Agent >> Artist >> Painter,is about a painter and their artistic works,0.9194036179632037,0.9166666666666666,1.0
+Bank,Agent >> Company >> Bank,"is about a financial institution or company providing banking, investment, or financial services",0.9169688754292274,0.9142857142857143,1.0
+Gymnast,Agent >> Athlete >> Gymnast,"is about a gymnast who has competed in international artistic or rhythmic gymnastics competitions, including world championships",0.900707097949121,0.896551724137931,1.0
+Lake,Place >> Body Of Water >> Lake,"describes a lake, including its location, physical characteristics, and surrounding environment",0.8935250957719068,0.8888888888888888,1.0
+RecordLabel,Agent >> Company >> Record Label,"is about a record label, including details such as its origin, founders, location, and artists or genres associated with it",0.8935250957719068,0.8888888888888888,1.0
+ArtificialSatellite,Place >> Satellite >> Artificial Satellite,describes satellites or spacecraft and their missions,0.8735939928658816,0.8666666666666667,0.9
+HorseRace,Event >> Race >> Horse Race,"is about a horse race, including details about its distance, location, and participants",0.8487666662703821,0.8387096774193549,1.0
+RadioStation,Agent >> Broadcaster >> Radio Station,"is about a radio station, including its format, location, and ownership",0.8325849842272743,0.8205128205128205,1.0
+Hospital,Place >> Building >> Hospital,is about a hospital or healthcare institution,0.8325849842272737,0.8205128205128205,1.0
+Cricketer,Agent >> Athlete >> Cricketer,is about cricket or cricketers,0.8242656035570299,0.8108108108108109,1.0
+Judge,Agent >> Person >> Judge,is about a judge or justice and their professional career,0.8059438592891712,0.7894736842105263,1.0
+Manga,Work >> Comic >> Manga,"is about a Japanese manga series, including details about its publication or adaptation into other media",0.797700919571068,0.7894736842105263,1.0
+Mollusca,Species >> Animal >> Mollusca,is about a species of gastropod mollusk,0.7924761489797141,0.7857142857142857,1.0
+MilitaryUnit,Agent >> Organisation >> Military Unit,describes a military unit and its organizational structure,0.729524385771338,0.6976744186046512,1.0
+Amphibian,Species >> Animal >> Amphibian,"is about amphibians or reptiles, often mentioning their habitat and threats to their survival",0.7277155299106375,0.6956521739130435,0.5
+NationalFootballLeagueSeason,Sports Season >> Football League Season >> National Football League Season,"is about American football in the National Football League (NFL), including teams, players, or seasons",0.6394575665745957,0.6,1.0
+Architect,Agent >> Person >> Architect,is about an architect or their architectural works,0.6331763160920143,0.5769230769230769,1.0
+FootballMatch,Event >> Sports Event >> Football Match,describes the final match or event of a football (soccer) tournament or competition,0.5824551236803316,0.5789473684210527,1.0
+Insect,Species >> Animal >> Insect,"is about a species of moth, including details such as wingspan, coloration, and habitats",0.5759014582002954,0.5,0.6
+Election,Event >> Societal Event >> Election,describes an election or voting process,0.5726752912840858,0.5,1.0
+Crustacean,Species >> Animal >> Crustacean,"is about a specific species or genus of arthropods, crustaceans, or other invertebrates",0.524332405349025,0.4375,1.0
+OlympicEvent,Event >> Olympics >> Olympic Event,"describes an Olympic event, including details such as the event type, participants, rules, or medal outcomes",0.5063060820859964,0.4155844155844156,1.0
+Road,Place >> Route Of Transportation >> Road,"describes a highway or road, including its route, location, and connections",0.5044647273289089,0.42857142857142855,1.0
+Noble,Agent >> Person >> Noble,"is about a historical noble or royal figure, including their lineage and familial relationships",0.5020768521378505,0.41025641025641024,0.5
+SoccerManager,Agent >> Sports Manager >> Soccer Manager,is about a footballer or football manager and their career achievements,0.4786722623307706,0.38095238095238093,0.5
+MemberOfParliament,Agent >> Politician >> Member Of Parliament,is about a politician who served in a national legislature,0.42624969742403285,0.31683168316831684,1.0
+Monarch,Agent >> Person >> Monarch,"is about historical rulers or nobles, describing their reign, titles, or lineage",0.4097863404564549,0.29545454545454547,0.6
+MilitaryPerson,Agent >> Person >> Military Person,"is about military personnel, organizations, or units",0.38152922520836885,0.27722772277227725,1.0
+Congressman,Agent >> Politician >> Congressman,"is about a politician who has held a significant governmental leadership role (e.g., governor, mayor, premier, president, cabinet member)",0.2838470460578208,0.17045454545454544,0.875
+SoccerPlayer,Agent >> Athlete >> Soccer Player,is about a professional athlete who is currently active in their sport,0.2730100214398894,0.22784810126582278,1.0
+RugbyClub,Agent >> Sports Team >> Rugby Club,"is about a sports stadium, including details like location, capacity, and usage",0.04953321919910104,0.05405405405405406,0.5
+Mountain,Place >> Natural Place >> Mountain,describes a peer-reviewed academic or scientific journal and its characteristics,-0.00831480868488489,0.0,0.0
+Newspaper,Work >> Periodical Literature >> Newspaper,"is about a theatrical play or musical, often describing its production, history, or storyline",-0.009686117671839821,0.0,0.0
+AmericanFootballPlayer,Agent >> Gridiron Football Player >> American Football Player,"is about a musical band and its history, including its formation, members, albums, and significant events",-0.010700762318887672,0.0,0.0
+Reptile,Species >> Animal >> Reptile,"is about a railway line, including its route, history, and operational details",-0.011451215811497913,0.0,0.0
+BasketballPlayer,Agent >> Athlete >> Basketball Player,"describes a village, including its location and population details",-0.012329057261890954,0.0,0.0
+GolfPlayer,Agent >> Athlete >> Golf Player,is about a bishop or cardinal in the Christian church,-0.012664342990944264,0.0,0.0
+TennisPlayer,Agent >> Athlete >> Tennis Player,"is about a song, its artist(s), and its impact or context",-0.014082179293870963,0.0,0.0
+IceHockeyPlayer,Agent >> Winter Sport Player >> Ice Hockey Player,"is about a professor, academic, or researcher and their contributions to their field",-0.01671901285717389,0.0,0.0
+Skier,Agent >> Winter Sport Player >> Skier,"is about a church or religious diocese, including its history, architecture, or associated figures",-0.017579895388524683,0.0,0.0

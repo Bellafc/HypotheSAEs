@@ -1,0 +1,7 @@
+dataset,method,n_hyp,n_nonconstant,AUC,n_sig_0.05/H,mean_prevalence,classes_present,recovery_mean_F1,classes_F1>=0.5,R2
+dbpedia,HypotheSAEs,50,38,0.905,0,0.017,27.0,0.669,20.0,
+dbpedia,BERTopic,50,38,0.936,0,0.028,27.0,0.681,21.0,
+dbpedia,HypoGeniC,40,24,0.911,0,0.13,27.0,0.197,3.0,
+10k,HypotheSAEs,20,15,,0,0.031,,,,0.258
+10k,BERTopic,20,18,,0,0.058,,,,0.286
+10k,HypoGeniC,20,7,,0,0.01,,,,0.048

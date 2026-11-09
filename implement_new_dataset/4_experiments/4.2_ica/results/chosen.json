@@ -1,0 +1,50 @@
+{
+  "dbpedia": {
+    "ica": "ica_256_p99",
+    "pca": "pca_128_p90",
+    "rand": "rand_128_p90",
+    "raw": "raw_p90"
+  },
+  "10k": {
+    "ica": "ica_256_p99",
+    "pca": "pca_64_p90",
+    "rand": "rand_64_p90",
+    "raw": "raw_p90"
+  },
+  "yelp": {
+    "ica": "ica_64_p90",
+    "pca": "pca_64_p75",
+    "rand": "rand_64_p75",
+    "raw": "raw_p75"
+  },
+  "congress": {
+    "ica": "ica_128_p90",
+    "pca": "pca_256_p75",
+    "rand": "rand_64_p75",
+    "raw": "raw_p75"
+  },
+  "headlines": {
+    "ica": "ica_64_p75",
+    "pca": "pca_256_p75",
+    "rand": "rand_128_p75",
+    "raw": "raw_p75"
+  },
+  "wiki5": {
+    "ica": "ica_256_p97",
+    "pca": "pca_256_p97",
+    "rand": "rand_64_p97",
+    "raw": "raw_p90"
+  },
+  "wiki15": {
+    "ica": "ica_256_p97",
+    "pca": "pca_64_p90",
+    "rand": "rand_64_p97",
+    "raw": "raw_p97"
+  },
+  "bills": {
+    "ica": "ica_64_p90",
+    "pca": "pca_64_p90",
+    "rand": "rand_256_p75",
+    "raw": "raw_p90"
+  }
+}

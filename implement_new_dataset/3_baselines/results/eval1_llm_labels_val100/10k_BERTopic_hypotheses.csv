@@ -1,0 +1,19 @@
+hypothesis,separation_score,separation_pval,regression_coef,regression_pval,feature_prevalence,method,dataset
+discusses online advertising or digital marketing strategies,1.496964472542857,0.029401724087975506,1.794271417362232,0.00816296173885266,0.02,BERTopic,10k
+"discusses advertising revenue in broadcasting, radio, television, or newspapers",1.4160424114060606,0.14580967559894611,1.729128221562232,0.06360168688170485,0.01,BERTopic,10k
+"discusses investments in equity and debt securities, particularly in portfolio companies.",1.1919866918927084,0.014897293577189934,1.108490374925252,0.02466943988118789,0.04,BERTopic,10k
+discusses clinical trials or product development efforts in the healthcare or pharmaceutical industry,1.0593223352838488,0.06119023453554296,0.5183318814597133,0.3584205376416956,0.03,BERTopic,10k
+Discusses batteries or energy storage technologies.,0.4513168048387755,0.5160495081876438,1.0518567870455011,0.1643284771700621,0.02,BERTopic,10k
+discusses revenue recognition in the context of multiple-element arrangements,0.4414284514060606,0.6518454616627416,0.7642604011622307,0.4082651286710436,0.01,BERTopic,10k
+discusses wireless communication technologies or services.,0.2972936380385417,0.5493678143868125,0.8136927056831829,0.11028615097109296,0.04,BERTopic,10k
+mentions risks or uncertainties that could adversely affect business operations or financial results.,0.25459087402666675,0.19150131226958703,0.4669602263941005,0.02772872506934059,0.55,BERTopic,10k
+discusses beverages or coffee products,0.0895580384612245,0.897562955454687,0.18153299876518195,0.780960392916901,0.02,BERTopic,10k
+"Discusses mining, exploration, or production of gold or other minerals.",0.0408658071346939,0.9531567998201272,0.27497465408181654,0.6818412547056634,0.02,BERTopic,10k
+Discusses exposure to and management of financial risks related to interest rates and foreign currency exchange rates.,-0.005807357169791694,0.9906773639583585,-0.1452890550068693,0.7611687600321726,0.04,BERTopic,10k
+"focuses on insurance and reinsurance operations, including claims, premiums, and loss reserves",-0.18552492982427032,0.6267415529281448,-0.17883496931926876,0.6248630355602295,0.07,BERTopic,10k
+"Discusses energy generation, transmission, or utility operations.",-0.23587864920459772,0.41456946357500607,-0.28232008403326986,0.46040682974301167,0.13,BERTopic,10k
+"discusses oil and natural gas exploration, production, or reserves",-0.2841150266489583,0.5672392182102071,0.45031877339943494,0.4811716084734206,0.04,BERTopic,10k
+"Discusses real estate investment trusts (REITs) and the management, leasing, or ownership of real estate properties.",-0.4310986909360824,0.44954208297087606,-0.4022263135338353,0.4553793039834133,0.03,BERTopic,10k
+discusses water and wastewater services or utilities,-0.6628799227230241,0.2439855721534529,-0.8041783155838069,0.15876486283735103,0.03,BERTopic,10k
+"mentions ""Item 7A. Quantitative and Qualitative Disclosures About Market Risk"".",-0.8941586386541667,0.06963573865256513,-0.6478861154362942,0.17483813991548938,0.04,BERTopic,10k
+"discusses vehicles, automotive sales, or automotive parts and services",-1.5628075963717172,0.10801877453165012,-1.3879319755039348,0.19067291080121385,0.01,BERTopic,10k

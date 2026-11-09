@@ -1,0 +1,359 @@
+{
+ "min_cluster_size": 20,
+ "val_metric": 0.8059014050964515,
+ "hypotheses": [
+  "focuses on Gaelic games in Ireland",
+  "mentions Australian rules football or the AFL/VFL.",
+  "discusses roads, highways, bridges, or rivers in relation to transportation or geography",
+  "discusses decisions or cases of the United States Supreme Court",
+  "mentions hospitals or medical centers.",
+  "mentions video games.",
+  "mentions gastropod mollusks.",
+  "Mentions shopping malls or shopping centers.",
+  "mentions events or competitions at the Olympics.",
+  "discusses military units or formations",
+  "discusses celestial bodies such as asteroids, exoplanets, or solar phenomena",
+  "describes species of crustaceans or other aquatic arthropods",
+  "mentions professional ice hockey players or their careers",
+  "describes moth species, including their physical characteristics, habitats, and distributions",
+  "Mentions satellites, spacecraft, or space missions.",
+  "Mentions horse racing events or competitions.",
+  "mentions frogs and their natural habitats in subtropical or tropical moist environments",
+  "mentions professional or college American football players.",
+  "mentions cricket or cricketers.",
+  "discusses the seasons, records, and playoff performances of football teams",
+  "discusses banking, financial services, or corporate investment",
+  "Mentions judges or attorneys.",
+  "discusses music albums or record labels",
+  "mentions spiders or spider species.",
+  "mentions swimming or swimmers.",
+  "focuses on lizards or geckos, often mentioning their species, habitat, or conservation status",
+  "mentions architects or architecture.",
+  "mentions educational institutions such as schools or universities.",
+  "mentions professional golfers or professional golf tours",
+  "mentions historical European nobility or clergy.",
+  "mentions basketball players or their careers",
+  "mentions winter sports or athletes associated with them",
+  "mentions Italian painters or bishops.",
+  "mentions female gymnasts competing in artistic or rhythmic gymnastics at international championships",
+  "mentions politicians and their elections or political careers",
+  "mentions museums or libraries.",
+  "discusses elections or electoral processes",
+  "discusses Japanese anime, manga, or related media",
+  "discusses railways or public transportation systems",
+  "discusses Thoroughbred racehorses and their achievements or roles in racing and breeding",
+  "mentions being a professional athlete or coach.",
+  "discusses radio or television broadcasting",
+  "describes a college sports team and its season performance",
+  "mentions airlines or air transportation services",
+  "Mentions a stadium, arena, or sports venue.",
+  "mentions military officers or their roles.",
+  "Discusses Roman Catholic dioceses or archdioceses.",
+  "discusses fungi or fungal species",
+  "Mentions bird species and their habitats or characteristics.",
+  "describes fictional characters from soap operas or television series"
+ ],
+ "topics": [
+  {
+   "topic": 18,
+   "keywords": "senior, allireland, hurling, championship, medals, team, intercounty, irish, club, munster",
+   "size": 69,
+   "hypothesis": "focuses on Gaelic games in Ireland"
+  },
+  {
+   "topic": 24,
+   "keywords": "australian, vfl, rules, football, footballer, victorian, afl, played, melbourne, league",
+   "size": 65,
+   "hypothesis": "mentions Australian rules football or the AFL/VFL."
+  },
+  {
+   "topic": 6,
+   "keywords": "bridge, route, highway, river, us, state, interstate, road, traffic, it",
+   "size": 102,
+   "hypothesis": "discusses roads, highways, bridges, or rivers in relation to transportation or geography"
+  },
+  {
+   "topic": 36,
+   "keywords": "court, supreme, case, us, states, decision, that, united, justice, not",
+   "size": 58,
+   "hypothesis": "discusses decisions or cases of the United States Supreme Court"
+  },
+  {
+   "topic": 23,
+   "keywords": "hospital, medical, care, hospitals, health, services, center, teaching, nhs, emergency",
+   "size": 66,
+   "hypothesis": "mentions hospitals or medical centers."
+  },
+  {
+   "topic": 33,
+   "keywords": "game, video, released, developed, playstation, games, series, windows, sequel, arcade",
+   "size": 60,
+   "hypothesis": "mentions video games."
+  },
+  {
+   "topic": 49,
+   "keywords": "gastropod, snail, mollusk, marine, snails, species, sea, family, operculum, murex",
+   "size": 53,
+   "hypothesis": "mentions gastropod mollusks."
+  },
+  {
+   "topic": 38,
+   "keywords": "mall, shopping, center, centre, stores, located, opened, store, square, malls",
+   "size": 58,
+   "hypothesis": "Mentions shopping malls or shopping centers."
+  },
+  {
+   "topic": 31,
+   "keywords": "olympics, mens, summer, event, held, took, competition, race, each, place",
+   "size": 62,
+   "hypothesis": "mentions events or competitions at the Olympics."
+  },
+  {
+   "topic": 30,
+   "keywords": "air, force, army, squadron, infantry, command, war, regiment, brigade, division",
+   "size": 62,
+   "hypothesis": "discusses military units or formations"
+  },
+  {
+   "topic": 15,
+   "keywords": "asteroid, discovered, observatory, sun, planet, diameter, solar, astronomer, eclipse, earth",
+   "size": 71,
+   "hypothesis": "discusses celestial bodies such as asteroids, exoplanets, or solar phenomena"
+  },
+  {
+   "topic": 56,
+   "keywords": "oncaea, hypolobocera, lebbeus, calcinus, heron, species, paradiaptomus, pretzmann, crab, shmeleva",
+   "size": 49,
+   "hypothesis": "describes species of crustaceans or other aquatic arthropods"
+  },
+  {
+   "topic": 53,
+   "keywords": "hockey, nhl, ice, professional, league, played, playing, season, he, defenceman",
+   "size": 51,
+   "hypothesis": "mentions professional ice hockey players or their careers"
+  },
+  {
+   "topic": 58,
+   "keywords": "moth, mm, found, forewings, wingspan, family, hindwings, are, costa, fuscous",
+   "size": 47,
+   "hypothesis": "describes moth species, including their physical characteristics, habitats, and distributions"
+  },
+  {
+   "topic": 44,
+   "keywords": "satellite, space, orbit, launch, launched, spacecraft, mission, gps, rocket, it",
+   "size": 55,
+   "hypothesis": "Mentions satellites, spacecraft, or space missions."
+  },
+  {
+   "topic": 41,
+   "keywords": "race, horse, distance, run, stakes, derby, thoroughbred, racecourse, horses, metres",
+   "size": 55,
+   "hypothesis": "Mentions horse racing events or competitions."
+  },
+  {
+   "topic": 62,
+   "keywords": "subtropical, frog, tropical, moist, forests, habitats, natural, familyit, lowland, habitat",
+   "size": 46,
+   "hypothesis": "mentions frogs and their natural habitats in subtropical or tropical moist environments"
+  },
+  {
+   "topic": 63,
+   "keywords": "football, nfl, yards, played, bowl, he, college, draft, touchdowns, drafted",
+   "size": 45,
+   "hypothesis": "mentions professional or college American football players."
+  },
+  {
+   "topic": 66,
+   "keywords": "cricket, firstclass, against, cricketer, he, wickets, his, matches, innings, for",
+   "size": 42,
+   "hypothesis": "mentions cricket or cricketers."
+  },
+  {
+   "topic": 50,
+   "keywords": "season, their, record, playoffs, league, chiefs, team, football, finished, nfl",
+   "size": 52,
+   "hypothesis": "discusses the seasons, records, and playoff performances of football teams"
+  },
+  {
+   "topic": 19,
+   "keywords": "bank, financial, banking, firm, investment, company, market, corporate, services, law",
+   "size": 69,
+   "hypothesis": "discusses banking, financial services, or corporate investment"
+  },
+  {
+   "topic": 65,
+   "keywords": "court, judge, justice, law, district, supreme, states, united, attorney, chief",
+   "size": 44,
+   "hypothesis": "Mentions judges or attorneys."
+  },
+  {
+   "topic": 0,
+   "keywords": "album, song, released, band, music, records, label, by, albums, on",
+   "size": 450,
+   "hypothesis": "discusses music albums or record labels"
+  },
+  {
+   "topic": 80,
+   "keywords": "spider, spiders, genus, species, jumping, salticidae, alopecosa, described, found, wolf",
+   "size": 35,
+   "hypothesis": "mentions spiders or spider species."
+  },
+  {
+   "topic": 90,
+   "keywords": "swimmer, freestyle, breaststroke, she, butterfly, olympic, olympics, swimming, gold, 200",
+   "size": 32,
+   "hypothesis": "mentions swimming or swimmers."
+  },
+  {
+   "topic": 87,
+   "keywords": "gecko, lizard, species, geckos, are, genus, islands, lizards, endemic, they",
+   "size": 32,
+   "hypothesis": "focuses on lizards or geckos, often mentioning their species, habitat, or conservation status"
+  },
+  {
+   "topic": 72,
+   "keywords": "architect, buildings, nrhplisted, landscape, architecture, architectural, designed, his, architects, works",
+   "size": 40,
+   "hypothesis": "mentions architects or architecture."
+  },
+  {
+   "topic": 3,
+   "keywords": "school, university, students, college, high, education, schools, district, public, research",
+   "size": 118,
+   "hypothesis": "mentions educational institutions such as schools or universities."
+  },
+  {
+   "topic": 9,
+   "keywords": "tour, professional, pga, open, golfer, poker, golf, he, won, his",
+   "size": 92,
+   "hypothesis": "mentions professional golfers or professional golf tours"
+  },
+  {
+   "topic": 35,
+   "keywords": "count, otto, de, duke, daughter, died, of, palatine, ii, his",
+   "size": 59,
+   "hypothesis": "mentions historical European nobility or clergy."
+  },
+  {
+   "topic": 84,
+   "keywords": "basketball, nba, points, player, played, rebounds, career, he, american, heitz",
+   "size": 33,
+   "hypothesis": "mentions basketball players or their careers"
+  },
+  {
+   "topic": 78,
+   "keywords": "she, winter, skier, world, ski, figure, alpine, olympics, her, skating",
+   "size": 37,
+   "hypothesis": "mentions winter sports or athletes associated with them"
+  },
+  {
+   "topic": 73,
+   "keywords": "painter, italian, painted, giovanni, di, baroque, san, rome, church, he",
+   "size": 39,
+   "hypothesis": "mentions Italian painters or bishops."
+  },
+  {
+   "topic": 82,
+   "keywords": "championships, artistic, gymnastics, gymnast, world, she, competitions, nation, rhythmic, female",
+   "size": 35,
+   "hypothesis": "mentions female gymnasts competing in artistic or rhythmic gymnastics at international championships"
+  },
+  {
+   "topic": 13,
+   "keywords": "election, member, liberal, party, he, parliament, elected, seat, politician, was",
+   "size": 72,
+   "hypothesis": "mentions politicians and their elections or political careers"
+  },
+  {
+   "topic": 10,
+   "keywords": "museum, library, collection, art, museums, building, gallery, located, public, of",
+   "size": 79,
+   "hypothesis": "mentions museums or libraries."
+  },
+  {
+   "topic": 104,
+   "keywords": "election, presidential, candidate, state, senator, democratic, vote, states, republican, party",
+   "size": 22,
+   "hypothesis": "discusses elections or electoral processes"
+  },
+  {
+   "topic": 7,
+   "keywords": "manga, anime, series, japanese, by, written, illustrated, volumes, aired, licensed",
+   "size": 100,
+   "hypothesis": "discusses Japanese anime, manga, or related media"
+  },
+  {
+   "topic": 11,
+   "keywords": "line, transit, railway, rail, metro, service, transportation, system, trains, bus",
+   "size": 79,
+   "hypothesis": "discusses railways or public transportation systems"
+  },
+  {
+   "topic": 12,
+   "keywords": "stakes, racehorse, thoroughbred, racing, sire, races, won, trainer, foaled, she",
+   "size": 73,
+   "hypothesis": "discusses Thoroughbred racehorses and their achievements or roles in racing and breeding"
+  },
+  {
+   "topic": 91,
+   "keywords": "flamengo, born, brazilian, makll, he, tennis, footballer, carlinhos, figo, la",
+   "size": 29,
+   "hypothesis": "mentions being a professional athlete or coach."
+  },
+  {
+   "topic": 8,
+   "keywords": "station, radio, fm, broadcasting, channel, format, am, programming, broadcasts, stations",
+   "size": 95,
+   "hypothesis": "discusses radio or television broadcasting"
+  },
+  {
+   "topic": 14,
+   "keywords": "season, ncaa, team, conference, football, represented, head, coach, their, division",
+   "size": 71,
+   "hypothesis": "describes a college sports team and its season performance"
+  },
+  {
+   "topic": 22,
+   "keywords": "airline, airport, air, airlines, charter, flights, cargo, airways, based, services",
+   "size": 67,
+   "hypothesis": "mentions airlines or air transportation services"
+  },
+  {
+   "topic": 25,
+   "keywords": "stadium, home, arena, ground, capacity, field, hosted, venue, football, it",
+   "size": 64,
+   "hypothesis": "Mentions a stadium, arena, or sports venue."
+  },
+  {
+   "topic": 98,
+   "keywords": "war, officer, navy, enemy, he, command, british, porter, awarded, rank",
+   "size": 24,
+   "hypothesis": "mentions military officers or their roles."
+  },
+  {
+   "topic": 29,
+   "keywords": "diocese, catholic, roman, archdiocese, latin, cathedral, church, bishop, ecclesiastical, suffragan",
+   "size": 63,
+   "hypothesis": "Discusses Roman Catholic dioceses or archdioceses."
+  },
+  {
+   "topic": 34,
+   "keywords": "species, fungi, genus, fungus, family, found, are, class, it, mushroom",
+   "size": 59,
+   "hypothesis": "discusses fungi or fungal species"
+  },
+  {
+   "topic": 26,
+   "keywords": "bird, species, birds, tropical, found, genus, subtropical, or, are, forests",
+   "size": 64,
+   "hypothesis": "Mentions bird species and their habitats or characteristics."
+  },
+  {
+   "topic": 37,
+   "keywords": "character, soap, her, fictional, opera, episode, portrayed, she, storylines, appearance",
+   "size": 58,
+   "hypothesis": "describes fictional characters from soap operas or television series"
+  }
+ ],
+ "labeling_cost_usd": 0.3497225
+}

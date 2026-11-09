@@ -1,0 +1,7 @@
+dataset,method,helpfulness,interpretability,specificity,checkability,n_hyp,dup_pairs,hyps_in_dup_pairs,redundancy_frac,mean_words
+dbpedia,BERTopic,4.02,5.0,4.31,4.82,50,13,25,0.5,7.0
+dbpedia,HypoGeniC,3.91,4.71,3.9,3.83,40,25,38,0.95,34.85
+dbpedia,HypotheSAEs,4.12,5.0,4.57,4.29,50,2,4,0.08,11.78
+10k,BERTopic,3.6,4.97,4.33,4.58,20,0,0,0.0,9.8
+10k,HypoGeniC,4.48,4.65,3.95,3.42,20,2,4,0.2,35.8
+10k,HypotheSAEs,3.92,4.7,4.72,3.87,20,5,4,0.2,16.5

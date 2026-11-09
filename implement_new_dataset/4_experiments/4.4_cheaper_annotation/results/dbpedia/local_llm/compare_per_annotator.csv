@@ -1,0 +1,4 @@
+annotator,auroc,significant,dropped_constant,mean_prevalence,mean_abs_separation,n_hyp_sep>0.3,missing_as_no
+gpt-4o-mini,0.8898561155641234,22/50,0,0.01759,0.404441841772003,28,0
+Qwen3-0.6B_simple,0.6728668873444263,0/50,0,0.14788,0.09460793194232921,1,0
+Llama-3.2-1B-Instruct_json,0.6259881882440477,2/50,0,0.23437,0.030574105549298763,0,11350

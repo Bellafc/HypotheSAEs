@@ -1,0 +1,39 @@
+hypothesis,separation_score,separation_pval,regression_coef,regression_pval,feature_prevalence,method,dataset
+"is about a specific species or genus of arthropods, crustaceans, or other invertebrates",0.6210526315789473,0.0055853399044268875,23.654178265656014,0.9996199724515596,0.05,HypotheSAEs,dbpedia
+is about a species of gastropod mollusk,0.6020408163265306,0.08823259425430954,1.1348152931448494,0.9999910075134031,0.02,HypotheSAEs,dbpedia
+"describes a highway or road, including its route, location, and connections",0.6020408163265306,0.08823259425430954,23.207352517509094,0.9995338132769163,0.02,HypotheSAEs,dbpedia
+"describes an Olympic event, including details such as the event type, participants, rules, or medal outcomes",0.6020408163265306,0.08823259425430954,22.82826039240214,0.9996080678464716,0.02,HypotheSAEs,dbpedia
+"is about a bridge, describing its location, design, and historical or functional significance",0.6020408163265306,0.08823259425430954,40.79681698659307,0.9991527986724619,0.02,HypotheSAEs,dbpedia
+is about a figure skater or pair skater and their achievements,0.595959595959596,0.23214839431062773,22.55588480900024,0.999556244690863,0.01,HypotheSAEs,dbpedia
+is about cricket or cricketers,0.595959595959596,0.23214839431062773,22.55588480900024,0.999556244690863,0.01,HypotheSAEs,dbpedia
+is about a swimmer or swimming event at the Olympics or Paralympics,0.595959595959596,0.23214839431062773,1.2411393978049072,0.9999899094935959,0.01,HypotheSAEs,dbpedia
+"is about a shopping mall, including details about its location, anchor stores, and history",0.595959595959596,0.23214839431062773,22.555884809000236,0.999556244690863,0.01,HypotheSAEs,dbpedia
+"describes a video game, including its gameplay, development, and release details",0.595959595959596,0.23214839431062773,22.555884809000236,0.999556244690863,0.01,HypotheSAEs,dbpedia
+"is about a record label, including details such as its origin, founders, location, and artists or genres associated with it",0.595959595959596,0.23214839431062773,22.55588480900024,0.999556244690863,0.01,HypotheSAEs,dbpedia
+"is about American football in the National Football League (NFL), including teams, players, or seasons",0.595959595959596,0.23214839431062773,22.55588480900024,0.999556244690863,0.01,HypotheSAEs,dbpedia
+is about a genus or species of spider,0.595959595959596,0.23214839431062773,0.8030668709932508,0.9999944808308106,0.01,HypotheSAEs,dbpedia
+is about a hospital or healthcare institution,0.595959595959596,0.23214839431062773,22.55588480900024,0.999556244690863,0.01,HypotheSAEs,dbpedia
+describes an election or voting process,0.595959595959596,0.23214839431062773,59.939312052144615,0.9988844661058026,0.01,HypotheSAEs,dbpedia
+is about an architect or their architectural works,0.595959595959596,0.23214839431062773,-14.93227524952344,0.9999447245290585,0.01,HypotheSAEs,dbpedia
+is about a professional athlete who is currently active in their sport,0.41052631578947374,0.07007418024742375,2.721295427320823,0.02036150045837435,0.05,HypotheSAEs,dbpedia
+"is about a radio station, including its format, location, and ownership",0.3541666666666667,0.16140289257939033,2.433613354869043,0.043976492603314946,0.04,HypotheSAEs,dbpedia
+is about a footballer or football manager and their career achievements,0.2646048109965635,0.36380740687733143,22.47692052268866,0.9995399898624051,0.03,HypotheSAEs,dbpedia
+is about an Australian rules footballer and their career trajectory,0.09183673469387754,0.7962756164505425,-0.5328293280114634,0.9999913435822677,0.02,HypotheSAEs,dbpedia
+is about a judge or justice and their professional career,0.09183673469387754,0.7962756164505425,22.949646339648265,0.9999795862300841,0.02,HypotheSAEs,dbpedia
+"is about a Japanese manga series, including details about its publication or adaptation into other media",0.09183673469387754,0.7962756164505425,1.335001066200933,0.3599188247230327,0.02,HypotheSAEs,dbpedia
+"is about a railway line, including its route, history, and operational details",0.09183673469387754,0.7962756164505425,-18.856698818193383,0.9993793685756248,0.02,HypotheSAEs,dbpedia
+"is about a professor, academic, or researcher and their contributions to their field",-0.07903780068728522,0.7865920485131422,-19.228449860222334,0.9992568052433887,0.03,HypotheSAEs,dbpedia
+is about a politician who served in a national legislature,-0.07903780068728522,0.7865920485131422,19.588925289385486,0.9995862296577681,0.03,HypotheSAEs,dbpedia
+"is about historical rulers or nobles, describing their reign, titles, or lineage",-0.16666666666666669,0.5115540839174528,37.821204803931145,0.9999663647637703,0.04,HypotheSAEs,dbpedia
+"is about a politician who has held a significant governmental leadership role (e.g., governor, mayor, premier, president, cabinet member)",-0.17391304347826086,0.3424028464947951,-38.80781306787108,0.9987172369610321,0.08,HypotheSAEs,dbpedia
+"is about military personnel, organizations, or units",-0.22105263157894733,0.33226375449027984,20.317999004352043,0.9987761866076832,0.05,HypotheSAEs,dbpedia
+describes a military unit and its organizational structure,-0.41414141414141414,0.40725133553371445,-39.547298148573994,0.9990160912588081,0.01,HypotheSAEs,dbpedia
+describes the final match or event of a football (soccer) tournament or competition,-0.41414141414141414,0.40725133553371445,-41.18230522266816,0.9992151462442509,0.01,HypotheSAEs,dbpedia
+"describes a village, including its location and population details",-0.41414141414141414,0.40725133553371423,-19.885882651754976,0.9996087732281115,0.01,HypotheSAEs,dbpedia
+"is about a song, its artist(s), and its impact or context",-0.41414141414141414,0.40725133553371423,-1.241139352327008,0.9999899094932734,0.01,HypotheSAEs,dbpedia
+"is about a theatrical play or musical, often describing its production, history, or storyline",-0.41414141414141414,0.40725133553371445,-24.824657767579993,0.9999999999948546,0.01,HypotheSAEs,dbpedia
+"is about a financial institution or company providing banking, investment, or financial services",-0.41836734693877553,0.23795555756420728,-20.53735037628982,0.99958744801281,0.02,HypotheSAEs,dbpedia
+is about a bishop or cardinal in the Christian church,-0.41836734693877553,0.23795555756420728,9.87966126419934,0.9999999999979522,0.02,HypotheSAEs,dbpedia
+"is about a musical band and its history, including its formation, members, albums, and significant events",-0.41836734693877553,0.23795555756420728,-20.158258309360782,0.9996539083820484,0.02,HypotheSAEs,dbpedia
+"is about a historical noble or royal figure, including their lineage and familial relationships",-0.422680412371134,0.14553987360518936,-14.944996619388082,0.9999999999969024,0.03,HypotheSAEs,dbpedia
+"is about a church or religious diocese, including its history, architecture, or associated figures",-0.4270833333333333,0.09053446521641338,-39.579708386024016,0.9990284671208335,0.04,HypotheSAEs,dbpedia

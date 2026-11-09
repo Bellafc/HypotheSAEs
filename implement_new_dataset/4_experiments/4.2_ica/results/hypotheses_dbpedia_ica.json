@@ -1,0 +1,1587 @@
+{
+  "features": "ica_256_p99",
+  "selected": [
+    230,
+    93,
+    28,
+    249,
+    38,
+    11,
+    70,
+    224,
+    21,
+    180,
+    90,
+    118,
+    106,
+    133,
+    76,
+    113,
+    236,
+    39,
+    146,
+    241,
+    151,
+    210,
+    48,
+    171,
+    16,
+    217,
+    2,
+    147,
+    234,
+    244,
+    247,
+    155,
+    115,
+    34,
+    243,
+    29,
+    88,
+    95,
+    199,
+    112,
+    24,
+    37,
+    101,
+    129,
+    79,
+    172,
+    120,
+    4,
+    135,
+    89
+  ],
+  "hypotheses": [
+    {
+      "feature_idx": 230,
+      "lasso_coef": 0.14633189742964323,
+      "interpretation": "is about swimmers and their achievements in Olympic or competitive swimming events",
+      "f1_fidelity": 0.8333333333333334
+    },
+    {
+      "feature_idx": 93,
+      "lasso_coef": 0.1444597458827646,
+      "interpretation": "describes an asteroid, including its discovery, orbit, composition, and naming information",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 28,
+      "lasso_coef": 0.1434972981134405,
+      "interpretation": "is about an independent or major record label, including its history and artists associated with it",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 249,
+      "lasso_coef": 0.14151716057037836,
+      "interpretation": "is about a specific video game or video game series, describing its gameplay, development, and platform availability",
+      "f1_fidelity": 0.9411764705882353
+    },
+    {
+      "feature_idx": 38,
+      "lasso_coef": 0.14126614587922579,
+      "interpretation": "is about a bridge, mentioning its design, construction, or historical significance",
+      "f1_fidelity": 0.9375
+    },
+    {
+      "feature_idx": 11,
+      "lasso_coef": 0.137379517383166,
+      "interpretation": "describes a United States Supreme Court case and its constitutional implications",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 70,
+      "lasso_coef": 0.13625956180001164,
+      "interpretation": "describes a hospital and its services",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 224,
+      "lasso_coef": 0.12975614012367803,
+      "interpretation": "is about elections, specifically the process and outcomes of selecting representatives or leaders in political contexts",
+      "f1_fidelity": 0.8205128205128205
+    },
+    {
+      "feature_idx": 21,
+      "lasso_coef": 0.12968643218918588,
+      "interpretation": "describes a gymnast who competed at world championships in artistic or rhythmic gymnastics",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 180,
+      "lasso_coef": 0.12923191384227917,
+      "interpretation": "is about Gaelic games, such as hurling or Gaelic football, including players, teams, and championship matches",
+      "f1_fidelity": 0.9411764705882353
+    },
+    {
+      "feature_idx": 90,
+      "lasso_coef": 0.1257760509067436,
+      "interpretation": "is about a shopping mall, including its location, anchor stores, and history",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 118,
+      "lasso_coef": 0.12504367931311955,
+      "interpretation": "describes a radio station, including its frequency, location, format, and ownership",
+      "f1_fidelity": 0.9411764705882353
+    },
+    {
+      "feature_idx": 106,
+      "lasso_coef": 0.12344099124117001,
+      "interpretation": "describes a road or highway, including its route, connections, and historical or structural details",
+      "f1_fidelity": 0.9142857142857143
+    },
+    {
+      "feature_idx": 133,
+      "lasso_coef": 0.12247653379634332,
+      "interpretation": "describes a military unit, its structure, and its history",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 76,
+      "lasso_coef": 0.12161161573692358,
+      "interpretation": "is about a species of frog, including details on its natural habitats and geographic distribution",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 113,
+      "lasso_coef": 0.11965476673743328,
+      "interpretation": "is about a species of sea snail, a marine gastropod mollusk",
+      "f1_fidelity": 0.967741935483871
+    },
+    {
+      "feature_idx": 236,
+      "lasso_coef": 0.11948472018746562,
+      "interpretation": "is about a bank or financial institution, detailing its services, history, and market presence",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 39,
+      "lasso_coef": 0.112226851373453,
+      "interpretation": "describes a lake, including its geographical location, physical characteristics, and ecological or recreational significance",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 146,
+      "lasso_coef": 0.11121184312591646,
+      "interpretation": "is about a judge or justice and their career in the judiciary",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 241,
+      "lasso_coef": 0.10854500620564873,
+      "interpretation": "describes the season performance of a professional American football team in the NFL",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 151,
+      "lasso_coef": 0.10655512132900176,
+      "interpretation": "describes a men's or women's sports event held at the Olympic Games, including details such as the sport, event type, year, and location",
+      "f1_fidelity": 0.9142857142857143
+    },
+    {
+      "feature_idx": 210,
+      "lasso_coef": 0.10384060158588196,
+      "interpretation": "is about an architect or architectural firm and their contributions to the field",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 48,
+      "lasso_coef": 0.10374158526497161,
+      "interpretation": "is about figure skaters or pair skaters and their achievements",
+      "f1_fidelity": 0.8387096774193549
+    },
+    {
+      "feature_idx": 171,
+      "lasso_coef": 0.1020164664077109,
+      "interpretation": "describes a species of moth, including its physical characteristics, geographic distribution, and in some cases, its behavior or habitat",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 16,
+      "lasso_coef": 0.09809006815620487,
+      "interpretation": "is about a satellite or spacecraft, specifying its mission, design, launch details, and orbital characteristics",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 217,
+      "lasso_coef": 0.09713068426289746,
+      "interpretation": "is about an Italian painter active during the Baroque or Renaissance periods",
+      "f1_fidelity": 0.967741935483871
+    },
+    {
+      "feature_idx": 2,
+      "lasso_coef": 0.09576843014128018,
+      "interpretation": "is about a monarch or ruler who directly governed a specific region or kingdom",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 147,
+      "lasso_coef": 0.09412277227777527,
+      "interpretation": "is about a daily newspaper, including its history, publication details, and significance",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 234,
+      "lasso_coef": 0.08744098319420861,
+      "interpretation": "describes a Thoroughbred horse race, including details such as race conditions, distance, location, and prize money",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 244,
+      "lasso_coef": 0.08697746451781421,
+      "interpretation": "is about a reptile species, specifically lizards, geckos, or snakes",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 247,
+      "lasso_coef": 0.08644016181452743,
+      "interpretation": "is about a Japanese manga series and its adaptations",
+      "f1_fidelity": 0.8648648648648648
+    },
+    {
+      "feature_idx": 155,
+      "lasso_coef": 0.08470675482443019,
+      "interpretation": "is about a cricketer or cricket team and their achievements or statistics",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 115,
+      "lasso_coef": 0.08247184064548188,
+      "interpretation": "is about a spider species or a genus of spiders",
+      "f1_fidelity": 1.0
+    },
+    {
+      "feature_idx": 34,
+      "lasso_coef": 0.07715260735733519,
+      "interpretation": "is about a football player who plays or played as a specific position in rugby, American football, or Canadian football",
+      "f1_fidelity": 0.875
+    },
+    {
+      "feature_idx": 243,
+      "lasso_coef": 0.07089531816515574,
+      "interpretation": "describes the final match of a football (soccer) cup competition, including the specific teams involved, the match date, and the outcome",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 29,
+      "lasso_coef": 0.037287543189696404,
+      "interpretation": "lists multiple species or genera of crustaceans, insects, or other arthropods",
+      "f1_fidelity": 0.9411764705882353
+    },
+    {
+      "feature_idx": 88,
+      "lasso_coef": 0.037239644183082364,
+      "interpretation": "is about a military officer or soldier who has been recognized for their service, often with awards for gallantry or leadership",
+      "f1_fidelity": 0.9411764705882353
+    },
+    {
+      "feature_idx": 95,
+      "lasso_coef": 0.033525133987850696,
+      "interpretation": "is about a historical noble or aristocratic figure and their lineage or familial connections",
+      "f1_fidelity": 0.888888888888889
+    },
+    {
+      "feature_idx": 199,
+      "lasso_coef": -0.005528066227182776,
+      "interpretation": "describes an airline or air charter operator, including its operations, destinations, and history",
+      "f1_fidelity": 0.9142857142857143
+    },
+    {
+      "feature_idx": 112,
+      "lasso_coef": 0.005025704999330326,
+      "interpretation": "is about U.S. federal legislators or legislative bodies",
+      "f1_fidelity": 0.823529411764706
+    },
+    {
+      "feature_idx": 24,
+      "lasso_coef": -0.003416785898856158,
+      "interpretation": "is about a museum and its collection or exhibitions",
+      "f1_fidelity": 0.9411764705882353
+    },
+    {
+      "feature_idx": 37,
+      "lasso_coef": -0.0032557401491200523,
+      "interpretation": "describes a Roman Catholic diocese, including its location and ecclesiastical province",
+      "f1_fidelity": 0.9090909090909091
+    },
+    {
+      "feature_idx": 101,
+      "lasso_coef": -0.0030471883486813504,
+      "interpretation": "is about a play or musical that has significant historical, cultural, or literary context",
+      "f1_fidelity": 0.8205128205128205
+    },
+    {
+      "feature_idx": 129,
+      "lasso_coef": -0.002527812819763025,
+      "interpretation": "describes a football or rugby league, including its structure and promotion/relegation system",
+      "f1_fidelity": 0.8484848484848485
+    },
+    {
+      "feature_idx": 79,
+      "lasso_coef": -0.001957682919075163,
+      "interpretation": "is about a song that was performed in or associated with the Eurovision Song Contest",
+      "f1_fidelity": 0.8148148148148148
+    },
+    {
+      "feature_idx": 172,
+      "lasso_coef": -0.001783606012811015,
+      "interpretation": "is about a Major League Baseball player and their career details",
+      "f1_fidelity": 0.9142857142857143
+    },
+    {
+      "feature_idx": 120,
+      "lasso_coef": -0.001241553104456617,
+      "interpretation": "is about fungi, specifically describing their taxonomy, morphology, or ecological roles",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 4,
+      "lasso_coef": -0.0009309768444704539,
+      "interpretation": "describes a high school, including its attributes such as location, enrollment, history, or facilities",
+      "f1_fidelity": 0.967741935483871
+    },
+    {
+      "feature_idx": 135,
+      "lasso_coef": -0.00043844569072681817,
+      "interpretation": "is about a football stadium, including its location, capacity, and usage",
+      "f1_fidelity": 0.9696969696969697
+    },
+    {
+      "feature_idx": 89,
+      "lasso_coef": -0.0001227475738280041,
+      "interpretation": "is about a river, including details about its location, tributaries, and geographical context",
+      "f1_fidelity": 0.9142857142857143
+    }
+  ],
+  "all_candidates": {
+    "230": [
+      "is about swimmers and their achievements in Olympic or competitive swimming events",
+      "is about swimming events or swimmers at the Olympics or Paralympics",
+      "is about swimming events or swimmers who competed in the Olympics or other international competitions"
+    ],
+    "93": [
+      "describes an asteroid, including its discovery, orbit, composition, and naming information",
+      "is about an asteroid, including its discovery, orbit, physical characteristics, and naming details",
+      "describes an asteroid, including its orbit, size, and discovery details"
+    ],
+    "28": [
+      "is about a record label, including its history or associated artists",
+      "is about a record label, including its history, artists, or operations",
+      "is about an independent or major record label, including its history and artists associated with it"
+    ],
+    "249": [
+      "is about a video game, including its gameplay, development, or release details",
+      "describes a video game, including its gameplay mechanics and development details",
+      "is about a specific video game or video game series, describing its gameplay, development, and platform availability"
+    ],
+    "38": [
+      "is about a bridge, mentioning its design, construction, or historical significance",
+      "describes a bridge, including its design, construction, or historical significance",
+      "describes a bridge, including its construction, design, or historical significance"
+    ],
+    "11": [
+      "is about a United States Supreme Court case and its constitutional implications",
+      "is about a United States Supreme Court case and its legal implications",
+      "describes a United States Supreme Court case and its constitutional implications"
+    ],
+    "70": [
+      "describes a hospital or healthcare institution, including its facilities, services, and organizational structure",
+      "describes a hospital and its services",
+      "describes a hospital and its associated facilities, services, and specialties"
+    ],
+    "224": [
+      "is about elections, specifically the process and outcomes of selecting representatives or leaders in political contexts",
+      "describes an election event and its associated details",
+      "describes an election or voting process in a specific political context"
+    ],
+    "21": [
+      "is about an artistic gymnast who has competed at a World Artistic Gymnastics Championship",
+      "describes a gymnast who competed at world championships in artistic or rhythmic gymnastics",
+      "is about an artistic gymnast competing in international competitions"
+    ],
+    "180": [
+      "is about hurling or hurling tournaments in Ireland",
+      "is about hurling or an event/person/team related to hurling",
+      "is about Gaelic games, such as hurling or Gaelic football, including players, teams, and championship matches"
+    ],
+    "90": [
+      "is about a shopping mall, including its location, anchor stores, and history",
+      "is about a shopping mall, including its anchor stores and history",
+      "describes a shopping mall, including its location, anchor stores, and history"
+    ],
+    "118": [
+      "describes a radio station, including its frequency, location, format, and ownership",
+      "is about a radio station, including its format, broadcast frequency, and programming details",
+      "is about a radio station, including its location, broadcast frequency, format, and ownership details"
+    ],
+    "106": [
+      "describes a highway or road, including its route, termini, and geographical context",
+      "describes a road or highway, including its route, connections, and historical or structural details",
+      "describes a highway or route, including its location and connections"
+    ],
+    "133": [
+      "describes a military division or command unit, including its structure, operations, and history",
+      "describes a military unit or formation, including its structure, history, and operations",
+      "describes a military unit, its structure, and its history"
+    ],
+    "76": [
+      "is about a species of frog, including details on its natural habitats and geographic distribution",
+      "is about a species of frog",
+      "is about a species of frog"
+    ],
+    "113": [
+      "is about a species of sea snail, a marine gastropod mollusk",
+      "describes a species of sea snail, a marine gastropod mollusk",
+      "is about a species of sea snail, a marine gastropod mollusk"
+    ],
+    "236": [
+      "is about a bank or financial institution, detailing its services, history, and market presence",
+      "describes a bank or financial institution and its services",
+      "is about a financial institution such as a bank or investment company, detailing its services, history, or operations"
+    ],
+    "39": [
+      "describes a lake and its geographical, ecological, or cultural characteristics",
+      "describes a lake, including its geographical location, physical characteristics, and ecological or recreational significance",
+      "describes a lake, including its physical characteristics and related human or natural activities"
+    ],
+    "146": [
+      "is about a judge or justice and their career in the judiciary",
+      "is about a judge or justice and their professional background or judicial career",
+      "is about judges and their professional careers"
+    ],
+    "241": [
+      "describes a specific season of a professional American football team, including its performance and notable events",
+      "describes the season performance of a professional American football team in the NFL",
+      "describes a specific season of a professional American football team in the National Football League (NFL)"
+    ],
+    "151": [
+      "describes an Olympic sports event, including its participants, date, and location",
+      "describes a men's or women's sports event held at the Olympic Games, including details such as the sport, event type, year, and location",
+      "describes a men's sporting event at the Olympic Games, including specific details about the event's discipline, location, and/or dates"
+    ],
+    "210": [
+      "is about an architect or architectural professional and their contributions to the field of architecture",
+      "is about an architect or architectural critic and their contributions to architecture",
+      "is about an architect or architectural firm and their contributions to the field"
+    ],
+    "48": [
+      "is about figure skaters or pair skaters and their achievements",
+      "is about figure skating or figure skaters",
+      "is about figure skating or pair skating athletes, events, or publications"
+    ],
+    "171": [
+      "describes a species of moth, including its physical characteristics, geographic distribution, and in some cases, its behavior or habitat",
+      "describes a moth species, including its physical characteristics, wingspan, and geographical distribution",
+      "describes a moth species, including its appearance, habitat, and distribution"
+    ],
+    "16": [
+      "describes a satellite or spacecraft and its mission details",
+      "describes a satellite or spacecraft and its mission details",
+      "is about a satellite or spacecraft, specifying its mission, design, launch details, and orbital characteristics"
+    ],
+    "217": [
+      "is about an Italian painter active during the Baroque or Renaissance periods",
+      "is about an Italian painter, often mentioning their artistic style, time period, and notable works or influences",
+      "is about an Italian painter, including details about their life, artistic style, and works"
+    ],
+    "2": [
+      "is about a ruler and provides details about their reign, such as time period and territory governed",
+      "is about a ruler or monarch who governed a specific region or territory",
+      "is about a monarch or ruler who directly governed a specific region or kingdom"
+    ],
+    "147": [
+      "is about a daily newspaper, including its history, publication details, and significance",
+      "is about a daily or weekly newspaper, including its history, ownership, and circulation",
+      "is about a daily or weekly newspaper publication and its history or circulation details"
+    ],
+    "234": [
+      "is about a Group 3 or higher horse race that involves Thoroughbreds or other racehorses, specifying details such as location, distance, and prize money",
+      "describes a Thoroughbred horse race, including details such as race conditions, distance, location, and prize money",
+      "describes a Thoroughbred horse race, including details such as race type, distance, location, and prize money"
+    ],
+    "244": [
+      "describes a type of lizard or gecko, including its physical characteristics, habitat, and behavior",
+      "is about a species of lizard or gecko, including details about its physical characteristics, habitat, or behavior",
+      "is about a reptile species, specifically lizards, geckos, or snakes"
+    ],
+    "247": [
+      "is about a Japanese manga or anime series, including details about its serialization, adaptations, and licensing",
+      "is about a Japanese manga series and its adaptations",
+      "is about a manga or anime series, including details of its serialization, adaptations, and licensing history"
+    ],
+    "155": [
+      "is about a cricketer who played at the first-class or Test level",
+      "is about a cricketer or cricket team and their achievements or statistics",
+      "is about cricketers or cricket teams"
+    ],
+    "115": [
+      "is about a spider species or a genus of spiders",
+      "is about a genus or species of spider, often describing its taxonomy, physical characteristics, or habitat",
+      "is about a genus or species of spider, often describing its physical characteristics, habitat, and distribution"
+    ],
+    "34": [
+      "is about a professional football player who has played as a free agent or for multiple teams in their career",
+      "is about a football player who plays or played as a specific position in rugby, American football, or Canadian football",
+      "is about a professional American football player who is or was a free agent"
+    ],
+    "243": [
+      "describes the final match of a football (soccer) cup competition, including the specific teams involved, the match date, and the outcome",
+      "describes the final match of a football tournament or competition",
+      "describes the final match of a football (soccer) tournament and its outcome"
+    ],
+    "29": [
+      "lists multiple species within a genus, with scientific names and authorship details for each species",
+      "lists multiple species or genera of crustaceans, insects, or other arthropods",
+      "lists multiple species or taxa within a genus or family, often with scientific names and authorship details"
+    ],
+    "88": [
+      "is about a military officer or soldier who has been recognized for their service, often with awards for gallantry or leadership",
+      "is about a person who has been awarded a prestigious military or civilian medal for bravery or service",
+      "is about a person who received a prestigious military or gallantry award (e.g., Victoria Cross, George Cross, Medal of Honor)"
+    ],
+    "95": [
+      "is about a historical noble or royal figure, often including their lineage, titles, and familial connections",
+      "is about a noble or royal individual and their lineage, titles, or inheritance disputes",
+      "is about a historical noble or aristocratic figure and their lineage or familial connections"
+    ],
+    "199": [
+      "is about an airline or airline-related entity, including its operations, history, and services",
+      "describes an airline and its operations",
+      "describes an airline or air charter operator, including its operations, destinations, and history"
+    ],
+    "112": [
+      "describes legislative bodies or elections related to legislative bodies",
+      "is about U.S. federal legislators or legislative bodies",
+      "is about U.S. Congress members or elections related to the U.S. Congress"
+    ],
+    "24": [
+      "is about a museum and its collection or exhibitions",
+      "is about a museum or heritage center, specifically describing its location, exhibits, and historical or cultural significance",
+      "describes a museum and its exhibits"
+    ],
+    "37": [
+      "describes a diocese or ecclesiastical territory within a specific branch of Christianity, including details about its geographical location, leadership, and history",
+      "describes a Roman Catholic diocese, including its location and ecclesiastical province",
+      "describes a Roman Catholic diocese, including its location and ecclesiastical province"
+    ],
+    "101": [
+      "is about a play, providing details about its plot, characters, and/or production history",
+      "is about a play, including its production history and plot details",
+      "is about a play or musical that has significant historical, cultural, or literary context"
+    ],
+    "129": [
+      "describes a lower-division sports league and its structure within a national or regional league system",
+      "describes a football or rugby league, including its structure and promotion/relegation system",
+      "describes a league or division in a team sport, including its organization, structure, or history"
+    ],
+    "79": [
+      "is about a song that was performed in or associated with the Eurovision Song Contest",
+      "is about songs that were entries in the Eurovision Song Contest",
+      "is about a song that participated in or is related to the Eurovision Song Contest"
+    ],
+    "172": [
+      "is about a Major League Baseball player",
+      "is about a Major League Baseball player and their career details",
+      "is about a professional baseball player and their career achievements"
+    ],
+    "120": [
+      "is about fungi and includes taxonomic or morphological details",
+      "is about fungi, specifically describing their taxonomy, morphology, or ecological roles",
+      "is about a fungus or fungal taxonomy, including its classification, morphology, habitat, or related characteristics"
+    ],
+    "4": [
+      "describes a high school, including its attributes such as location, enrollment, history, or facilities",
+      "describes a secondary or high school, including details about its location, grades, and curriculum",
+      "is about a secondary school, including details such as its location, history, and educational structure"
+    ],
+    "135": [
+      "is about a football stadium, including its location, capacity, and usage",
+      "is about a stadium primarily used for football (soccer) matches",
+      "describes a multi-purpose stadium primarily used for football (soccer) matches"
+    ],
+    "89": [
+      "is about a river, including details about its location, tributaries, and geographical context",
+      "describes a river, including its location, tributaries, and/or physical characteristics",
+      "describes a river and its tributary relationships"
+    ]
+  },
+  "all_fidelity": {
+    "230": {
+      "is about swimmers and their achievements in Olympic or competitive swimming events": {
+        "recall": 0.9375,
+        "precision": 0.75,
+        "f1": 0.8333333333333334,
+        "correlation": 0.4061799014388929
+      },
+      "is about swimming events or swimmers at the Olympics or Paralympics": {
+        "recall": 0.9375,
+        "precision": 0.75,
+        "f1": 0.8333333333333334,
+        "correlation": 0.4061799014388929
+      },
+      "is about swimming events or swimmers who competed in the Olympics or other international competitions": {
+        "recall": 0.9375,
+        "precision": 0.7142857142857143,
+        "f1": 0.8108108108108109,
+        "correlation": 0.2821752261364117
+      }
+    },
+    "93": {
+      "describes an asteroid, including its discovery, orbit, composition, and naming information": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.993636682008828
+      },
+      "is about an asteroid, including its discovery, orbit, physical characteristics, and naming details": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.993636682008828
+      },
+      "describes an asteroid, including its orbit, size, and discovery details": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.993636682008828
+      }
+    },
+    "28": {
+      "is about a record label, including its history or associated artists": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7121895476532332
+      },
+      "is about a record label, including its history, artists, or operations": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8033727694532651
+      },
+      "is about an independent or major record label, including its history and artists associated with it": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8986371458708169
+      }
+    },
+    "249": {
+      "is about a video game, including its gameplay, development, or release details": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.6349826810369413
+      },
+      "describes a video game, including its gameplay mechanics and development details": {
+        "recall": 0.9375,
+        "precision": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "correlation": 0.727134678022732
+      },
+      "is about a specific video game or video game series, describing its gameplay, development, and platform availability": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8167412327864141
+      }
+    },
+    "38": {
+      "is about a bridge, mentioning its design, construction, or historical significance": {
+        "recall": 0.9375,
+        "precision": 0.9375,
+        "f1": 0.9375,
+        "correlation": 0.8257769302999464
+      },
+      "describes a bridge, including its design, construction, or historical significance": {
+        "recall": 0.9375,
+        "precision": 0.9375,
+        "f1": 0.9375,
+        "correlation": 0.8257769302999464
+      },
+      "describes a bridge, including its construction, design, or historical significance": {
+        "recall": 0.9375,
+        "precision": 0.9375,
+        "f1": 0.9375,
+        "correlation": 0.8257769302999464
+      }
+    },
+    "11": {
+      "is about a United States Supreme Court case and its constitutional implications": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8992086746042458
+      },
+      "is about a United States Supreme Court case and its legal implications": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8992086746042458
+      },
+      "describes a United States Supreme Court case and its constitutional implications": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.99222519979368
+      }
+    },
+    "70": {
+      "describes a hospital or healthcare institution, including its facilities, services, and organizational structure": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7062150450771579
+      },
+      "describes a hospital and its services": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.9016978142779981
+      },
+      "describes a hospital and its associated facilities, services, and specialties": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.9153895826401206
+      }
+    },
+    "224": {
+      "is about elections, specifically the process and outcomes of selecting representatives or leaders in political contexts": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.29375947998078394
+      },
+      "describes an election event and its associated details": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.29375947998078394
+      },
+      "describes an election or voting process in a specific political context": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.29375947998078394
+      }
+    },
+    "21": {
+      "is about an artistic gymnast who has competed at a World Artistic Gymnastics Championship": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.9017384734151395
+      },
+      "describes a gymnast who competed at world championships in artistic or rhythmic gymnastics": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9902638145420162
+      },
+      "is about an artistic gymnast competing in international competitions": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9902638145420162
+      }
+    },
+    "180": {
+      "is about hurling or hurling tournaments in Ireland": {
+        "recall": 0.875,
+        "precision": 1.0,
+        "f1": 0.9333333333333333,
+        "correlation": 0.8384499884556474
+      },
+      "is about hurling or an event/person/team related to hurling": {
+        "recall": 0.875,
+        "precision": 0.9333333333333333,
+        "f1": 0.9032258064516129,
+        "correlation": 0.7358971000726897
+      },
+      "is about Gaelic games, such as hurling or Gaelic football, including players, teams, and championship matches": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.805383888540375
+      }
+    },
+    "90": {
+      "is about a shopping mall, including its location, anchor stores, and history": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9930538500011494
+      },
+      "is about a shopping mall, including its anchor stores and history": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9930538500011494
+      },
+      "describes a shopping mall, including its location, anchor stores, and history": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9930538500011494
+      }
+    },
+    "118": {
+      "describes a radio station, including its frequency, location, format, and ownership": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8214172348139633
+      },
+      "is about a radio station, including its format, broadcast frequency, and programming details": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7170595872052364
+      },
+      "is about a radio station, including its location, broadcast frequency, format, and ownership details": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.6297618271318217
+      }
+    },
+    "106": {
+      "describes a highway or road, including its route, termini, and geographical context": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.5393107407822264
+      },
+      "describes a road or highway, including its route, connections, and historical or structural details": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7193988822307403
+      },
+      "describes a highway or route, including its location and connections": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.5393107407822264
+      }
+    },
+    "133": {
+      "describes a military division or command unit, including its structure, operations, and history": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.527556942332604
+      },
+      "describes a military unit or formation, including its structure, history, and operations": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.527556942332604
+      },
+      "describes a military unit, its structure, and its history": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.613153505102284
+      }
+    },
+    "76": {
+      "is about a species of frog, including details on its natural habitats and geographic distribution": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9869373780733524
+      },
+      "is about a species of frog": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9869373780733524
+      }
+    },
+    "113": {
+      "is about a species of sea snail, a marine gastropod mollusk": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.8805927006740161
+      },
+      "describes a species of sea snail, a marine gastropod mollusk": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.8805927006740161
+      }
+    },
+    "236": {
+      "is about a bank or financial institution, detailing its services, history, and market presence": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8932163115167743
+      },
+      "describes a bank or financial institution and its services": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7197419967098049
+      },
+      "is about a financial institution such as a bank or investment company, detailing its services, history, or operations": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.803236069903215
+      }
+    },
+    "39": {
+      "describes a lake and its geographical, ecological, or cultural characteristics": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8799683550371309
+      },
+      "describes a lake, including its geographical location, physical characteristics, and ecological or recreational significance": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9706437383642899
+      },
+      "describes a lake, including its physical characteristics and related human or natural activities": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9706437383642899
+      }
+    },
+    "146": {
+      "is about a judge or justice and their career in the judiciary": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8912877065504947
+      },
+      "is about a judge or justice and their professional background or judicial career": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8101703762613981
+      },
+      "is about judges and their professional careers": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8929447273848552
+      }
+    },
+    "241": {
+      "describes a specific season of a professional American football team, including its performance and notable events": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7194010438088545
+      },
+      "describes the season performance of a professional American football team in the NFL": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9849974270753311
+      },
+      "describes a specific season of a professional American football team in the National Football League (NFL)": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9849974270753311
+      }
+    },
+    "151": {
+      "describes an Olympic sports event, including its participants, date, and location": {
+        "recall": 0.9375,
+        "precision": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "correlation": 0.6698417060774818
+      },
+      "describes a men's or women's sports event held at the Olympic Games, including details such as the sport, event type, year, and location": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7143733413047186
+      },
+      "describes a men's sporting event at the Olympic Games, including specific details about the event's discipline, location, and/or dates": {
+        "recall": 0.9375,
+        "precision": 0.8333333333333334,
+        "f1": 0.8823529411764706,
+        "correlation": 0.6124665641061893
+      }
+    },
+    "210": {
+      "is about an architect or architectural professional and their contributions to the field of architecture": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8105326871740883
+      },
+      "is about an architect or architectural critic and their contributions to architecture": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.897432146768896
+      },
+      "is about an architect or architectural firm and their contributions to the field": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8860538206492726
+      }
+    },
+    "48": {
+      "is about figure skaters or pair skaters and their achievements": {
+        "recall": 0.8125,
+        "precision": 0.8666666666666667,
+        "f1": 0.8387096774193549,
+        "correlation": 0.5632930339919017
+      },
+      "is about figure skating or figure skaters": {
+        "recall": 0.8125,
+        "precision": 0.8666666666666667,
+        "f1": 0.8387096774193549,
+        "correlation": 0.5632930339919017
+      },
+      "is about figure skating or pair skating athletes, events, or publications": {
+        "recall": 0.8125,
+        "precision": 0.8666666666666667,
+        "f1": 0.8387096774193549,
+        "correlation": 0.5632930339919017
+      }
+    },
+    "171": {
+      "describes a species of moth, including its physical characteristics, geographic distribution, and in some cases, its behavior or habitat": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9834008056074105
+      },
+      "describes a moth species, including its physical characteristics, wingspan, and geographical distribution": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9834008056074105
+      },
+      "describes a moth species, including its appearance, habitat, and distribution": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9834008056074105
+      }
+    },
+    "16": {
+      "describes a satellite or spacecraft and its mission details": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8154855436652231
+      },
+      "is about a satellite or spacecraft, specifying its mission, design, launch details, and orbital characteristics": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.9008243873568559
+      }
+    },
+    "217": {
+      "is about an Italian painter active during the Baroque or Renaissance periods": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.9203743280282651
+      },
+      "is about an Italian painter, often mentioning their artistic style, time period, and notable works or influences": {
+        "recall": 0.75,
+        "precision": 1.0,
+        "f1": 0.8571428571428571,
+        "correlation": 0.7216524028095896
+      },
+      "is about an Italian painter, including details about their life, artistic style, and works": {
+        "recall": 0.875,
+        "precision": 1.0,
+        "f1": 0.9333333333333333,
+        "correlation": 0.8742146270356412
+      }
+    },
+    "2": {
+      "is about a ruler and provides details about their reign, such as time period and territory governed": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.4832135941349494
+      },
+      "is about a ruler or monarch who governed a specific region or territory": {
+        "recall": 1.0,
+        "precision": 0.7272727272727273,
+        "f1": 0.8421052631578948,
+        "correlation": 0.39980726175275366
+      },
+      "is about a monarch or ruler who directly governed a specific region or kingdom": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.5871114616493763
+      }
+    },
+    "147": {
+      "is about a daily newspaper, including its history, publication details, and significance": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8955113733876735
+      },
+      "is about a daily or weekly newspaper, including its history, ownership, and circulation": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8094523573839787
+      },
+      "is about a daily or weekly newspaper publication and its history or circulation details": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8094523573839787
+      }
+    },
+    "234": {
+      "is about a Group 3 or higher horse race that involves Thoroughbreds or other racehorses, specifying details such as location, distance, and prize money": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.9136478657450199
+      },
+      "describes a Thoroughbred horse race, including details such as race conditions, distance, location, and prize money": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9862578311563945
+      },
+      "describes a Thoroughbred horse race, including details such as race type, distance, location, and prize money": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9862578311563945
+      }
+    },
+    "244": {
+      "describes a type of lizard or gecko, including its physical characteristics, habitat, and behavior": {
+        "recall": 0.5625,
+        "precision": 1.0,
+        "f1": 0.72,
+        "correlation": 0.6289962531059567
+      },
+      "is about a species of lizard or gecko, including details about its physical characteristics, habitat, or behavior": {
+        "recall": 0.75,
+        "precision": 1.0,
+        "f1": 0.8571428571428571,
+        "correlation": 0.7756366907314205
+      },
+      "is about a reptile species, specifically lizards, geckos, or snakes": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9649697461433372
+      }
+    },
+    "247": {
+      "is about a Japanese manga or anime series, including details about its serialization, adaptations, and licensing": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.27708943640083905
+      },
+      "is about a Japanese manga series and its adaptations": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.484934995181925
+      },
+      "is about a manga or anime series, including details of its serialization, adaptations, and licensing history": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.27708943640083905
+      }
+    },
+    "155": {
+      "is about a cricketer who played at the first-class or Test level": {
+        "recall": 0.9375,
+        "precision": 0.7894736842105263,
+        "f1": 0.8571428571428572,
+        "correlation": 0.47583759236725776
+      },
+      "is about a cricketer or cricket team and their achievements or statistics": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.618461173545891
+      },
+      "is about cricketers or cricket teams": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.514108863125618
+      }
+    },
+    "115": {
+      "is about a spider species or a genus of spiders": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9669072628486629
+      },
+      "is about a genus or species of spider, often describing its taxonomy, physical characteristics, or habitat": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9669072628486629
+      },
+      "is about a genus or species of spider, often describing its physical characteristics, habitat, and distribution": {
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "correlation": 0.9669072628486629
+      }
+    },
+    "34": {
+      "is about a professional football player who has played as a free agent or for multiple teams in their career": {
+        "recall": 0.6875,
+        "precision": 0.9166666666666666,
+        "f1": 0.7857142857142857,
+        "correlation": 0.5487538550889387
+      },
+      "is about a football player who plays or played as a specific position in rugby, American football, or Canadian football": {
+        "recall": 0.875,
+        "precision": 0.875,
+        "f1": 0.875,
+        "correlation": 0.6279604970744903
+      },
+      "is about a professional American football player who is or was a free agent": {
+        "recall": 0.6875,
+        "precision": 1.0,
+        "f1": 0.8148148148148148,
+        "correlation": 0.6398781029316313
+      }
+    },
+    "243": {
+      "describes the final match of a football (soccer) cup competition, including the specific teams involved, the match date, and the outcome": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.5915162302208737
+      },
+      "describes the final match of a football tournament or competition": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.5079231367508037
+      },
+      "describes the final match of a football (soccer) tournament and its outcome": {
+        "recall": 0.875,
+        "precision": 0.7777777777777778,
+        "f1": 0.823529411764706,
+        "correlation": 0.4068179061771401
+      }
+    },
+    "29": {
+      "lists multiple species within a genus, with scientific names and authorship details for each species": {
+        "recall": 0.6875,
+        "precision": 0.9166666666666666,
+        "f1": 0.7857142857142857,
+        "correlation": 0.5268815844285595
+      },
+      "lists multiple species or genera of crustaceans, insects, or other arthropods": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.7696186116045605
+      },
+      "lists multiple species or taxa within a genus or family, often with scientific names and authorship details": {
+        "recall": 0.9375,
+        "precision": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "correlation": 0.7073687286676789
+      }
+    },
+    "88": {
+      "is about a military officer or soldier who has been recognized for their service, often with awards for gallantry or leadership": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.7599951552642245
+      },
+      "is about a person who has been awarded a prestigious military or civilian medal for bravery or service": {
+        "recall": 0.875,
+        "precision": 1.0,
+        "f1": 0.9333333333333333,
+        "correlation": 0.8780676441968307
+      },
+      "is about a person who received a prestigious military or gallantry award (e.g., Victoria Cross, George Cross, Medal of Honor)": {
+        "recall": 0.875,
+        "precision": 1.0,
+        "f1": 0.9333333333333333,
+        "correlation": 0.8780676441968307
+      }
+    },
+    "95": {
+      "is about a historical noble or royal figure, often including their lineage, titles, and familial connections": {
+        "recall": 0.9375,
+        "precision": 0.7894736842105263,
+        "f1": 0.8571428571428572,
+        "correlation": 0.46851078474076996
+      },
+      "is about a noble or royal individual and their lineage, titles, or inheritance disputes": {
+        "recall": 0.9375,
+        "precision": 0.7894736842105263,
+        "f1": 0.8571428571428572,
+        "correlation": 0.46851078474076996
+      },
+      "is about a historical noble or aristocratic figure and their lineage or familial connections": {
+        "recall": 1.0,
+        "precision": 0.8,
+        "f1": 0.888888888888889,
+        "correlation": 0.6032194193630264
+      }
+    },
+    "199": {
+      "is about an airline or airline-related entity, including its operations, history, and services": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.26068086066288576
+      },
+      "describes an airline and its operations": {
+        "recall": 1.0,
+        "precision": 0.7619047619047619,
+        "f1": 0.8648648648648648,
+        "correlation": 0.5209320038992667
+      },
+      "describes an airline or air charter operator, including its operations, destinations, and history": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7067964756825919
+      }
+    },
+    "112": {
+      "describes legislative bodies or elections related to legislative bodies": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.27924292462613104
+      },
+      "is about U.S. federal legislators or legislative bodies": {
+        "recall": 0.875,
+        "precision": 0.7777777777777778,
+        "f1": 0.823529411764706,
+        "correlation": 0.43092423723830936
+      },
+      "is about U.S. Congress members or elections related to the U.S. Congress": {
+        "recall": 0.8125,
+        "precision": 0.8125,
+        "f1": 0.8125,
+        "correlation": 0.4062985408465589
+      }
+    },
+    "24": {
+      "is about a museum and its collection or exhibitions": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8108687100858114
+      },
+      "is about a museum or heritage center, specifically describing its location, exhibits, and historical or cultural significance": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.8108687100858114
+      },
+      "describes a museum and its exhibits": {
+        "recall": 0.875,
+        "precision": 0.875,
+        "f1": 0.875,
+        "correlation": 0.621684572373967
+      }
+    },
+    "37": {
+      "describes a diocese or ecclesiastical territory within a specific branch of Christianity, including details about its geographical location, leadership, and history": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.3164561946495407
+      },
+      "describes a Roman Catholic diocese, including its location and ecclesiastical province": {
+        "recall": 0.9375,
+        "precision": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "correlation": 0.707135401058321
+      }
+    },
+    "101": {
+      "is about a play, providing details about its plot, characters, and/or production history": {
+        "recall": 0.9375,
+        "precision": 0.6818181818181818,
+        "f1": 0.7894736842105263,
+        "correlation": 0.14603381158452491
+      },
+      "is about a play, including its production history and plot details": {
+        "recall": 0.9375,
+        "precision": 0.6818181818181818,
+        "f1": 0.7894736842105263,
+        "correlation": 0.14603381158452491
+      },
+      "is about a play or musical that has significant historical, cultural, or literary context": {
+        "recall": 1.0,
+        "precision": 0.6956521739130435,
+        "f1": 0.8205128205128205,
+        "correlation": 0.2653929631585234
+      }
+    },
+    "129": {
+      "describes a lower-division sports league and its structure within a national or regional league system": {
+        "recall": 0.75,
+        "precision": 0.8,
+        "f1": 0.7741935483870969,
+        "correlation": 0.3451728654863146
+      },
+      "describes a football or rugby league, including its structure and promotion/relegation system": {
+        "recall": 0.875,
+        "precision": 0.8235294117647058,
+        "f1": 0.8484848484848485,
+        "correlation": 0.49493173317603306
+      },
+      "describes a league or division in a team sport, including its organization, structure, or history": {
+        "recall": 1.0,
+        "precision": 0.6666666666666666,
+        "f1": 0.8,
+        "correlation": 0.0
+      }
+    },
+    "79": {
+      "is about a song that was performed in or associated with the Eurovision Song Contest": {
+        "recall": 0.6875,
+        "precision": 1.0,
+        "f1": 0.8148148148148148,
+        "correlation": 0.6493693440134847
+      },
+      "is about songs that were entries in the Eurovision Song Contest": {
+        "recall": 0.6875,
+        "precision": 1.0,
+        "f1": 0.8148148148148148,
+        "correlation": 0.6493693440134847
+      },
+      "is about a song that participated in or is related to the Eurovision Song Contest": {
+        "recall": 0.6875,
+        "precision": 1.0,
+        "f1": 0.8148148148148148,
+        "correlation": 0.6493693440134847
+      }
+    },
+    "172": {
+      "is about a Major League Baseball player": {
+        "recall": 0.9375,
+        "precision": 0.8823529411764706,
+        "f1": 0.9090909090909091,
+        "correlation": 0.7352409225416744
+      },
+      "is about a Major League Baseball player and their career details": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.705215410557416
+      },
+      "is about a professional baseball player and their career achievements": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.705215410557416
+      }
+    },
+    "120": {
+      "is about fungi and includes taxonomic or morphological details": {
+        "recall": 1.0,
+        "precision": 0.8888888888888888,
+        "f1": 0.9411764705882353,
+        "correlation": 0.7950651491708572
+      },
+      "is about fungi, specifically describing their taxonomy, morphology, or ecological roles": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8887133081067923
+      },
+      "is about a fungus or fungal taxonomy, including its classification, morphology, habitat, or related characteristics": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.8887133081067923
+      }
+    },
+    "4": {
+      "describes a high school, including its attributes such as location, enrollment, history, or facilities": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.876583264484244
+      },
+      "describes a secondary or high school, including details about its location, grades, and curriculum": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.876583264484244
+      },
+      "is about a secondary school, including details such as its location, history, and educational structure": {
+        "recall": 0.9375,
+        "precision": 1.0,
+        "f1": 0.967741935483871,
+        "correlation": 0.876583264484244
+      }
+    },
+    "135": {
+      "is about a football stadium, including its location, capacity, and usage": {
+        "recall": 1.0,
+        "precision": 0.9411764705882353,
+        "f1": 0.9696969696969697,
+        "correlation": 0.9024249191582155
+      },
+      "is about a stadium primarily used for football (soccer) matches": {
+        "recall": 0.9375,
+        "precision": 0.9375,
+        "f1": 0.9375,
+        "correlation": 0.8122365611388739
+      },
+      "describes a multi-purpose stadium primarily used for football (soccer) matches": {
+        "recall": 0.8125,
+        "precision": 1.0,
+        "f1": 0.896551724137931,
+        "correlation": 0.7506006333628307
+      }
+    },
+    "89": {
+      "is about a river, including details about its location, tributaries, and geographical context": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7178899327038544
+      },
+      "describes a river, including its location, tributaries, and/or physical characteristics": {
+        "recall": 1.0,
+        "precision": 0.8421052631578947,
+        "f1": 0.9142857142857143,
+        "correlation": 0.7178899327038544
+      },
+      "describes a river and its tributary relationships": {
+        "recall": 0.9375,
+        "precision": 0.7894736842105263,
+        "f1": 0.8571428571428572,
+        "correlation": 0.49418703200021336
+      }
+    }
+  }
+}

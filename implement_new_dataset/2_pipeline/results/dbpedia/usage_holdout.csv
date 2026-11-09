@@ -1,0 +1,6 @@
+phase,model,calls,input,cached,output,reasoning,cost_usd
+embedding,text-embedding-3-small,47.0,1762875.0,0.0,0.0,0.0,0.0352575
+interpretation,gpt-4o-2024-11-20,150.0,534652.0,0.0,2837.0,0.0,1.365
+scoring,gpt-4o-mini-2024-07-18,7548.0,4946376.0,0.0,271707.0,0.0,0.9049806
+holdout_eval,gpt-4o-mini-2024-07-18,100000.0,63301600.0,0.0,2952890.0,0.0,11.266974
+TOTAL,,107745.0,70545503.0,0.0,3227434.0,0.0,13.5722121

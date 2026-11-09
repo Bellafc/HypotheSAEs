@@ -1,0 +1,651 @@
+{
+  "features": "pca_64_p90",
+  "selected": [
+    4,
+    20,
+    28,
+    32,
+    7,
+    16,
+    5,
+    13,
+    1,
+    56,
+    24,
+    21,
+    6,
+    2,
+    29,
+    0,
+    31,
+    51,
+    55,
+    17
+  ],
+  "hypotheses": [
+    {
+      "feature_idx": 4,
+      "lasso_coef": 0.16490712761878967,
+      "interpretation": "discusses clinical trials and regulatory processes related to pharmaceutical or biopharmaceutical development",
+      "f1_fidelity": 0.8541666666666666
+    },
+    {
+      "feature_idx": 20,
+      "lasso_coef": -0.0866837128996849,
+      "interpretation": "discusses risks, strategies, or policies specifically related to insurance or reinsurance operations",
+      "f1_fidelity": 0.916256157635468
+    },
+    {
+      "feature_idx": 28,
+      "lasso_coef": -0.0412583202123642,
+      "interpretation": "includes references to information being incorporated by reference into the 10-K filing, often under specific captions such as 'Management's Discussion and Analysis' or 'Market Risk'",
+      "f1_fidelity": 0.6341463414634146
+    },
+    {
+      "feature_idx": 32,
+      "lasso_coef": -0.029888181015849113,
+      "interpretation": "describes revenue or financial outcomes that are explicitly linked to specific external market conditions or customer behaviors (e.g., economic trends, regulatory changes, customer creditworthiness, or demand fluctuations)",
+      "f1_fidelity": 0.4973544973544973
+    },
+    {
+      "feature_idx": 7,
+      "lasso_coef": -0.025046972557902336,
+      "interpretation": "discusses the impact of economic conditions, such as recessions or downturns, on consumer behavior or business performance",
+      "f1_fidelity": 0.7206477732793523
+    },
+    {
+      "feature_idx": 16,
+      "lasso_coef": -0.022273413836956024,
+      "interpretation": "discusses financial obligations or strategies related to leases, debt instruments, or interest rate risk management",
+      "f1_fidelity": 0.5108695652173914
+    },
+    {
+      "feature_idx": 5,
+      "lasso_coef": 0.019014272838830948,
+      "interpretation": "discusses detailed revenue recognition policies and criteria, including specific conditions like persuasive evidence of an arrangement, fixed or determinable fees, and collectability assurance",
+      "f1_fidelity": 0.8648648648648648
+    },
+    {
+      "feature_idx": 13,
+      "lasso_coef": -0.01750108040869236,
+      "interpretation": "discusses healthcare-related operations, services, or products, including managed health care, behavioral health, pharmaceutical services, hospice, or home health",
+      "f1_fidelity": 0.6961325966850829
+    },
+    {
+      "feature_idx": 1,
+      "lasso_coef": -0.016661331057548523,
+      "interpretation": "provides detailed breakdowns of gross margins or profit changes, including specific percentage points or dollar amounts, and ties them to operational factors like product mix, cost reductions, or restructuring efforts",
+      "f1_fidelity": 0.7115384615384615
+    },
+    {
+      "feature_idx": 56,
+      "lasso_coef": 0.015714284032583237,
+      "interpretation": "describes specific geographic markets or regions for operations or sales expansion",
+      "f1_fidelity": 0.48780487804878053
+    },
+    {
+      "feature_idx": 24,
+      "lasso_coef": -0.01565515249967575,
+      "interpretation": "provides detailed professional biographies of executives, including their education, previous roles, and tenure at the company",
+      "f1_fidelity": 0.49624060150375937
+    },
+    {
+      "feature_idx": 21,
+      "lasso_coef": 0.013809594325721264,
+      "interpretation": "discusses financial losses, reserves, or liabilities related to insurance, reinsurance, or claims management",
+      "f1_fidelity": 0.627906976744186
+    },
+    {
+      "feature_idx": 6,
+      "lasso_coef": 0.011808866634964943,
+      "interpretation": "discusses estimation, evaluation, or revision of oil, gas, or natural gas reserves, including their economic viability, production potential, and associated methodologies",
+      "f1_fidelity": 0.839080459770115
+    },
+    {
+      "feature_idx": 2,
+      "lasso_coef": -0.00930902548134327,
+      "interpretation": "mentions forward-looking statements with disclaimers about risks and uncertainties",
+      "f1_fidelity": 0.4662576687116564
+    },
+    {
+      "feature_idx": 29,
+      "lasso_coef": 0.005927937105298042,
+      "interpretation": "discusses the impact of macroeconomic or external economic factors on business operations or financial performance",
+      "f1_fidelity": 0.4771573604060913
+    },
+    {
+      "feature_idx": 0,
+      "lasso_coef": 0.005503063555806875,
+      "interpretation": "discusses the development or use of proprietary technologies or systems for specialized applications in industries such as biotechnology, aerospace, or manufacturing",
+      "f1_fidelity": 0.7117117117117118
+    },
+    {
+      "feature_idx": 31,
+      "lasso_coef": 0.0032855349127203226,
+      "interpretation": "discusses operational metrics or performance indicators specific to the company's industry",
+      "f1_fidelity": 0.6008583690987124
+    },
+    {
+      "feature_idx": 51,
+      "lasso_coef": 0.0012994137359783053,
+      "interpretation": "discusses financial or operational impacts related to specific industries or sectors (e.g., mining, automotive, real estate, energy) with detailed quantitative data or regulatory changes",
+      "f1_fidelity": 0.5233644859813084
+    },
+    {
+      "feature_idx": 55,
+      "lasso_coef": 0.0011225608177483082,
+      "interpretation": "discusses market trends or changes in demand for a specific product or industry segment, including factors like technological advancements, economic conditions, or customer behavior",
+      "f1_fidelity": 0.5816326530612245
+    },
+    {
+      "feature_idx": 17,
+      "lasso_coef": 0.0005310982814989984,
+      "interpretation": "mentions detailed descriptions of personnel roles, career histories, or organizational structures",
+      "f1_fidelity": 0.7586206896551725
+    }
+  ],
+  "all_candidates": {
+    "4": [
+      "discusses clinical trials, including their phases, enrollment, or results",
+      "discusses clinical trials, including phases, patient demographics, trial locations, or regulatory filings",
+      "discusses clinical trials and regulatory processes related to pharmaceutical or biopharmaceutical development"
+    ],
+    "20": [
+      "discusses the impact of interest rates on financial performance or investment portfolio",
+      "discusses risks or uncertainties related to reinsurance or credit risk with reinsurers",
+      "discusses risks, strategies, or policies specifically related to insurance or reinsurance operations"
+    ],
+    "28": [
+      "mentions regulatory requirements or actions related to financial institutions, such as acquisition approvals, capital ratios, or assessments imposed by organizations like the Federal Reserve or FDIC",
+      "includes references to information being incorporated by reference into the 10-K filing, often under specific captions such as 'Management's Discussion and Analysis' or 'Market Risk'",
+      "discusses acquisitions or mergers, including specific details about purchase prices, acquired assets, or integration risks"
+    ],
+    "32": [
+      "describes revenue or financial outcomes that are explicitly linked to specific external market conditions or customer behaviors (e.g., economic trends, regulatory changes, customer creditworthiness, or demand fluctuations)",
+      "discusses regulatory or legislative changes and their potential impact on the company's operations or accounting practices",
+      "describes efforts to expand sales or marketing operations, including hiring or training sales representatives, or restructuring sales teams"
+    ],
+    "7": [
+      "mentions risks associated with cybersecurity, hackers, or data breaches",
+      "discusses the impact of monetary and fiscal policies, particularly those of the Federal Reserve, on business operations and financial performance",
+      "discusses the impact of economic conditions, such as recessions or downturns, on consumer behavior or business performance"
+    ],
+    "16": [
+      "discusses operational strategies or arrangements involving third-party management, outsourcing, or partnerships for cost efficiency or revenue generation",
+      "discusses metrics or calculations related to operational efficiency, such as utilization rates, attrition rates, or cost per unit of labor",
+      "discusses financial obligations or strategies related to leases, debt instruments, or interest rate risk management"
+    ],
+    "5": [
+      "discusses revenue recognition policies involving multiple deliverables or elements, including methods like percentage-of-completion, VSOE, TPE, or BESP",
+      "discusses revenue recognition policies in detail, including specific methods such as percentage-of-completion, residual method, and allocation among multiple deliverables",
+      "discusses detailed revenue recognition policies and criteria, including specific conditions like persuasive evidence of an arrangement, fixed or determinable fees, and collectability assurance"
+    ],
+    "13": [
+      "describes a merger, acquisition, or divestiture including details of its financial or operational impact",
+      "discusses healthcare-related operations, services, or products, including managed health care, behavioral health, pharmaceutical services, hospice, or home health",
+      "discusses self-insurance, including the use of actuarial estimates and stop-loss insurance to manage liabilities"
+    ],
+    "1": [
+      "discusses acquisitions or expansions and their impact on financial metrics such as sales, gross profit, or operating profit",
+      "provides detailed breakdowns of gross margins or profit changes, including specific percentage points or dollar amounts, and ties them to operational factors like product mix, cost reductions, or restructuring efforts",
+      "mentions foreign currency impacts on financial results, including currency translation effects and their influence on sales or profits"
+    ],
+    "56": [
+      "discusses product expansion or introduction to new markets, including specific details about new products, packaging, or distribution channels",
+      "discusses seasonal influences or seasonality in business operations",
+      "describes specific geographic markets or regions for operations or sales expansion"
+    ],
+    "24": [
+      "describes specific financial or operational support programs for particular medical or scientific research areas or patient needs",
+      "provides detailed professional biographies of executives, including their education, previous roles, and tenure at the company",
+      "describes the development, application, or market potential of specific pharmaceutical or biotechnology products"
+    ],
+    "21": [
+      "discusses reserves or liabilities with quantitative figures in multiple categories (e.g., oil reserves, loss reserves, inventory reserves, tax assets)",
+      "discusses financial impairments or write-downs related to assets, inventory, or properties",
+      "discusses financial losses, reserves, or liabilities related to insurance, reinsurance, or claims management"
+    ],
+    "6": [
+      "discusses oil and gas reserves estimation, including factors like pricing, development costs, and geological evaluations",
+      "discusses the impact of oil and gas prices on operations, reserves, or future production",
+      "discusses estimation, evaluation, or revision of oil, gas, or natural gas reserves, including their economic viability, production potential, and associated methodologies"
+    ],
+    "2": [
+      "discusses the allowance for loan losses and the associated estimation processes",
+      "contains detailed discussion of forward-looking statements, including lists of potential risks and uncertainties that could materially affect financial outcomes",
+      "mentions forward-looking statements with disclaimers about risks and uncertainties"
+    ],
+    "29": [
+      "discusses the impact of macroeconomic or external economic factors on business operations or financial performance",
+      "discusses cash flow metrics or calculations, specifically free cash flow and its components (e.g., operating activities, investing activities, dividends)",
+      "discusses research and development activities, including preclinical/clinical trials or product candidates"
+    ],
+    "0": [
+      "mentions specific medical or health-related products or technologies, including their clinical trials, studies, or regulatory approvals",
+      "discusses the development or use of proprietary technologies or systems for specialized applications in industries such as biotechnology, aerospace, or manufacturing",
+      "describes clinical trials or medical studies, including details about study phases, endpoints, and statistical results"
+    ],
+    "31": [
+      "discusses operational metrics or performance indicators specific to the company's industry",
+      "mentions the use of third-party or external service providers, such as owner-operators, third-party transportation companies, or external contractors, as part of the company's operations or business model",
+      "describes market leadership or a leading position in a specific industry or market segment"
+    ],
+    "51": [
+      "mentions specific technical or financial methodologies, tools, or metrics for valuation, testing, or analysis (e.g., discounted cash flow method, WACC, sensitivity and specificity, etc.)",
+      "discusses financial or operational impacts related to specific industries or sectors (e.g., mining, automotive, real estate, energy) with detailed quantitative data or regulatory changes",
+      "discusses detailed financial assessments or calculations related to goodwill, including impairment testing and fair value determination"
+    ],
+    "55": [
+      "discusses financial performance or metrics related to international operations or foreign markets",
+      "discusses market trends or changes in demand for a specific product or industry segment, including factors like technological advancements, economic conditions, or customer behavior",
+      "discusses intellectual property, including patents, licenses, or proprietary technologies"
+    ],
+    "17": [
+      "describes detailed professional histories or roles of individuals, often listing multiple positions, organizations, and time periods in a structured format",
+      "mentions detailed descriptions of personnel roles, career histories, or organizational structures",
+      "provides detailed professional biographies of executives, including their roles, career histories, educational backgrounds, and board memberships"
+    ]
+  },
+  "all_fidelity": {
+    "4": {
+      "discusses clinical trials, including their phases, enrollment, or results": {
+        "recall": 0.6,
+        "precision": 0.9523809523809523,
+        "f1": 0.736196319018405,
+        "correlation": 0.6147683721873816
+      },
+      "discusses clinical trials, including phases, patient demographics, trial locations, or regulatory filings": {
+        "recall": 0.48,
+        "precision": 0.9795918367346939,
+        "f1": 0.6442953020134228,
+        "correlation": 0.5462514326893675
+      },
+      "discusses clinical trials and regulatory processes related to pharmaceutical or biopharmaceutical development": {
+        "recall": 0.82,
+        "precision": 0.8913043478260869,
+        "f1": 0.8541666666666666,
+        "correlation": 0.7040959359131125
+      }
+    },
+    "20": {
+      "discusses the impact of interest rates on financial performance or investment portfolio": {
+        "recall": 0.07,
+        "precision": 0.5384615384615384,
+        "f1": 0.12389380530973453,
+        "correlation": 0.03789052422002003
+      },
+      "discusses risks or uncertainties related to reinsurance or credit risk with reinsurers": {
+        "recall": 0.45,
+        "precision": 0.8823529411764706,
+        "f1": 0.5960264900662252,
+        "correlation": 0.4414186577693178
+      },
+      "discusses risks, strategies, or policies specifically related to insurance or reinsurance operations": {
+        "recall": 0.93,
+        "precision": 0.9029126213592233,
+        "f1": 0.916256157635468,
+        "correlation": 0.8298612151961601
+      }
+    },
+    "28": {
+      "mentions regulatory requirements or actions related to financial institutions, such as acquisition approvals, capital ratios, or assessments imposed by organizations like the Federal Reserve or FDIC": {
+        "recall": 0.18,
+        "precision": 0.6206896551724138,
+        "f1": 0.27906976744186046,
+        "correlation": 0.13278008460357243
+      },
+      "includes references to information being incorporated by reference into the 10-K filing, often under specific captions such as 'Management's Discussion and Analysis' or 'Market Risk'": {
+        "recall": 0.52,
+        "precision": 0.8125,
+        "f1": 0.6341463414634146,
+        "correlation": 0.4161126095310006
+      },
+      "discusses acquisitions or mergers, including specific details about purchase prices, acquired assets, or integration risks": {
+        "recall": 0.18,
+        "precision": 0.45,
+        "f1": 0.2571428571428572,
+        "correlation": -0.022001035524379892
+      }
+    },
+    "32": {
+      "describes revenue or financial outcomes that are explicitly linked to specific external market conditions or customer behaviors (e.g., economic trends, regulatory changes, customer creditworthiness, or demand fluctuations)": {
+        "recall": 0.47,
+        "precision": 0.5280898876404494,
+        "f1": 0.4973544973544973,
+        "correlation": 0.030200987219798373
+      },
+      "discusses regulatory or legislative changes and their potential impact on the company's operations or accounting practices": {
+        "recall": 0.22,
+        "precision": 0.55,
+        "f1": 0.3142857142857143,
+        "correlation": 0.0828226537101766
+      },
+      "describes efforts to expand sales or marketing operations, including hiring or training sales representatives, or restructuring sales teams": {
+        "recall": 0.18,
+        "precision": 0.6666666666666666,
+        "f1": 0.28346456692913385,
+        "correlation": 0.16885078017997063
+      }
+    },
+    "7": {
+      "mentions risks associated with cybersecurity, hackers, or data breaches": {
+        "recall": 0.03,
+        "precision": 1.0,
+        "f1": 0.058252427184466014,
+        "correlation": 0.09274269062341191
+      },
+      "discusses the impact of monetary and fiscal policies, particularly those of the Federal Reserve, on business operations and financial performance": {
+        "recall": 0.33,
+        "precision": 0.9705882352941176,
+        "f1": 0.49253731343283585,
+        "correlation": 0.4905521091892099
+      },
+      "discusses the impact of economic conditions, such as recessions or downturns, on consumer behavior or business performance": {
+        "recall": 0.89,
+        "precision": 0.6054421768707483,
+        "f1": 0.7206477732793523,
+        "correlation": 0.33064257847771034
+      }
+    },
+    "16": {
+      "discusses operational strategies or arrangements involving third-party management, outsourcing, or partnerships for cost efficiency or revenue generation": {
+        "recall": 0.4,
+        "precision": 0.6896551724137931,
+        "f1": 0.5063291139240508,
+        "correlation": 0.2595841818968735
+      },
+      "discusses metrics or calculations related to operational efficiency, such as utilization rates, attrition rates, or cost per unit of labor": {
+        "recall": 0.13,
+        "precision": 0.43333333333333335,
+        "f1": 0.2,
+        "correlation": -0.025612479182637028
+      },
+      "discusses financial obligations or strategies related to leases, debt instruments, or interest rate risk management": {
+        "recall": 0.47,
+        "precision": 0.5595238095238095,
+        "f1": 0.5108695652173914,
+        "correlation": 0.06069247848465604
+      }
+    },
+    "5": {
+      "discusses revenue recognition policies involving multiple deliverables or elements, including methods like percentage-of-completion, VSOE, TPE, or BESP": {
+        "recall": 0.54,
+        "precision": 0.9473684210526315,
+        "f1": 0.6878980891719746,
+        "correlation": 0.5955529594620267
+      },
+      "discusses revenue recognition policies in detail, including specific methods such as percentage-of-completion, residual method, and allocation among multiple deliverables": {
+        "recall": 0.34,
+        "precision": 0.9444444444444444,
+        "f1": 0.5,
+        "correlation": 0.4203205228786186
+      },
+      "discusses detailed revenue recognition policies and criteria, including specific conditions like persuasive evidence of an arrangement, fixed or determinable fees, and collectability assurance": {
+        "recall": 0.8,
+        "precision": 0.9411764705882353,
+        "f1": 0.8648648648648648,
+        "correlation": 0.7655937534069677
+      }
+    },
+    "13": {
+      "describes a merger, acquisition, or divestiture including details of its financial or operational impact": {
+        "recall": 0.29,
+        "precision": 0.4603174603174603,
+        "f1": 0.35582822085889565,
+        "correlation": -0.03256070760248101
+      },
+      "discusses healthcare-related operations, services, or products, including managed health care, behavioral health, pharmaceutical services, hospice, or home health": {
+        "recall": 0.63,
+        "precision": 0.7777777777777778,
+        "f1": 0.6961325966850829,
+        "correlation": 0.4666288754419914
+      },
+      "discusses self-insurance, including the use of actuarial estimates and stop-loss insurance to manage liabilities": {
+        "recall": 0.02,
+        "precision": 0.5,
+        "f1": 0.038461538461538464,
+        "correlation": -0.022894013975806145
+      }
+    },
+    "1": {
+      "discusses acquisitions or expansions and their impact on financial metrics such as sales, gross profit, or operating profit": {
+        "recall": 0.87,
+        "precision": 0.5838926174496645,
+        "f1": 0.6987951807228916,
+        "correlation": 0.28246117687971817
+      },
+      "provides detailed breakdowns of gross margins or profit changes, including specific percentage points or dollar amounts, and ties them to operational factors like product mix, cost reductions, or restructuring efforts": {
+        "recall": 0.74,
+        "precision": 0.6851851851851852,
+        "f1": 0.7115384615384615,
+        "correlation": 0.409247726615253
+      },
+      "mentions foreign currency impacts on financial results, including currency translation effects and their influence on sales or profits": {
+        "recall": 0.27,
+        "precision": 0.75,
+        "f1": 0.3970588235294118,
+        "correlation": 0.22168089118096565
+      }
+    },
+    "56": {
+      "discusses product expansion or introduction to new markets, including specific details about new products, packaging, or distribution channels": {
+        "recall": 0.3,
+        "precision": 0.5555555555555556,
+        "f1": 0.3896103896103896,
+        "correlation": 0.11010318280481583
+      },
+      "discusses seasonal influences or seasonality in business operations": {
+        "recall": 0.07,
+        "precision": 0.875,
+        "f1": 0.12962962962962962,
+        "correlation": 0.1685514240780045
+      },
+      "describes specific geographic markets or regions for operations or sales expansion": {
+        "recall": 0.4,
+        "precision": 0.625,
+        "f1": 0.48780487804878053,
+        "correlation": 0.21417574961149743
+      }
+    },
+    "24": {
+      "describes specific financial or operational support programs for particular medical or scientific research areas or patient needs": {
+        "recall": 0.03,
+        "precision": 0.75,
+        "f1": 0.05769230769230769,
+        "correlation": 0.04522362560313091
+      },
+      "provides detailed professional biographies of executives, including their education, previous roles, and tenure at the company": {
+        "recall": 0.33,
+        "precision": 1.0,
+        "f1": 0.49624060150375937,
+        "correlation": 0.5907745304886054
+      },
+      "describes the development, application, or market potential of specific pharmaceutical or biotechnology products": {
+        "recall": 0.12,
+        "precision": 0.5217391304347826,
+        "f1": 0.19512195121951217,
+        "correlation": -0.0257666488141072
+      }
+    },
+    "21": {
+      "discusses reserves or liabilities with quantitative figures in multiple categories (e.g., oil reserves, loss reserves, inventory reserves, tax assets)": {
+        "recall": 0.52,
+        "precision": 0.7878787878787878,
+        "f1": 0.6265060240963856,
+        "correlation": 0.3880472194375742
+      },
+      "discusses financial impairments or write-downs related to assets, inventory, or properties": {
+        "recall": 0.26,
+        "precision": 0.6842105263157895,
+        "f1": 0.37681159420289856,
+        "correlation": 0.1972175218879467
+      },
+      "discusses financial losses, reserves, or liabilities related to insurance, reinsurance, or claims management": {
+        "recall": 0.54,
+        "precision": 0.75,
+        "f1": 0.627906976744186,
+        "correlation": 0.3780875579628106
+      }
+    },
+    "6": {
+      "discusses oil and gas reserves estimation, including factors like pricing, development costs, and geological evaluations": {
+        "recall": 0.62,
+        "precision": 1.0,
+        "f1": 0.7654320987654321,
+        "correlation": 0.6835268785288907
+      },
+      "discusses the impact of oil and gas prices on operations, reserves, or future production": {
+        "recall": 0.67,
+        "precision": 0.9054054054054054,
+        "f1": 0.7701149425287356,
+        "correlation": 0.6249544790852756
+      },
+      "discusses estimation, evaluation, or revision of oil, gas, or natural gas reserves, including their economic viability, production potential, and associated methodologies": {
+        "recall": 0.73,
+        "precision": 0.9864864864864865,
+        "f1": 0.839080459770115,
+        "correlation": 0.7553410321171343
+      }
+    },
+    "2": {
+      "discusses the allowance for loan losses and the associated estimation processes": {
+        "recall": 0.26,
+        "precision": 0.7428571428571429,
+        "f1": 0.3851851851851852,
+        "correlation": 0.24202722119003314
+      },
+      "contains detailed discussion of forward-looking statements, including lists of potential risks and uncertainties that could materially affect financial outcomes": {
+        "recall": 0.31,
+        "precision": 0.6326530612244898,
+        "f1": 0.4161073825503356,
+        "correlation": 0.14930918262719092
+      },
+      "mentions forward-looking statements with disclaimers about risks and uncertainties": {
+        "recall": 0.38,
+        "precision": 0.6031746031746031,
+        "f1": 0.4662576687116564,
+        "correlation": 0.13842819059335024
+      }
+    },
+    "29": {
+      "discusses the impact of macroeconomic or external economic factors on business operations or financial performance": {
+        "recall": 0.47,
+        "precision": 0.4845360824742268,
+        "f1": 0.4771573604060913,
+        "correlation": -0.021387154854148986
+      },
+      "discusses cash flow metrics or calculations, specifically free cash flow and its components (e.g., operating activities, investing activities, dividends)": {
+        "recall": 0.04,
+        "precision": 0.8,
+        "f1": 0.07619047619047618,
+        "correlation": 0.047331755728390115
+      },
+      "discusses research and development activities, including preclinical/clinical trials or product candidates": {
+        "recall": 0.28,
+        "precision": 0.6363636363636364,
+        "f1": 0.3888888888888889,
+        "correlation": 0.17360914513827083
+      }
+    },
+    "0": {
+      "mentions specific medical or health-related products or technologies, including their clinical trials, studies, or regulatory approvals": {
+        "recall": 0.43,
+        "precision": 0.6515151515151515,
+        "f1": 0.5180722891566265,
+        "correlation": 0.25797236877998053
+      },
+      "discusses the development or use of proprietary technologies or systems for specialized applications in industries such as biotechnology, aerospace, or manufacturing": {
+        "recall": 0.79,
+        "precision": 0.6475409836065574,
+        "f1": 0.7117117117117118,
+        "correlation": 0.3747515450179231
+      },
+      "describes clinical trials or medical studies, including details about study phases, endpoints, and statistical results": {
+        "recall": 0.16,
+        "precision": 0.8421052631578947,
+        "f1": 0.26890756302521013,
+        "correlation": 0.2469902248107965
+      }
+    },
+    "31": {
+      "discusses operational metrics or performance indicators specific to the company's industry": {
+        "recall": 0.7,
+        "precision": 0.5263157894736842,
+        "f1": 0.6008583690987124,
+        "correlation": 0.08128136684984782
+      },
+      "mentions the use of third-party or external service providers, such as owner-operators, third-party transportation companies, or external contractors, as part of the company's operations or business model": {
+        "recall": 0.24,
+        "precision": 0.7272727272727273,
+        "f1": 0.3609022556390977,
+        "correlation": 0.20146734455059517
+      },
+      "describes market leadership or a leading position in a specific industry or market segment": {
+        "recall": 0.32,
+        "precision": 0.6530612244897959,
+        "f1": 0.42953020134228187,
+        "correlation": 0.20791897195895226
+      }
+    },
+    "51": {
+      "mentions specific technical or financial methodologies, tools, or metrics for valuation, testing, or analysis (e.g., discounted cash flow method, WACC, sensitivity and specificity, etc.)": {
+        "recall": 0.13,
+        "precision": 0.7647058823529411,
+        "f1": 0.22222222222222224,
+        "correlation": 0.2277972385694721
+      },
+      "discusses financial or operational impacts related to specific industries or sectors (e.g., mining, automotive, real estate, energy) with detailed quantitative data or regulatory changes": {
+        "recall": 0.56,
+        "precision": 0.49122807017543857,
+        "f1": 0.5233644859813084,
+        "correlation": -0.05057736934423915
+      },
+      "discusses detailed financial assessments or calculations related to goodwill, including impairment testing and fair value determination": {
+        "recall": 0.12,
+        "precision": 0.8571428571428571,
+        "f1": 0.21052631578947367,
+        "correlation": 0.2759716982427294
+      }
+    },
+    "55": {
+      "discusses financial performance or metrics related to international operations or foreign markets": {
+        "recall": 0.37,
+        "precision": 0.5,
+        "f1": 0.42528735632183906,
+        "correlation": -0.01623796947612253
+      },
+      "discusses market trends or changes in demand for a specific product or industry segment, including factors like technological advancements, economic conditions, or customer behavior": {
+        "recall": 0.57,
+        "precision": 0.59375,
+        "f1": 0.5816326530612245,
+        "correlation": 0.14330714674360215
+      },
+      "discusses intellectual property, including patents, licenses, or proprietary technologies": {
+        "recall": 0.09,
+        "precision": 0.6923076923076923,
+        "f1": 0.1592920353982301,
+        "correlation": 0.09873393940388307
+      }
+    },
+    "17": {
+      "describes detailed professional histories or roles of individuals, often listing multiple positions, organizations, and time periods in a structured format": {
+        "recall": 0.49,
+        "precision": 0.9423076923076923,
+        "f1": 0.6447368421052632,
+        "correlation": 0.5571355417593169
+      },
+      "mentions detailed descriptions of personnel roles, career histories, or organizational structures": {
+        "recall": 0.66,
+        "precision": 0.8918918918918919,
+        "f1": 0.7586206896551725,
+        "correlation": 0.6076138283013361
+      },
+      "provides detailed professional biographies of executives, including their roles, career histories, educational backgrounds, and board memberships": {
+        "recall": 0.44,
+        "precision": 1.0,
+        "f1": 0.6111111111111112,
+        "correlation": 0.580290781258616
+      }
+    }
+  }
+}

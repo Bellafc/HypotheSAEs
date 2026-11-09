@@ -1,0 +1,28 @@
+{
+  "metrics": {
+    "auroc": 0.8898561155641234,
+    "auprc": 0.8431048531145104,
+    "r2": 0.42448332036101444,
+    "Significant": [
+      22,
+      50,
+      0.001
+    ]
+  },
+  "wall_min": 48.22232856353124,
+  "cost_usd": 13.5722121,
+  "note": "cost_usd covers interpretation + scoring + holdout (one run); migrated on 2026-11-09 from llm_metrics_M256_K8_lasso_n50_hi80-100_lo0-10_cand3_gpt-4o_annot-t0.json",
+  "settings": {
+    "interpreter_model": "gpt-4o-2024-11-20",
+    "annotator_model": "gpt-4o-mini-2024-07-18",
+    "annot_kwargs": {
+      "temperature": 0.0
+    },
+    "embedder": "text-embedding-3-small",
+    "sampling": {
+      "high_pct": "80,100",
+      "low_pct": "0,10"
+    },
+    "n_candidates": 3
+  }
+}

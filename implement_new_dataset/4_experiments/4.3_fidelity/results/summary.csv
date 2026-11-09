@@ -1,0 +1,8 @@
+dataset,x,y,spearman,p,n
+dbpedia,train fidelity F1,f1_similarity,0.5542045000499152,2.9717696496481448e-05,50
+dbpedia,train fidelity F1,surface_similarity,0.24457957584548293,0.0869331904984431,50
+dbpedia,train fidelity F1,abs_sep,0.5410755851898089,4.970345482354844e-05,50
+dbpedia,train fidelity F1,holdout_F1_neuron_active_vs_yes,0.19340412603967824,0.17838974783569167,50
+10k,train fidelity F1,abs_sep,0.2543859649122807,0.2932678555994545,20
+10k,train fidelity F1,neglog_p,-0.037593984962406006,0.8749652018566715,20
+10k,train fidelity F1,holdout_F1_neuron_active_vs_yes,0.33533834586466166,0.1483572986184929,20

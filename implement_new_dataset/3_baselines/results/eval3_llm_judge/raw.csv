@@ -1,0 +1,601 @@
+dataset,method,idx,hypothesis,rep,helpfulness,interpretability,specificity,checkability
+dbpedia,HypotheSAEs,0,is about a figure skater or pair skater and their achievements,0,4,5,5,4
+dbpedia,HypotheSAEs,0,is about a figure skater or pair skater and their achievements,1,4,5,5,4
+dbpedia,HypotheSAEs,0,is about a figure skater or pair skater and their achievements,2,4,5,5,4
+dbpedia,HypotheSAEs,1,is about an Irish hurler or Gaelic football player and their achievements,0,4,5,5,4
+dbpedia,HypotheSAEs,1,is about an Irish hurler or Gaelic football player and their achievements,1,4,5,5,4
+dbpedia,HypotheSAEs,1,is about an Irish hurler or Gaelic football player and their achievements,2,4,5,4,5
+dbpedia,HypotheSAEs,2,"describes a video game, including its gameplay, development, and release details",0,4,5,5,5
+dbpedia,HypotheSAEs,2,"describes a video game, including its gameplay, development, and release details",1,4,5,5,4
+dbpedia,HypotheSAEs,2,"describes a video game, including its gameplay, development, and release details",2,5,5,5,5
+dbpedia,HypotheSAEs,3,is about an Australian rules footballer and their career trajectory,0,4,5,5,4
+dbpedia,HypotheSAEs,3,is about an Australian rules footballer and their career trajectory,1,4,5,4,5
+dbpedia,HypotheSAEs,3,is about an Australian rules footballer and their career trajectory,2,4,5,5,4
+dbpedia,HypotheSAEs,4,"is about a United States Supreme Court case, including its decision and constitutional implications",0,5,5,5,4
+dbpedia,HypotheSAEs,4,"is about a United States Supreme Court case, including its decision and constitutional implications",1,5,5,5,4
+dbpedia,HypotheSAEs,4,"is about a United States Supreme Court case, including its decision and constitutional implications",2,5,5,5,4
+dbpedia,HypotheSAEs,5,"is about a shopping mall, including details about its location, anchor stores, and history",0,4,5,5,4
+dbpedia,HypotheSAEs,5,"is about a shopping mall, including details about its location, anchor stores, and history",1,4,5,5,4
+dbpedia,HypotheSAEs,5,"is about a shopping mall, including details about its location, anchor stores, and history",2,4,5,5,4
+dbpedia,HypotheSAEs,6,"is about an asteroid, including details about its discovery, orbit, physical characteristics, and/or naming history",0,4,5,5,4
+dbpedia,HypotheSAEs,6,"is about an asteroid, including details about its discovery, orbit, physical characteristics, and/or naming history",1,4,5,5,4
+dbpedia,HypotheSAEs,6,"is about an asteroid, including details about its discovery, orbit, physical characteristics, and/or naming history",2,5,5,5,5
+dbpedia,HypotheSAEs,7,is about a swimmer or swimming event at the Olympics or Paralympics,0,4,5,5,4
+dbpedia,HypotheSAEs,7,is about a swimmer or swimming event at the Olympics or Paralympics,1,4,5,5,4
+dbpedia,HypotheSAEs,7,is about a swimmer or swimming event at the Olympics or Paralympics,2,4,5,5,4
+dbpedia,HypotheSAEs,8,"is about a gymnast who has competed in international artistic or rhythmic gymnastics competitions, including world championships",0,4,5,5,4
+dbpedia,HypotheSAEs,8,"is about a gymnast who has competed in international artistic or rhythmic gymnastics competitions, including world championships",1,4,5,5,4
+dbpedia,HypotheSAEs,8,"is about a gymnast who has competed in international artistic or rhythmic gymnastics competitions, including world championships",2,4,5,5,4
+dbpedia,HypotheSAEs,9,is about a species of gastropod mollusk,0,4,5,5,4
+dbpedia,HypotheSAEs,9,is about a species of gastropod mollusk,1,4,5,5,5
+dbpedia,HypotheSAEs,9,is about a species of gastropod mollusk,2,4,5,5,5
+dbpedia,HypotheSAEs,10,is about a genus or species of spider,0,4,5,5,4
+dbpedia,HypotheSAEs,10,is about a genus or species of spider,1,4,5,5,4
+dbpedia,HypotheSAEs,10,is about a genus or species of spider,2,4,5,5,5
+dbpedia,HypotheSAEs,11,is about a painter and their artistic works,0,4,5,4,5
+dbpedia,HypotheSAEs,11,is about a painter and their artistic works,1,4,5,4,5
+dbpedia,HypotheSAEs,11,is about a painter and their artistic works,2,4,5,4,5
+dbpedia,HypotheSAEs,12,"is about a species of moth, including details such as wingspan, coloration, and habitats",0,4,5,5,5
+dbpedia,HypotheSAEs,12,"is about a species of moth, including details such as wingspan, coloration, and habitats",1,4,5,5,5
+dbpedia,HypotheSAEs,12,"is about a species of moth, including details such as wingspan, coloration, and habitats",2,5,5,5,5
+dbpedia,HypotheSAEs,13,"is about amphibians or reptiles, often mentioning their habitat and threats to their survival",0,4,5,4,5
+dbpedia,HypotheSAEs,13,"is about amphibians or reptiles, often mentioning their habitat and threats to their survival",1,4,5,4,4
+dbpedia,HypotheSAEs,13,"is about amphibians or reptiles, often mentioning their habitat and threats to their survival",2,4,5,4,4
+dbpedia,HypotheSAEs,14,"is about a bridge, describing its location, design, and historical or functional significance",0,4,5,5,4
+dbpedia,HypotheSAEs,14,"is about a bridge, describing its location, design, and historical or functional significance",1,5,5,5,4
+dbpedia,HypotheSAEs,14,"is about a bridge, describing its location, design, and historical or functional significance",2,4,5,5,4
+dbpedia,HypotheSAEs,15,"is about a financial institution or company providing banking, investment, or financial services",0,4,5,4,4
+dbpedia,HypotheSAEs,15,"is about a financial institution or company providing banking, investment, or financial services",1,4,5,4,4
+dbpedia,HypotheSAEs,15,"is about a financial institution or company providing banking, investment, or financial services",2,4,5,4,5
+dbpedia,HypotheSAEs,16,"is about a specific species or genus of arthropods, crustaceans, or other invertebrates",0,4,5,4,5
+dbpedia,HypotheSAEs,16,"is about a specific species or genus of arthropods, crustaceans, or other invertebrates",1,4,5,4,4
+dbpedia,HypotheSAEs,16,"is about a specific species or genus of arthropods, crustaceans, or other invertebrates",2,4,5,4,5
+dbpedia,HypotheSAEs,17,describes satellites or spacecraft and their missions,0,4,5,4,5
+dbpedia,HypotheSAEs,17,describes satellites or spacecraft and their missions,1,4,5,4,5
+dbpedia,HypotheSAEs,17,describes satellites or spacecraft and their missions,2,4,5,4,5
+dbpedia,HypotheSAEs,18,is about a hospital or healthcare institution,0,4,5,5,4
+dbpedia,HypotheSAEs,18,is about a hospital or healthcare institution,1,4,5,4,5
+dbpedia,HypotheSAEs,18,is about a hospital or healthcare institution,2,4,5,4,5
+dbpedia,HypotheSAEs,19,"is about American football in the National Football League (NFL), including teams, players, or seasons",0,5,5,5,5
+dbpedia,HypotheSAEs,19,"is about American football in the National Football League (NFL), including teams, players, or seasons",1,4,5,5,4
+dbpedia,HypotheSAEs,19,"is about American football in the National Football League (NFL), including teams, players, or seasons",2,4,5,5,4
+dbpedia,HypotheSAEs,20,is about a footballer or football manager and their career achievements,0,4,5,4,5
+dbpedia,HypotheSAEs,20,is about a footballer or football manager and their career achievements,1,4,5,4,5
+dbpedia,HypotheSAEs,20,is about a footballer or football manager and their career achievements,2,4,5,4,4
+dbpedia,HypotheSAEs,21,"describes a lake, including its location, physical characteristics, and surrounding environment",0,4,5,5,4
+dbpedia,HypotheSAEs,21,"describes a lake, including its location, physical characteristics, and surrounding environment",1,4,5,5,4
+dbpedia,HypotheSAEs,21,"describes a lake, including its location, physical characteristics, and surrounding environment",2,4,5,5,4
+dbpedia,HypotheSAEs,22,"is about a record label, including details such as its origin, founders, location, and artists or genres associated with it",0,4,5,5,4
+dbpedia,HypotheSAEs,22,"is about a record label, including details such as its origin, founders, location, and artists or genres associated with it",1,4,5,5,4
+dbpedia,HypotheSAEs,22,"is about a record label, including details such as its origin, founders, location, and artists or genres associated with it",2,5,5,5,4
+dbpedia,HypotheSAEs,23,is about a judge or justice and their professional career,0,4,5,4,5
+dbpedia,HypotheSAEs,23,is about a judge or justice and their professional career,1,4,5,4,4
+dbpedia,HypotheSAEs,23,is about a judge or justice and their professional career,2,4,5,4,5
+dbpedia,HypotheSAEs,24,"is about a horse race, including details about its distance, location, and participants",0,4,5,5,4
+dbpedia,HypotheSAEs,24,"is about a horse race, including details about its distance, location, and participants",1,4,5,5,4
+dbpedia,HypotheSAEs,24,"is about a horse race, including details about its distance, location, and participants",2,4,5,5,4
+dbpedia,HypotheSAEs,25,"is about a radio station, including its format, location, and ownership",0,4,5,5,4
+dbpedia,HypotheSAEs,25,"is about a radio station, including its format, location, and ownership",1,5,5,5,5
+dbpedia,HypotheSAEs,25,"is about a radio station, including its format, location, and ownership",2,4,5,5,4
+dbpedia,HypotheSAEs,26,"is about a Japanese manga series, including details about its publication or adaptation into other media",0,5,5,5,5
+dbpedia,HypotheSAEs,26,"is about a Japanese manga series, including details about its publication or adaptation into other media",1,5,5,5,5
+dbpedia,HypotheSAEs,26,"is about a Japanese manga series, including details about its publication or adaptation into other media",2,5,5,5,5
+dbpedia,HypotheSAEs,27,is about cricket or cricketers,0,4,5,4,5
+dbpedia,HypotheSAEs,27,is about cricket or cricketers,1,4,5,4,5
+dbpedia,HypotheSAEs,27,is about cricket or cricketers,2,4,5,4,5
+dbpedia,HypotheSAEs,28,describes a military unit and its organizational structure,0,4,5,4,5
+dbpedia,HypotheSAEs,28,describes a military unit and its organizational structure,1,4,5,4,5
+dbpedia,HypotheSAEs,28,describes a military unit and its organizational structure,2,4,5,4,5
+dbpedia,HypotheSAEs,29,"describes an Olympic event, including details such as the event type, participants, rules, or medal outcomes",0,4,5,5,4
+dbpedia,HypotheSAEs,29,"describes an Olympic event, including details such as the event type, participants, rules, or medal outcomes",1,4,5,5,4
+dbpedia,HypotheSAEs,29,"describes an Olympic event, including details such as the event type, participants, rules, or medal outcomes",2,4,5,5,4
+dbpedia,HypotheSAEs,30,"describes a highway or road, including its route, location, and connections",0,4,5,5,4
+dbpedia,HypotheSAEs,30,"describes a highway or road, including its route, location, and connections",1,4,5,5,5
+dbpedia,HypotheSAEs,30,"describes a highway or road, including its route, location, and connections",2,4,5,5,5
+dbpedia,HypotheSAEs,31,describes the final match or event of a football (soccer) tournament or competition,0,4,5,5,4
+dbpedia,HypotheSAEs,31,describes the final match or event of a football (soccer) tournament or competition,1,4,5,5,4
+dbpedia,HypotheSAEs,31,describes the final match or event of a football (soccer) tournament or competition,2,4,5,5,4
+dbpedia,HypotheSAEs,32,"is about military personnel, organizations, or units",0,4,5,4,5
+dbpedia,HypotheSAEs,32,"is about military personnel, organizations, or units",1,4,5,4,5
+dbpedia,HypotheSAEs,32,"is about military personnel, organizations, or units",2,4,5,4,5
+dbpedia,HypotheSAEs,33,is about an architect or their architectural works,0,4,5,4,4
+dbpedia,HypotheSAEs,33,is about an architect or their architectural works,1,4,5,4,4
+dbpedia,HypotheSAEs,33,is about an architect or their architectural works,2,4,5,4,4
+dbpedia,HypotheSAEs,34,"is about a historical noble or royal figure, including their lineage and familial relationships",0,4,5,4,3
+dbpedia,HypotheSAEs,34,"is about a historical noble or royal figure, including their lineage and familial relationships",1,4,5,4,3
+dbpedia,HypotheSAEs,34,"is about a historical noble or royal figure, including their lineage and familial relationships",2,5,5,4,4
+dbpedia,HypotheSAEs,35,is about a professional athlete who is currently active in their sport,0,4,5,4,3
+dbpedia,HypotheSAEs,35,is about a professional athlete who is currently active in their sport,1,4,5,5,3
+dbpedia,HypotheSAEs,35,is about a professional athlete who is currently active in their sport,2,4,5,5,3
+dbpedia,HypotheSAEs,36,describes an election or voting process,0,4,5,4,5
+dbpedia,HypotheSAEs,36,describes an election or voting process,1,4,5,4,5
+dbpedia,HypotheSAEs,36,describes an election or voting process,2,4,5,4,5
+dbpedia,HypotheSAEs,37,is about a politician who served in a national legislature,0,4,5,5,3
+dbpedia,HypotheSAEs,37,is about a politician who served in a national legislature,1,4,5,5,3
+dbpedia,HypotheSAEs,37,is about a politician who served in a national legislature,2,4,5,5,3
+dbpedia,HypotheSAEs,38,"is about historical rulers or nobles, describing their reign, titles, or lineage",0,4,5,4,5
+dbpedia,HypotheSAEs,38,"is about historical rulers or nobles, describing their reign, titles, or lineage",1,4,5,4,4
+dbpedia,HypotheSAEs,38,"is about historical rulers or nobles, describing their reign, titles, or lineage",2,4,5,4,5
+dbpedia,HypotheSAEs,39,"is about a politician who has held a significant governmental leadership role (e.g., governor, mayor, premier, president, cabinet member)",0,4,5,4,3
+dbpedia,HypotheSAEs,39,"is about a politician who has held a significant governmental leadership role (e.g., governor, mayor, premier, president, cabinet member)",1,5,5,4,3
+dbpedia,HypotheSAEs,39,"is about a politician who has held a significant governmental leadership role (e.g., governor, mayor, premier, president, cabinet member)",2,5,5,4,3
+dbpedia,HypotheSAEs,40,"is about a professor, academic, or researcher and their contributions to their field",0,4,5,4,4
+dbpedia,HypotheSAEs,40,"is about a professor, academic, or researcher and their contributions to their field",1,4,5,4,3
+dbpedia,HypotheSAEs,40,"is about a professor, academic, or researcher and their contributions to their field",2,4,5,4,4
+dbpedia,HypotheSAEs,41,"is about a church or religious diocese, including its history, architecture, or associated figures",0,4,5,4,5
+dbpedia,HypotheSAEs,41,"is about a church or religious diocese, including its history, architecture, or associated figures",1,4,5,4,5
+dbpedia,HypotheSAEs,41,"is about a church or religious diocese, including its history, architecture, or associated figures",2,4,5,4,5
+dbpedia,HypotheSAEs,42,"is about a sports stadium, including details like location, capacity, and usage",0,4,5,5,5
+dbpedia,HypotheSAEs,42,"is about a sports stadium, including details like location, capacity, and usage",1,4,5,5,4
+dbpedia,HypotheSAEs,42,"is about a sports stadium, including details like location, capacity, and usage",2,4,5,5,5
+dbpedia,HypotheSAEs,43,"is about a musical band and its history, including its formation, members, albums, and significant events",0,4,5,5,4
+dbpedia,HypotheSAEs,43,"is about a musical band and its history, including its formation, members, albums, and significant events",1,4,5,5,4
+dbpedia,HypotheSAEs,43,"is about a musical band and its history, including its formation, members, albums, and significant events",2,4,5,5,4
+dbpedia,HypotheSAEs,44,"is about a railway line, including its route, history, and operational details",0,5,5,5,5
+dbpedia,HypotheSAEs,44,"is about a railway line, including its route, history, and operational details",1,4,5,5,4
+dbpedia,HypotheSAEs,44,"is about a railway line, including its route, history, and operational details",2,5,5,5,5
+dbpedia,HypotheSAEs,45,describes a peer-reviewed academic or scientific journal and its characteristics,0,4,5,4,4
+dbpedia,HypotheSAEs,45,describes a peer-reviewed academic or scientific journal and its characteristics,1,4,5,5,4
+dbpedia,HypotheSAEs,45,describes a peer-reviewed academic or scientific journal and its characteristics,2,4,5,5,4
+dbpedia,HypotheSAEs,46,"is about a theatrical play or musical, often describing its production, history, or storyline",0,4,5,4,5
+dbpedia,HypotheSAEs,46,"is about a theatrical play or musical, often describing its production, history, or storyline",1,4,5,4,4
+dbpedia,HypotheSAEs,46,"is about a theatrical play or musical, often describing its production, history, or storyline",2,4,5,4,4
+dbpedia,HypotheSAEs,47,"describes a village, including its location and population details",0,4,5,4,5
+dbpedia,HypotheSAEs,47,"describes a village, including its location and population details",1,4,5,4,5
+dbpedia,HypotheSAEs,47,"describes a village, including its location and population details",2,4,5,5,4
+dbpedia,HypotheSAEs,48,is about a bishop or cardinal in the Christian church,0,4,5,5,4
+dbpedia,HypotheSAEs,48,is about a bishop or cardinal in the Christian church,1,4,5,5,5
+dbpedia,HypotheSAEs,48,is about a bishop or cardinal in the Christian church,2,4,5,5,4
+dbpedia,HypotheSAEs,49,"is about a song, its artist(s), and its impact or context",0,4,5,4,3
+dbpedia,HypotheSAEs,49,"is about a song, its artist(s), and its impact or context",1,4,5,4,3
+dbpedia,HypotheSAEs,49,"is about a song, its artist(s), and its impact or context",2,4,5,4,3
+dbpedia,BERTopic,0,focuses on Gaelic games in Ireland,0,4,5,5,4
+dbpedia,BERTopic,0,focuses on Gaelic games in Ireland,1,4,5,5,4
+dbpedia,BERTopic,0,focuses on Gaelic games in Ireland,2,4,5,5,4
+dbpedia,BERTopic,1,mentions Australian rules football or the AFL/VFL.,0,4,5,5,5
+dbpedia,BERTopic,1,mentions Australian rules football or the AFL/VFL.,1,4,5,4,5
+dbpedia,BERTopic,1,mentions Australian rules football or the AFL/VFL.,2,4,5,5,5
+dbpedia,BERTopic,2,"discusses roads, highways, bridges, or rivers in relation to transportation or geography",0,4,5,4,5
+dbpedia,BERTopic,2,"discusses roads, highways, bridges, or rivers in relation to transportation or geography",1,4,5,4,5
+dbpedia,BERTopic,2,"discusses roads, highways, bridges, or rivers in relation to transportation or geography",2,4,5,4,5
+dbpedia,BERTopic,3,discusses decisions or cases of the United States Supreme Court,0,5,5,5,5
+dbpedia,BERTopic,3,discusses decisions or cases of the United States Supreme Court,1,5,5,5,5
+dbpedia,BERTopic,3,discusses decisions or cases of the United States Supreme Court,2,4,5,5,4
+dbpedia,BERTopic,4,mentions hospitals or medical centers.,0,4,5,4,5
+dbpedia,BERTopic,4,mentions hospitals or medical centers.,1,4,5,4,5
+dbpedia,BERTopic,4,mentions hospitals or medical centers.,2,4,5,4,5
+dbpedia,BERTopic,5,mentions video games.,0,4,5,4,5
+dbpedia,BERTopic,5,mentions video games.,1,4,5,4,5
+dbpedia,BERTopic,5,mentions video games.,2,4,5,4,5
+dbpedia,BERTopic,6,mentions gastropod mollusks.,0,4,5,5,4
+dbpedia,BERTopic,6,mentions gastropod mollusks.,1,4,5,5,5
+dbpedia,BERTopic,6,mentions gastropod mollusks.,2,4,5,5,5
+dbpedia,BERTopic,7,Mentions shopping malls or shopping centers.,0,4,5,4,5
+dbpedia,BERTopic,7,Mentions shopping malls or shopping centers.,1,4,5,4,5
+dbpedia,BERTopic,7,Mentions shopping malls or shopping centers.,2,4,5,4,5
+dbpedia,BERTopic,8,mentions events or competitions at the Olympics.,0,4,5,5,4
+dbpedia,BERTopic,8,mentions events or competitions at the Olympics.,1,4,5,4,5
+dbpedia,BERTopic,8,mentions events or competitions at the Olympics.,2,4,5,5,4
+dbpedia,BERTopic,9,discusses military units or formations,0,4,5,4,5
+dbpedia,BERTopic,9,discusses military units or formations,1,4,5,4,5
+dbpedia,BERTopic,9,discusses military units or formations,2,5,5,4,5
+dbpedia,BERTopic,10,"discusses celestial bodies such as asteroids, exoplanets, or solar phenomena",0,4,5,4,5
+dbpedia,BERTopic,10,"discusses celestial bodies such as asteroids, exoplanets, or solar phenomena",1,4,5,4,5
+dbpedia,BERTopic,10,"discusses celestial bodies such as asteroids, exoplanets, or solar phenomena",2,4,5,5,5
+dbpedia,BERTopic,11,describes species of crustaceans or other aquatic arthropods,0,4,5,4,5
+dbpedia,BERTopic,11,describes species of crustaceans or other aquatic arthropods,1,4,5,5,4
+dbpedia,BERTopic,11,describes species of crustaceans or other aquatic arthropods,2,4,5,4,4
+dbpedia,BERTopic,12,mentions professional ice hockey players or their careers,0,4,5,4,5
+dbpedia,BERTopic,12,mentions professional ice hockey players or their careers,1,4,5,4,5
+dbpedia,BERTopic,12,mentions professional ice hockey players or their careers,2,4,5,5,5
+dbpedia,BERTopic,13,"describes moth species, including their physical characteristics, habitats, and distributions",0,5,5,5,5
+dbpedia,BERTopic,13,"describes moth species, including their physical characteristics, habitats, and distributions",1,4,5,5,5
+dbpedia,BERTopic,13,"describes moth species, including their physical characteristics, habitats, and distributions",2,4,5,5,5
+dbpedia,BERTopic,14,"Mentions satellites, spacecraft, or space missions.",0,4,5,4,5
+dbpedia,BERTopic,14,"Mentions satellites, spacecraft, or space missions.",1,4,5,5,5
+dbpedia,BERTopic,14,"Mentions satellites, spacecraft, or space missions.",2,4,5,4,5
+dbpedia,BERTopic,15,Mentions horse racing events or competitions.,0,4,5,4,5
+dbpedia,BERTopic,15,Mentions horse racing events or competitions.,1,4,5,5,5
+dbpedia,BERTopic,15,Mentions horse racing events or competitions.,2,4,5,4,5
+dbpedia,BERTopic,16,mentions frogs and their natural habitats in subtropical or tropical moist environments,0,4,5,5,4
+dbpedia,BERTopic,16,mentions frogs and their natural habitats in subtropical or tropical moist environments,1,4,5,5,4
+dbpedia,BERTopic,16,mentions frogs and their natural habitats in subtropical or tropical moist environments,2,4,5,5,4
+dbpedia,BERTopic,17,mentions professional or college American football players.,0,4,5,4,5
+dbpedia,BERTopic,17,mentions professional or college American football players.,1,4,5,5,5
+dbpedia,BERTopic,17,mentions professional or college American football players.,2,4,5,5,5
+dbpedia,BERTopic,18,mentions cricket or cricketers.,0,4,5,4,5
+dbpedia,BERTopic,18,mentions cricket or cricketers.,1,3,5,4,5
+dbpedia,BERTopic,18,mentions cricket or cricketers.,2,4,5,4,5
+dbpedia,BERTopic,19,"discusses the seasons, records, and playoff performances of football teams",0,4,5,4,5
+dbpedia,BERTopic,19,"discusses the seasons, records, and playoff performances of football teams",1,4,5,5,4
+dbpedia,BERTopic,19,"discusses the seasons, records, and playoff performances of football teams",2,4,5,4,5
+dbpedia,BERTopic,20,"discusses banking, financial services, or corporate investment",0,4,5,4,5
+dbpedia,BERTopic,20,"discusses banking, financial services, or corporate investment",1,4,5,4,5
+dbpedia,BERTopic,20,"discusses banking, financial services, or corporate investment",2,4,5,4,5
+dbpedia,BERTopic,21,Mentions judges or attorneys.,0,4,5,4,5
+dbpedia,BERTopic,21,Mentions judges or attorneys.,1,4,5,4,5
+dbpedia,BERTopic,21,Mentions judges or attorneys.,2,4,5,4,5
+dbpedia,BERTopic,22,discusses music albums or record labels,0,4,5,4,5
+dbpedia,BERTopic,22,discusses music albums or record labels,1,4,5,4,5
+dbpedia,BERTopic,22,discusses music albums or record labels,2,4,5,4,5
+dbpedia,BERTopic,23,mentions spiders or spider species.,0,4,5,5,5
+dbpedia,BERTopic,23,mentions spiders or spider species.,1,4,5,4,5
+dbpedia,BERTopic,23,mentions spiders or spider species.,2,4,5,4,5
+dbpedia,BERTopic,24,mentions swimming or swimmers.,0,4,5,4,5
+dbpedia,BERTopic,24,mentions swimming or swimmers.,1,4,5,4,5
+dbpedia,BERTopic,24,mentions swimming or swimmers.,2,4,5,4,5
+dbpedia,BERTopic,25,"focuses on lizards or geckos, often mentioning their species, habitat, or conservation status",0,4,5,5,4
+dbpedia,BERTopic,25,"focuses on lizards or geckos, often mentioning their species, habitat, or conservation status",1,4,5,5,5
+dbpedia,BERTopic,25,"focuses on lizards or geckos, often mentioning their species, habitat, or conservation status",2,4,5,5,5
+dbpedia,BERTopic,26,mentions architects or architecture.,0,4,5,4,5
+dbpedia,BERTopic,26,mentions architects or architecture.,1,4,5,4,5
+dbpedia,BERTopic,26,mentions architects or architecture.,2,4,5,4,5
+dbpedia,BERTopic,27,mentions educational institutions such as schools or universities.,0,4,5,4,5
+dbpedia,BERTopic,27,mentions educational institutions such as schools or universities.,1,4,5,4,5
+dbpedia,BERTopic,27,mentions educational institutions such as schools or universities.,2,4,5,4,5
+dbpedia,BERTopic,28,mentions professional golfers or professional golf tours,0,4,5,4,5
+dbpedia,BERTopic,28,mentions professional golfers or professional golf tours,1,4,5,5,5
+dbpedia,BERTopic,28,mentions professional golfers or professional golf tours,2,4,5,4,5
+dbpedia,BERTopic,29,mentions historical European nobility or clergy.,0,4,5,4,5
+dbpedia,BERTopic,29,mentions historical European nobility or clergy.,1,4,5,4,4
+dbpedia,BERTopic,29,mentions historical European nobility or clergy.,2,4,5,4,5
+dbpedia,BERTopic,30,mentions basketball players or their careers,0,4,5,4,5
+dbpedia,BERTopic,30,mentions basketball players or their careers,1,4,5,4,5
+dbpedia,BERTopic,30,mentions basketball players or their careers,2,4,5,4,5
+dbpedia,BERTopic,31,mentions winter sports or athletes associated with them,0,4,5,4,5
+dbpedia,BERTopic,31,mentions winter sports or athletes associated with them,1,4,5,4,5
+dbpedia,BERTopic,31,mentions winter sports or athletes associated with them,2,4,5,4,5
+dbpedia,BERTopic,32,mentions Italian painters or bishops.,0,4,5,4,5
+dbpedia,BERTopic,32,mentions Italian painters or bishops.,1,4,5,4,5
+dbpedia,BERTopic,32,mentions Italian painters or bishops.,2,3,5,4,4
+dbpedia,BERTopic,33,mentions female gymnasts competing in artistic or rhythmic gymnastics at international championships,0,4,5,5,4
+dbpedia,BERTopic,33,mentions female gymnasts competing in artistic or rhythmic gymnastics at international championships,1,4,5,5,4
+dbpedia,BERTopic,33,mentions female gymnasts competing in artistic or rhythmic gymnastics at international championships,2,4,5,5,4
+dbpedia,BERTopic,34,mentions politicians and their elections or political careers,0,4,5,4,5
+dbpedia,BERTopic,34,mentions politicians and their elections or political careers,1,4,5,4,5
+dbpedia,BERTopic,34,mentions politicians and their elections or political careers,2,4,5,4,5
+dbpedia,BERTopic,35,mentions museums or libraries.,0,4,5,4,5
+dbpedia,BERTopic,35,mentions museums or libraries.,1,4,5,4,5
+dbpedia,BERTopic,35,mentions museums or libraries.,2,4,5,4,5
+dbpedia,BERTopic,36,discusses elections or electoral processes,0,4,5,4,5
+dbpedia,BERTopic,36,discusses elections or electoral processes,1,4,5,4,5
+dbpedia,BERTopic,36,discusses elections or electoral processes,2,4,5,4,5
+dbpedia,BERTopic,37,"discusses Japanese anime, manga, or related media",0,4,5,4,5
+dbpedia,BERTopic,37,"discusses Japanese anime, manga, or related media",1,4,5,4,5
+dbpedia,BERTopic,37,"discusses Japanese anime, manga, or related media",2,4,5,4,5
+dbpedia,BERTopic,38,discusses railways or public transportation systems,0,4,5,4,5
+dbpedia,BERTopic,38,discusses railways or public transportation systems,1,4,5,4,5
+dbpedia,BERTopic,38,discusses railways or public transportation systems,2,4,5,4,5
+dbpedia,BERTopic,39,discusses Thoroughbred racehorses and their achievements or roles in racing and breeding,0,5,5,5,4
+dbpedia,BERTopic,39,discusses Thoroughbred racehorses and their achievements or roles in racing and breeding,1,4,5,5,4
+dbpedia,BERTopic,39,discusses Thoroughbred racehorses and their achievements or roles in racing and breeding,2,4,5,5,4
+dbpedia,BERTopic,40,mentions being a professional athlete or coach.,0,4,5,4,5
+dbpedia,BERTopic,40,mentions being a professional athlete or coach.,1,4,5,4,5
+dbpedia,BERTopic,40,mentions being a professional athlete or coach.,2,4,5,4,5
+dbpedia,BERTopic,41,discusses radio or television broadcasting,0,4,5,4,5
+dbpedia,BERTopic,41,discusses radio or television broadcasting,1,4,5,4,5
+dbpedia,BERTopic,41,discusses radio or television broadcasting,2,4,5,4,5
+dbpedia,BERTopic,42,describes a college sports team and its season performance,0,4,5,5,4
+dbpedia,BERTopic,42,describes a college sports team and its season performance,1,4,5,5,4
+dbpedia,BERTopic,42,describes a college sports team and its season performance,2,4,5,5,4
+dbpedia,BERTopic,43,mentions airlines or air transportation services,0,4,5,4,5
+dbpedia,BERTopic,43,mentions airlines or air transportation services,1,4,5,4,5
+dbpedia,BERTopic,43,mentions airlines or air transportation services,2,4,5,4,5
+dbpedia,BERTopic,44,"Mentions a stadium, arena, or sports venue.",0,4,5,5,5
+dbpedia,BERTopic,44,"Mentions a stadium, arena, or sports venue.",1,4,5,5,5
+dbpedia,BERTopic,44,"Mentions a stadium, arena, or sports venue.",2,4,5,5,5
+dbpedia,BERTopic,45,mentions military officers or their roles.,0,4,5,4,5
+dbpedia,BERTopic,45,mentions military officers or their roles.,1,4,5,4,5
+dbpedia,BERTopic,45,mentions military officers or their roles.,2,4,5,4,5
+dbpedia,BERTopic,46,Discusses Roman Catholic dioceses or archdioceses.,0,4,5,5,5
+dbpedia,BERTopic,46,Discusses Roman Catholic dioceses or archdioceses.,1,4,5,5,4
+dbpedia,BERTopic,46,Discusses Roman Catholic dioceses or archdioceses.,2,4,5,5,5
+dbpedia,BERTopic,47,discusses fungi or fungal species,0,4,5,4,5
+dbpedia,BERTopic,47,discusses fungi or fungal species,1,4,5,4,5
+dbpedia,BERTopic,47,discusses fungi or fungal species,2,4,5,4,5
+dbpedia,BERTopic,48,Mentions bird species and their habitats or characteristics.,0,4,5,4,5
+dbpedia,BERTopic,48,Mentions bird species and their habitats or characteristics.,1,4,5,4,5
+dbpedia,BERTopic,48,Mentions bird species and their habitats or characteristics.,2,4,5,4,5
+dbpedia,BERTopic,49,describes fictional characters from soap operas or television series,0,4,5,4,4
+dbpedia,BERTopic,49,describes fictional characters from soap operas or television series,1,4,5,4,5
+dbpedia,BERTopic,49,describes fictional characters from soap operas or television series,2,4,5,4,5
+dbpedia,HypoGeniC,0,"Articles that contain promotional or commercial content, such as product tie-ins or marketing strategies, are more likely to be labeled ""no,"" indicating that the TARGET set may prioritize educational or informative content over commercial interests.",0,4,5,4,4
+dbpedia,HypoGeniC,0,"Articles that contain promotional or commercial content, such as product tie-ins or marketing strategies, are more likely to be labeled ""no,"" indicating that the TARGET set may prioritize educational or informative content over commercial interests.",1,4,5,4,4
+dbpedia,HypoGeniC,0,"Articles that contain promotional or commercial content, such as product tie-ins or marketing strategies, are more likely to be labeled ""no,"" indicating that the TARGET set may prioritize educational or informative content over commercial interests.",2,4,5,4,4
+dbpedia,HypoGeniC,1,"Articles that include historical figures or political contexts, such as politicians or government officials, are more likely to be labeled ""no,"" suggesting that these topics may not align with the criteria for the TARGET set.",0,4,5,4,3
+dbpedia,HypoGeniC,1,"Articles that include historical figures or political contexts, such as politicians or government officials, are more likely to be labeled ""no,"" suggesting that these topics may not align with the criteria for the TARGET set.",1,3,4,3,4
+dbpedia,HypoGeniC,1,"Articles that include historical figures or political contexts, such as politicians or government officials, are more likely to be labeled ""no,"" suggesting that these topics may not align with the criteria for the TARGET set.",2,4,5,4,4
+dbpedia,HypoGeniC,2,"Articles that mention specific radio stations or their programming are more likely to be labeled ""yes,"" indicating that media-related topics may have a higher chance of being included in the TARGET set.",0,4,5,4,5
+dbpedia,HypoGeniC,2,"Articles that mention specific radio stations or their programming are more likely to be labeled ""yes,"" indicating that media-related topics may have a higher chance of being included in the TARGET set.",1,4,5,4,5
+dbpedia,HypoGeniC,2,"Articles that mention specific radio stations or their programming are more likely to be labeled ""yes,"" indicating that media-related topics may have a higher chance of being included in the TARGET set.",2,4,5,4,5
+dbpedia,HypoGeniC,3,"Articles that provide detailed descriptions of infrastructure, such as transportation lines or public libraries, tend to be labeled ""no"" because they are often considered less relevant to general knowledge or cultural significance.",0,3,4,4,3
+dbpedia,HypoGeniC,3,"Articles that provide detailed descriptions of infrastructure, such as transportation lines or public libraries, tend to be labeled ""no"" because they are often considered less relevant to general knowledge or cultural significance.",1,3,4,3,4
+dbpedia,HypoGeniC,3,"Articles that provide detailed descriptions of infrastructure, such as transportation lines or public libraries, tend to be labeled ""no"" because they are often considered less relevant to general knowledge or cultural significance.",2,4,5,4,5
+dbpedia,HypoGeniC,4,"Articles that focus on specific individuals or events in the entertainment industry (e.g., jukebox musicals, singles) are more likely to be labeled ""no"" as they often lack broader significance or impact compared to other topics.",0,3,4,3,2
+dbpedia,HypoGeniC,4,"Articles that focus on specific individuals or events in the entertainment industry (e.g., jukebox musicals, singles) are more likely to be labeled ""no"" as they often lack broader significance or impact compared to other topics.",1,3,4,4,3
+dbpedia,HypoGeniC,4,"Articles that focus on specific individuals or events in the entertainment industry (e.g., jukebox musicals, singles) are more likely to be labeled ""no"" as they often lack broader significance or impact compared to other topics.",2,4,5,4,3
+dbpedia,HypoGeniC,5,"Articles that focus on specific individuals with notable achievements or roles in niche fields (e.g., ""Goemon: Shin Sedai Shūmei!"" as a video game) are more likely to be labeled ""yes,"" indicating a connection to entertainment or cultural phenomena.",0,4,4,3,3
+dbpedia,HypoGeniC,5,"Articles that focus on specific individuals with notable achievements or roles in niche fields (e.g., ""Goemon: Shin Sedai Shūmei!"" as a video game) are more likely to be labeled ""yes,"" indicating a connection to entertainment or cultural phenomena.",1,4,4,3,3
+dbpedia,HypoGeniC,5,"Articles that focus on specific individuals with notable achievements or roles in niche fields (e.g., ""Goemon: Shin Sedai Shūmei!"" as a video game) are more likely to be labeled ""yes,"" indicating a connection to entertainment or cultural phenomena.",2,4,4,3,3
+dbpedia,HypoGeniC,6,"Articles that mention specific events, such as elections or significant cultural events (e.g., ""The 2018 Hamilton municipal election...""), are more likely to be labeled ""yes"" as they pertain to timely and relevant topics of public interest.",0,4,5,4,5
+dbpedia,HypoGeniC,6,"Articles that mention specific events, such as elections or significant cultural events (e.g., ""The 2018 Hamilton municipal election...""), are more likely to be labeled ""yes"" as they pertain to timely and relevant topics of public interest.",1,4,5,4,4
+dbpedia,HypoGeniC,6,"Articles that mention specific events, such as elections or significant cultural events (e.g., ""The 2018 Hamilton municipal election...""), are more likely to be labeled ""yes"" as they pertain to timely and relevant topics of public interest.",2,4,5,4,4
+dbpedia,HypoGeniC,7,"Articles that include extensive historical context or background information (e.g., ""Afrocarpus falcatus..."") are more likely to be labeled ""no,"" indicating that historical or botanical topics may not fit the TARGET set.",0,3,4,3,4
+dbpedia,HypoGeniC,7,"Articles that include extensive historical context or background information (e.g., ""Afrocarpus falcatus..."") are more likely to be labeled ""no,"" indicating that historical or botanical topics may not fit the TARGET set.",1,3,4,3,4
+dbpedia,HypoGeniC,7,"Articles that include extensive historical context or background information (e.g., ""Afrocarpus falcatus..."") are more likely to be labeled ""no,"" indicating that historical or botanical topics may not fit the TARGET set.",2,3,4,3,4
+dbpedia,HypoGeniC,8,"Articles that describe geographical features or locations (e.g., ""Fortress Pass is a mountain pass..."") are more likely to be labeled ""no,"" suggesting that geographical content does not align with the TARGET categories.",0,4,5,4,5
+dbpedia,HypoGeniC,8,"Articles that describe geographical features or locations (e.g., ""Fortress Pass is a mountain pass..."") are more likely to be labeled ""no,"" suggesting that geographical content does not align with the TARGET categories.",1,4,5,4,5
+dbpedia,HypoGeniC,8,"Articles that describe geographical features or locations (e.g., ""Fortress Pass is a mountain pass..."") are more likely to be labeled ""no,"" suggesting that geographical content does not align with the TARGET categories.",2,4,5,5,4
+dbpedia,HypoGeniC,9,"Articles that provide detailed descriptions of species, scientific classifications, or ecological impacts (e.g., ""The neotropical parrots..."") are more likely to be labeled ""no,"" suggesting that scientific or technical content may not align with the TARGET categories.",0,4,5,4,5
+dbpedia,HypoGeniC,9,"Articles that provide detailed descriptions of species, scientific classifications, or ecological impacts (e.g., ""The neotropical parrots..."") are more likely to be labeled ""no,"" suggesting that scientific or technical content may not align with the TARGET categories.",1,4,5,4,5
+dbpedia,HypoGeniC,9,"Articles that provide detailed descriptions of species, scientific classifications, or ecological impacts (e.g., ""The neotropical parrots..."") are more likely to be labeled ""no,"" suggesting that scientific or technical content may not align with the TARGET categories.",2,4,5,4,5
+dbpedia,HypoGeniC,10,"Articles that contain a narrative or story-like structure, detailing events or personal experiences, are more likely to be labeled ""yes"" (e.g., the narrative of Ray ""Cossy"" Cosgrove's football career) compared to articles that present factual information in a more straightforward or encyclopedic manner (e.g., the description of The Ten Tragic Days).",0,4,5,4,3
+dbpedia,HypoGeniC,10,"Articles that contain a narrative or story-like structure, detailing events or personal experiences, are more likely to be labeled ""yes"" (e.g., the narrative of Ray ""Cossy"" Cosgrove's football career) compared to articles that present factual information in a more straightforward or encyclopedic manner (e.g., the description of The Ten Tragic Days).",1,4,5,4,3
+dbpedia,HypoGeniC,10,"Articles that contain a narrative or story-like structure, detailing events or personal experiences, are more likely to be labeled ""yes"" (e.g., the narrative of Ray ""Cossy"" Cosgrove's football career) compared to articles that present factual information in a more straightforward or encyclopedic manner (e.g., the description of The Ten Tragic Days).",2,4,5,4,4
+dbpedia,HypoGeniC,11,"Articles that include detailed biographical information, such as birth dates, career highlights, and personal achievements, tend to be labeled ""yes"" (e.g., Önder Çengel, Jagadguru Shri Kripalu Ji Maharaj) while those that lack such specifics or focus on general concepts are more likely to be labeled ""no"" (e.g., Justus Buchler).",0,4,5,4,4
+dbpedia,HypoGeniC,11,"Articles that include detailed biographical information, such as birth dates, career highlights, and personal achievements, tend to be labeled ""yes"" (e.g., Önder Çengel, Jagadguru Shri Kripalu Ji Maharaj) while those that lack such specifics or focus on general concepts are more likely to be labeled ""no"" (e.g., Justus Buchler).",1,4,5,4,5
+dbpedia,HypoGeniC,11,"Articles that include detailed biographical information, such as birth dates, career highlights, and personal achievements, tend to be labeled ""yes"" (e.g., Önder Çengel, Jagadguru Shri Kripalu Ji Maharaj) while those that lack such specifics or focus on general concepts are more likely to be labeled ""no"" (e.g., Justus Buchler).",2,4,5,4,4
+dbpedia,HypoGeniC,12,"Articles that focus on specific individuals, particularly in sports or entertainment, are more likely to be labeled ""yes"" (e.g., Ray ""Cossy"" Cosgrove, Efstratios ""Stratos"" Perperoglou) compared to articles that discuss broader topics or historical events (e.g., The Ten Tragic Days).",0,4,5,4,4
+dbpedia,HypoGeniC,12,"Articles that focus on specific individuals, particularly in sports or entertainment, are more likely to be labeled ""yes"" (e.g., Ray ""Cossy"" Cosgrove, Efstratios ""Stratos"" Perperoglou) compared to articles that discuss broader topics or historical events (e.g., The Ten Tragic Days).",1,4,5,4,5
+dbpedia,HypoGeniC,12,"Articles that focus on specific individuals, particularly in sports or entertainment, are more likely to be labeled ""yes"" (e.g., Ray ""Cossy"" Cosgrove, Efstratios ""Stratos"" Perperoglou) compared to articles that discuss broader topics or historical events (e.g., The Ten Tragic Days).",2,4,5,4,5
+dbpedia,HypoGeniC,13,"Articles that mention specific organizations, teams, or institutions associated with the subject (e.g., Wilkinsburg School District, FC Barcelona Lassa) are more likely to receive a ""yes"" label, whereas articles that do not reference such affiliations tend to be labeled ""no.""",0,4,5,4,5
+dbpedia,HypoGeniC,13,"Articles that mention specific organizations, teams, or institutions associated with the subject (e.g., Wilkinsburg School District, FC Barcelona Lassa) are more likely to receive a ""yes"" label, whereas articles that do not reference such affiliations tend to be labeled ""no.""",1,4,5,4,4
+dbpedia,HypoGeniC,13,"Articles that mention specific organizations, teams, or institutions associated with the subject (e.g., Wilkinsburg School District, FC Barcelona Lassa) are more likely to receive a ""yes"" label, whereas articles that do not reference such affiliations tend to be labeled ""no.""",2,4,5,4,5
+dbpedia,HypoGeniC,14,"Articles that describe unique or specialized subjects, such as specific species or genres (e.g., Rhombophryne as a genus of frogs), are more likely to be labeled ""yes,"" while articles that cover common or widely known topics (e.g., general historical events) are more likely to be labeled ""no.""",0,4,5,4,3
+dbpedia,HypoGeniC,14,"Articles that describe unique or specialized subjects, such as specific species or genres (e.g., Rhombophryne as a genus of frogs), are more likely to be labeled ""yes,"" while articles that cover common or widely known topics (e.g., general historical events) are more likely to be labeled ""no.""",1,4,5,4,3
+dbpedia,HypoGeniC,14,"Articles that describe unique or specialized subjects, such as specific species or genres (e.g., Rhombophryne as a genus of frogs), are more likely to be labeled ""yes,"" while articles that cover common or widely known topics (e.g., general historical events) are more likely to be labeled ""no.""",2,4,5,4,3
+dbpedia,HypoGeniC,15,"Articles that provide detailed information about specific organizations, companies, or institutions (e.g., ""Encore Capital Group"" or ""Stamford Hospital"") are more likely to be labeled ""yes"" as they often belong to recognized categories of interest.",0,4,5,4,4
+dbpedia,HypoGeniC,15,"Articles that provide detailed information about specific organizations, companies, or institutions (e.g., ""Encore Capital Group"" or ""Stamford Hospital"") are more likely to be labeled ""yes"" as they often belong to recognized categories of interest.",1,4,5,4,5
+dbpedia,HypoGeniC,15,"Articles that provide detailed information about specific organizations, companies, or institutions (e.g., ""Encore Capital Group"" or ""Stamford Hospital"") are more likely to be labeled ""yes"" as they often belong to recognized categories of interest.",2,4,5,4,4
+dbpedia,HypoGeniC,16,"Articles that mention specific industries or sectors (e.g., ""airline,"" ""debt collection,"" or ""healthcare"") and provide operational details are more likely to be labeled ""yes,"" indicating a connection to relevant categories.",0,4,5,4,3
+dbpedia,HypoGeniC,16,"Articles that mention specific industries or sectors (e.g., ""airline,"" ""debt collection,"" or ""healthcare"") and provide operational details are more likely to be labeled ""yes,"" indicating a connection to relevant categories.",1,4,5,4,4
+dbpedia,HypoGeniC,16,"Articles that mention specific industries or sectors (e.g., ""airline,"" ""debt collection,"" or ""healthcare"") and provide operational details are more likely to be labeled ""yes,"" indicating a connection to relevant categories.",2,4,5,4,3
+dbpedia,HypoGeniC,17,"Openings that describe individuals with a focus on personal achievements or entertainment (e.g., ""Alexei David Sayle"" or ""Troels Rønning Vinther"") are more likely to be labeled ""no,"" suggesting that biographical content may not be part of the TARGET categories.",0,4,4,4,5
+dbpedia,HypoGeniC,17,"Openings that describe individuals with a focus on personal achievements or entertainment (e.g., ""Alexei David Sayle"" or ""Troels Rønning Vinther"") are more likely to be labeled ""no,"" suggesting that biographical content may not be part of the TARGET categories.",1,4,5,4,4
+dbpedia,HypoGeniC,17,"Openings that describe individuals with a focus on personal achievements or entertainment (e.g., ""Alexei David Sayle"" or ""Troels Rønning Vinther"") are more likely to be labeled ""no,"" suggesting that biographical content may not be part of the TARGET categories.",2,4,5,4,4
+dbpedia,HypoGeniC,18,"Openings that include extensive historical context or political significance (e.g., ""James Donald Cameron"" or ""FIBA Basketball World Cup"") are more likely to be labeled ""no,"" suggesting that historical or political figures/events may not fit the TARGET categories.",0,4,4,4,3
+dbpedia,HypoGeniC,18,"Openings that include extensive historical context or political significance (e.g., ""James Donald Cameron"" or ""FIBA Basketball World Cup"") are more likely to be labeled ""no,"" suggesting that historical or political figures/events may not fit the TARGET categories.",1,4,4,4,3
+dbpedia,HypoGeniC,18,"Openings that include extensive historical context or political significance (e.g., ""James Donald Cameron"" or ""FIBA Basketball World Cup"") are more likely to be labeled ""no,"" suggesting that historical or political figures/events may not fit the TARGET categories.",2,4,4,3,3
+dbpedia,HypoGeniC,19,"Articles that focus on geographical features, such as glaciers or roads, tend to be labeled ""no,"" indicating that content related to physical locations may not align with the TARGET set of article categories.",0,4,5,4,5
+dbpedia,HypoGeniC,19,"Articles that focus on geographical features, such as glaciers or roads, tend to be labeled ""no,"" indicating that content related to physical locations may not align with the TARGET set of article categories.",1,4,5,4,5
+dbpedia,HypoGeniC,19,"Articles that focus on geographical features, such as glaciers or roads, tend to be labeled ""no,"" indicating that content related to physical locations may not align with the TARGET set of article categories.",2,4,5,4,5
+dbpedia,HypoGeniC,20,"Articles that provide a brief overview of a subject without in-depth analysis or context (e.g., ""small Puerto Rican airline company"") are more likely to be labeled ""no.""",0,3,4,3,4
+dbpedia,HypoGeniC,20,"Articles that provide a brief overview of a subject without in-depth analysis or context (e.g., ""small Puerto Rican airline company"") are more likely to be labeled ""no.""",1,3,4,3,4
+dbpedia,HypoGeniC,20,"Articles that provide a brief overview of a subject without in-depth analysis or context (e.g., ""small Puerto Rican airline company"") are more likely to be labeled ""no.""",2,3,4,3,4
+dbpedia,HypoGeniC,21,"Articles that focus on specific locations or structures (e.g., ""St Paul's Church,"" ""Admiralty House"") without significant context about their cultural or historical importance are more likely to be labeled ""no.""",0,4,5,4,3
+dbpedia,HypoGeniC,21,"Articles that focus on specific locations or structures (e.g., ""St Paul's Church,"" ""Admiralty House"") without significant context about their cultural or historical importance are more likely to be labeled ""no.""",1,4,5,4,3
+dbpedia,HypoGeniC,21,"Articles that focus on specific locations or structures (e.g., ""St Paul's Church,"" ""Admiralty House"") without significant context about their cultural or historical importance are more likely to be labeled ""no.""",2,4,5,4,3
+dbpedia,HypoGeniC,22,"Articles that mention specific achievements or awards related to a person's career (e.g., ""awarded the Ernst von Siemens Composers Prize"") are more likely to be labeled ""no.""",0,4,5,4,4
+dbpedia,HypoGeniC,22,"Articles that mention specific achievements or awards related to a person's career (e.g., ""awarded the Ernst von Siemens Composers Prize"") are more likely to be labeled ""no.""",1,4,5,5,4
+dbpedia,HypoGeniC,22,"Articles that mention specific achievements or awards related to a person's career (e.g., ""awarded the Ernst von Siemens Composers Prize"") are more likely to be labeled ""no.""",2,4,5,4,4
+dbpedia,HypoGeniC,23,"Articles that focus on the operational aspects of organizations or entities (e.g., ""top division of Association football league"") without cultural or historical significance are more likely to be labeled ""no.""",0,4,4,4,3
+dbpedia,HypoGeniC,23,"Articles that focus on the operational aspects of organizations or entities (e.g., ""top division of Association football league"") without cultural or historical significance are more likely to be labeled ""no.""",1,4,4,4,3
+dbpedia,HypoGeniC,23,"Articles that focus on the operational aspects of organizations or entities (e.g., ""top division of Association football league"") without cultural or historical significance are more likely to be labeled ""no.""",2,4,4,4,3
+dbpedia,HypoGeniC,24,"Articles that include references to sports teams or competitions (e.g., ""played for Atlético de Kolkata,"" ""won League One"") are more likely to be labeled ""yes.""",0,4,5,4,5
+dbpedia,HypoGeniC,24,"Articles that include references to sports teams or competitions (e.g., ""played for Atlético de Kolkata,"" ""won League One"") are more likely to be labeled ""yes.""",1,4,5,4,5
+dbpedia,HypoGeniC,24,"Articles that include references to sports teams or competitions (e.g., ""played for Atlético de Kolkata,"" ""won League One"") are more likely to be labeled ""yes.""",2,4,5,4,5
+dbpedia,HypoGeniC,25,"Articles that focus on specific individuals with notable achievements or contributions in fields such as sports, arts, or politics (e.g., ""Paul Huehnergard"" and ""Arthur Mitchell Wilson"") are more likely to be labeled ""yes.""",0,4,5,4,3
+dbpedia,HypoGeniC,25,"Articles that focus on specific individuals with notable achievements or contributions in fields such as sports, arts, or politics (e.g., ""Paul Huehnergard"" and ""Arthur Mitchell Wilson"") are more likely to be labeled ""yes.""",1,4,5,4,3
+dbpedia,HypoGeniC,25,"Articles that focus on specific individuals with notable achievements or contributions in fields such as sports, arts, or politics (e.g., ""Paul Huehnergard"" and ""Arthur Mitchell Wilson"") are more likely to be labeled ""yes.""",2,4,5,4,3
+dbpedia,HypoGeniC,26,"Openings that mention a person's role in a specific competitive context (e.g., ""national champion"" or ""Governor"") are more likely to be labeled ""yes,"" indicating a focus on individual accomplishments rather than organizational descriptions.",0,4,5,4,3
+dbpedia,HypoGeniC,26,"Openings that mention a person's role in a specific competitive context (e.g., ""national champion"" or ""Governor"") are more likely to be labeled ""yes,"" indicating a focus on individual accomplishments rather than organizational descriptions.",1,4,5,4,4
+dbpedia,HypoGeniC,26,"Openings that mention a person's role in a specific competitive context (e.g., ""national champion"" or ""Governor"") are more likely to be labeled ""yes,"" indicating a focus on individual accomplishments rather than organizational descriptions.",2,4,5,4,3
+dbpedia,HypoGeniC,27,"Articles that provide extensive historical or operational details about structures, locations, or general entities (e.g., ""The Low lighthouse"") are more likely to be labeled ""no.""",0,4,5,4,4
+dbpedia,HypoGeniC,27,"Articles that provide extensive historical or operational details about structures, locations, or general entities (e.g., ""The Low lighthouse"") are more likely to be labeled ""no.""",1,4,5,4,4
+dbpedia,HypoGeniC,27,"Articles that provide extensive historical or operational details about structures, locations, or general entities (e.g., ""The Low lighthouse"") are more likely to be labeled ""no.""",2,4,4,3,4
+dbpedia,HypoGeniC,28,"Openings that include detailed descriptions of competitive achievements, awards, or recognitions (e.g., ""Gennady Pavlovich Kuzmin"" and ""Paul Huehnergard"") are more likely to receive a ""yes"" label.",0,4,5,5,4
+dbpedia,HypoGeniC,28,"Openings that include detailed descriptions of competitive achievements, awards, or recognitions (e.g., ""Gennady Pavlovich Kuzmin"" and ""Paul Huehnergard"") are more likely to receive a ""yes"" label.",1,4,5,4,5
+dbpedia,HypoGeniC,28,"Openings that include detailed descriptions of competitive achievements, awards, or recognitions (e.g., ""Gennady Pavlovich Kuzmin"" and ""Paul Huehnergard"") are more likely to receive a ""yes"" label.",2,4,5,4,5
+dbpedia,HypoGeniC,29,"Articles that describe organizations, councils, or entities with a more bureaucratic or administrative focus (e.g., ""Luton Borough Council"" and ""Missionary Diocese of CANA West"") tend to be labeled ""no.""",0,4,5,4,3
+dbpedia,HypoGeniC,29,"Articles that describe organizations, councils, or entities with a more bureaucratic or administrative focus (e.g., ""Luton Borough Council"" and ""Missionary Diocese of CANA West"") tend to be labeled ""no.""",1,4,4,4,3
+dbpedia,HypoGeniC,29,"Articles that describe organizations, councils, or entities with a more bureaucratic or administrative focus (e.g., ""Luton Borough Council"" and ""Missionary Diocese of CANA West"") tend to be labeled ""no.""",2,4,5,4,3
+dbpedia,HypoGeniC,30,"Articles that focus on historical events or notable achievements, particularly in sports or significant cultural contributions, are more likely to be labeled ""yes"" (e.g., ""The men's 10,000 metres in speed skating at the 1998 Winter Olympics"" vs. ""Televisión Española is the national state-owned public-service television broadcaster..."").",0,4,5,4,4
+dbpedia,HypoGeniC,30,"Articles that focus on historical events or notable achievements, particularly in sports or significant cultural contributions, are more likely to be labeled ""yes"" (e.g., ""The men's 10,000 metres in speed skating at the 1998 Winter Olympics"" vs. ""Televisión Española is the national state-owned public-service television broadcaster..."").",1,4,5,4,4
+dbpedia,HypoGeniC,30,"Articles that focus on historical events or notable achievements, particularly in sports or significant cultural contributions, are more likely to be labeled ""yes"" (e.g., ""The men's 10,000 metres in speed skating at the 1998 Winter Olympics"" vs. ""Televisión Española is the national state-owned public-service television broadcaster..."").",2,4,5,4,4
+dbpedia,HypoGeniC,31,"Articles that provide extensive details about organizational structures, legislative bodies, or public services are more likely to be labeled ""no"" (e.g., ""The Parliament of Montenegro is the unicameral legislature of Montenegro"" vs. ""Modo Hockey is a professional ice hockey club..."").",0,4,4,4,3
+dbpedia,HypoGeniC,31,"Articles that provide extensive details about organizational structures, legislative bodies, or public services are more likely to be labeled ""no"" (e.g., ""The Parliament of Montenegro is the unicameral legislature of Montenegro"" vs. ""Modo Hockey is a professional ice hockey club..."").",1,4,5,4,4
+dbpedia,HypoGeniC,31,"Articles that provide extensive details about organizational structures, legislative bodies, or public services are more likely to be labeled ""no"" (e.g., ""The Parliament of Montenegro is the unicameral legislature of Montenegro"" vs. ""Modo Hockey is a professional ice hockey club..."").",2,4,4,3,3
+dbpedia,HypoGeniC,32,"Articles that describe specific locations, such as reservoirs or cities, are more likely to be labeled ""yes"" if they provide detailed information about their significance or function (e.g., ""Antero Reservoir is a reservoir in the US state of Colorado"" vs. ""The Estonian Maritime Museum is located in the Fat Margaret tower..."").",0,4,5,4,4
+dbpedia,HypoGeniC,32,"Articles that describe specific locations, such as reservoirs or cities, are more likely to be labeled ""yes"" if they provide detailed information about their significance or function (e.g., ""Antero Reservoir is a reservoir in the US state of Colorado"" vs. ""The Estonian Maritime Museum is located in the Fat Margaret tower..."").",1,4,5,4,3
+dbpedia,HypoGeniC,32,"Articles that describe specific locations, such as reservoirs or cities, are more likely to be labeled ""yes"" if they provide detailed information about their significance or function (e.g., ""Antero Reservoir is a reservoir in the US state of Colorado"" vs. ""The Estonian Maritime Museum is located in the Fat Margaret tower..."").",2,4,4,4,3
+dbpedia,HypoGeniC,33,"Articles that focus on entertainment, such as films, plays, or television shows, tend to be labeled ""no"" if they lack significant cultural or historical context (e.g., ""De:vadasy is a 2000 anime OVA about a giant human-piloted robot"" vs. ""The Chennai Metro is a rapid transit system serving the city of Chennai..."").",0,4,5,4,3
+dbpedia,HypoGeniC,33,"Articles that focus on entertainment, such as films, plays, or television shows, tend to be labeled ""no"" if they lack significant cultural or historical context (e.g., ""De:vadasy is a 2000 anime OVA about a giant human-piloted robot"" vs. ""The Chennai Metro is a rapid transit system serving the city of Chennai..."").",1,4,4,5,3
+dbpedia,HypoGeniC,33,"Articles that focus on entertainment, such as films, plays, or television shows, tend to be labeled ""no"" if they lack significant cultural or historical context (e.g., ""De:vadasy is a 2000 anime OVA about a giant human-piloted robot"" vs. ""The Chennai Metro is a rapid transit system serving the city of Chennai..."").",2,4,4,4,3
+dbpedia,HypoGeniC,34,"Articles that feature individuals with notable accomplishments or contributions to a specific field, such as architecture or literature, are more likely to be labeled ""yes"" (e.g., ""Verna Cook Salomonsky was a pioneering early 20th-century American architect"" vs. ""Red Noses is a comedy about the black death..."").",0,4,5,4,3
+dbpedia,HypoGeniC,34,"Articles that feature individuals with notable accomplishments or contributions to a specific field, such as architecture or literature, are more likely to be labeled ""yes"" (e.g., ""Verna Cook Salomonsky was a pioneering early 20th-century American architect"" vs. ""Red Noses is a comedy about the black death..."").",1,4,5,4,3
+dbpedia,HypoGeniC,34,"Articles that feature individuals with notable accomplishments or contributions to a specific field, such as architecture or literature, are more likely to be labeled ""yes"" (e.g., ""Verna Cook Salomonsky was a pioneering early 20th-century American architect"" vs. ""Red Noses is a comedy about the black death..."").",2,4,4,3,3
+dbpedia,HypoGeniC,35,"Articles that highlight a person's impact or significance in their field (e.g., ""one of the most 'in-demand models'"") are more likely to be labeled ""yes.""",0,4,4,3,3
+dbpedia,HypoGeniC,35,"Articles that highlight a person's impact or significance in their field (e.g., ""one of the most 'in-demand models'"") are more likely to be labeled ""yes.""",1,4,4,3,3
+dbpedia,HypoGeniC,35,"Articles that highlight a person's impact or significance in their field (e.g., ""one of the most 'in-demand models'"") are more likely to be labeled ""yes.""",2,4,5,4,3
+dbpedia,HypoGeniC,36,"Articles that provide detailed information about a person's professional background, including their career progression and notable events (e.g., ""top amateur golfer,"" ""number one ranked golfer"") are more likely to be labeled ""yes.""",0,4,5,4,4
+dbpedia,HypoGeniC,36,"Articles that provide detailed information about a person's professional background, including their career progression and notable events (e.g., ""top amateur golfer,"" ""number one ranked golfer"") are more likely to be labeled ""yes.""",1,4,5,4,4
+dbpedia,HypoGeniC,36,"Articles that provide detailed information about a person's professional background, including their career progression and notable events (e.g., ""top amateur golfer,"" ""number one ranked golfer"") are more likely to be labeled ""yes.""",2,4,5,4,4
+dbpedia,HypoGeniC,37,"Articles that describe a person's contributions to a specific field (e.g., ""design theorist and philosopher"") without notable achievements are more likely to be labeled ""no.""",0,4,4,4,3
+dbpedia,HypoGeniC,37,"Articles that describe a person's contributions to a specific field (e.g., ""design theorist and philosopher"") without notable achievements are more likely to be labeled ""no.""",1,4,4,4,3
+dbpedia,HypoGeniC,37,"Articles that describe a person's contributions to a specific field (e.g., ""design theorist and philosopher"") without notable achievements are more likely to be labeled ""no.""",2,4,4,4,3
+dbpedia,HypoGeniC,38,"Articles that include specific dates and historical context (e.g., ""built in 1914 for the British Admiralty"") are more likely to be labeled ""no.""",0,4,5,4,5
+dbpedia,HypoGeniC,38,"Articles that include specific dates and historical context (e.g., ""built in 1914 for the British Admiralty"") are more likely to be labeled ""no.""",1,4,4,5,5
+dbpedia,HypoGeniC,38,"Articles that include specific dates and historical context (e.g., ""built in 1914 for the British Admiralty"") are more likely to be labeled ""no.""",2,4,5,4,5
+dbpedia,HypoGeniC,39,"Articles that mention a person's international representation or participation in global events (e.g., ""represented the nation at three CONCACAF Gold Cups"") are more likely to be labeled ""yes.""",0,4,5,5,4
+dbpedia,HypoGeniC,39,"Articles that mention a person's international representation or participation in global events (e.g., ""represented the nation at three CONCACAF Gold Cups"") are more likely to be labeled ""yes.""",1,4,5,4,5
+dbpedia,HypoGeniC,39,"Articles that mention a person's international representation or participation in global events (e.g., ""represented the nation at three CONCACAF Gold Cups"") are more likely to be labeled ""yes.""",2,4,5,4,4
+10k,HypotheSAEs,0,"discusses regulatory matters related to electric utility operations, including rate increases, regulatory accounting, or compliance with state and federal regulations",0,4,5,5,4
+10k,HypotheSAEs,0,"discusses regulatory matters related to electric utility operations, including rate increases, regulatory accounting, or compliance with state and federal regulations",1,4,5,5,4
+10k,HypotheSAEs,0,"discusses regulatory matters related to electric utility operations, including rate increases, regulatory accounting, or compliance with state and federal regulations",2,4,5,5,4
+10k,HypotheSAEs,1,discusses regulatory compliance and supervision specific to the insurance industry,0,4,5,5,4
+10k,HypotheSAEs,1,discusses regulatory compliance and supervision specific to the insurance industry,1,4,5,5,4
+10k,HypotheSAEs,1,discusses regulatory compliance and supervision specific to the insurance industry,2,4,5,5,4
+10k,HypotheSAEs,2,describes operating as a development stage company with significant losses and no substantial product revenue since inception,0,5,5,5,4
+10k,HypotheSAEs,2,describes operating as a development stage company with significant losses and no substantial product revenue since inception,1,4,5,5,4
+10k,HypotheSAEs,2,describes operating as a development stage company with significant losses and no substantial product revenue since inception,2,5,5,5,4
+10k,HypotheSAEs,3,"describes clinical trial results, including phases (e.g., Phase I, II, III), patient populations, dosages, and efficacy or safety outcomes",0,2,4,4,3
+10k,HypotheSAEs,3,"describes clinical trial results, including phases (e.g., Phase I, II, III), patient populations, dosages, and efficacy or safety outcomes",1,3,5,5,4
+10k,HypotheSAEs,3,"describes clinical trial results, including phases (e.g., Phase I, II, III), patient populations, dosages, and efficacy or safety outcomes",2,2,4,4,3
+10k,HypotheSAEs,4,"discusses proprietary drug discovery or development platforms aimed at addressing specific unmet medical needs, often involving chemical/biological innovation or novel production methods",0,4,4,5,3
+10k,HypotheSAEs,4,"discusses proprietary drug discovery or development platforms aimed at addressing specific unmet medical needs, often involving chemical/biological innovation or novel production methods",1,4,4,5,3
+10k,HypotheSAEs,4,"discusses proprietary drug discovery or development platforms aimed at addressing specific unmet medical needs, often involving chemical/biological innovation or novel production methods",2,4,4,5,3
+10k,HypotheSAEs,5,"focuses on business operations or growth strategies specifically tied to China, including market opportunities, customer bases, or regulatory impacts",0,5,5,5,4
+10k,HypotheSAEs,5,"focuses on business operations or growth strategies specifically tied to China, including market opportunities, customer bases, or regulatory impacts",1,5,5,5,4
+10k,HypotheSAEs,5,"focuses on business operations or growth strategies specifically tied to China, including market opportunities, customer bases, or regulatory impacts",2,5,5,5,4
+10k,HypotheSAEs,6,mentions the development or commercialization of small molecule therapeutics or biotechnology products,0,4,5,5,4
+10k,HypotheSAEs,6,mentions the development or commercialization of small molecule therapeutics or biotechnology products,1,4,5,5,4
+10k,HypotheSAEs,6,mentions the development or commercialization of small molecule therapeutics or biotechnology products,2,4,5,5,4
+10k,HypotheSAEs,7,"discusses year-over-year changes in net income or earnings per share, including specific numerical comparisons and reasons for the changes",0,5,5,5,4
+10k,HypotheSAEs,7,"discusses year-over-year changes in net income or earnings per share, including specific numerical comparisons and reasons for the changes",1,5,5,5,4
+10k,HypotheSAEs,7,"discusses year-over-year changes in net income or earnings per share, including specific numerical comparisons and reasons for the changes",2,5,5,5,4
+10k,HypotheSAEs,8,describes a financial structure where a Sponsor covers most expenses and any excess interest is converted into another asset and distributed to shareholders,0,4,3,4,3
+10k,HypotheSAEs,8,describes a financial structure where a Sponsor covers most expenses and any excess interest is converted into another asset and distributed to shareholders,1,3,4,4,3
+10k,HypotheSAEs,8,describes a financial structure where a Sponsor covers most expenses and any excess interest is converted into another asset and distributed to shareholders,2,4,3,5,3
+10k,HypotheSAEs,9,"discusses significant uncertainties and risks associated with clinical trials, including patient enrollment challenges, regulatory approval processes, and the inability to predict costs or timelines for completing drug development",0,4,5,5,4
+10k,HypotheSAEs,9,"discusses significant uncertainties and risks associated with clinical trials, including patient enrollment challenges, regulatory approval processes, and the inability to predict costs or timelines for completing drug development",1,4,5,5,4
+10k,HypotheSAEs,9,"discusses significant uncertainties and risks associated with clinical trials, including patient enrollment challenges, regulatory approval processes, and the inability to predict costs or timelines for completing drug development",2,4,5,5,4
+10k,HypotheSAEs,10,"discusses collaborative agreements involving licensing, milestone payments, or royalties in the context of pharmaceutical or biopharmaceutical development",0,4,5,5,4
+10k,HypotheSAEs,10,"discusses collaborative agreements involving licensing, milestone payments, or royalties in the context of pharmaceutical or biopharmaceutical development",1,4,5,5,4
+10k,HypotheSAEs,10,"discusses collaborative agreements involving licensing, milestone payments, or royalties in the context of pharmaceutical or biopharmaceutical development",2,4,5,5,4
+10k,HypotheSAEs,11,"describes investments in middle-market companies, including specifics on loan types, equity participation, and risk mitigation strategies",0,4,5,5,4
+10k,HypotheSAEs,11,"describes investments in middle-market companies, including specifics on loan types, equity participation, and risk mitigation strategies",1,4,5,5,4
+10k,HypotheSAEs,11,"describes investments in middle-market companies, including specifics on loan types, equity participation, and risk mitigation strategies",2,4,5,5,5
+10k,HypotheSAEs,12,"describes clinical trials or studies involving drug development, including mentions of trial phases, endpoints, or patient enrollment",0,3,5,4,4
+10k,HypotheSAEs,12,"describes clinical trials or studies involving drug development, including mentions of trial phases, endpoints, or patient enrollment",1,3,4,4,3
+10k,HypotheSAEs,12,"describes clinical trials or studies involving drug development, including mentions of trial phases, endpoints, or patient enrollment",2,3,5,4,4
+10k,HypotheSAEs,13,"discusses exploration, development, or production of gold and/or silver mineral properties",0,4,5,5,5
+10k,HypotheSAEs,13,"discusses exploration, development, or production of gold and/or silver mineral properties",1,4,5,5,5
+10k,HypotheSAEs,13,"discusses exploration, development, or production of gold and/or silver mineral properties",2,4,5,5,5
+10k,HypotheSAEs,14,discusses REIT (Real Estate Investment Trust) structure and related tax implications,0,4,5,5,4
+10k,HypotheSAEs,14,discusses REIT (Real Estate Investment Trust) structure and related tax implications,1,3,5,4,4
+10k,HypotheSAEs,14,discusses REIT (Real Estate Investment Trust) structure and related tax implications,2,4,5,5,4
+10k,HypotheSAEs,15,"discusses leasing activity or tenant agreements in terms of square footage, power capacity (e.g., kilowatts), or specific lease terms such as commencements, expirations, or pre-leased developments",0,4,5,5,4
+10k,HypotheSAEs,15,"discusses leasing activity or tenant agreements in terms of square footage, power capacity (e.g., kilowatts), or specific lease terms such as commencements, expirations, or pre-leased developments",1,4,4,5,4
+10k,HypotheSAEs,15,"discusses leasing activity or tenant agreements in terms of square footage, power capacity (e.g., kilowatts), or specific lease terms such as commencements, expirations, or pre-leased developments",2,4,4,5,5
+10k,HypotheSAEs,16,describes clinical trials or studies focused on cancer treatment involving targeted therapies or immunotherapies,0,2,4,3,3
+10k,HypotheSAEs,16,describes clinical trials or studies focused on cancer treatment involving targeted therapies or immunotherapies,1,2,4,4,3
+10k,HypotheSAEs,16,describes clinical trials or studies focused on cancer treatment involving targeted therapies or immunotherapies,2,2,4,3,2
+10k,HypotheSAEs,17,"discusses production performance or estimates specifically related to oil, gas, or liquids reserves",0,4,5,5,4
+10k,HypotheSAEs,17,"discusses production performance or estimates specifically related to oil, gas, or liquids reserves",1,4,5,5,4
+10k,HypotheSAEs,17,"discusses production performance or estimates specifically related to oil, gas, or liquids reserves",2,4,5,4,4
+10k,HypotheSAEs,18,discusses warrant liabilities and their fair value adjustments,0,4,5,5,4
+10k,HypotheSAEs,18,discusses warrant liabilities and their fair value adjustments,1,4,5,5,4
+10k,HypotheSAEs,18,discusses warrant liabilities and their fair value adjustments,2,4,5,5,4
+10k,HypotheSAEs,19,references quantitative and qualitative disclosures about market risk,0,5,4,4,4
+10k,HypotheSAEs,19,references quantitative and qualitative disclosures about market risk,1,5,4,4,4
+10k,HypotheSAEs,19,references quantitative and qualitative disclosures about market risk,2,5,5,4,4
+10k,BERTopic,0,discusses clinical trials or product development efforts in the healthcare or pharmaceutical industry,0,4,5,5,4
+10k,BERTopic,0,discusses clinical trials or product development efforts in the healthcare or pharmaceutical industry,1,4,5,4,4
+10k,BERTopic,0,discusses clinical trials or product development efforts in the healthcare or pharmaceutical industry,2,4,5,4,4
+10k,BERTopic,1,"Discusses energy generation, transmission, or utility operations.",0,4,5,4,5
+10k,BERTopic,1,"Discusses energy generation, transmission, or utility operations.",1,4,5,4,5
+10k,BERTopic,1,"Discusses energy generation, transmission, or utility operations.",2,4,5,4,5
+10k,BERTopic,2,"Discusses real estate investment trusts (REITs) and the management, leasing, or ownership of real estate properties.",0,4,5,5,4
+10k,BERTopic,2,"Discusses real estate investment trusts (REITs) and the management, leasing, or ownership of real estate properties.",1,3,5,4,5
+10k,BERTopic,2,"Discusses real estate investment trusts (REITs) and the management, leasing, or ownership of real estate properties.",2,4,5,5,4
+10k,BERTopic,3,"focuses on insurance and reinsurance operations, including claims, premiums, and loss reserves",0,4,5,5,4
+10k,BERTopic,3,"focuses on insurance and reinsurance operations, including claims, premiums, and loss reserves",1,4,5,4,5
+10k,BERTopic,3,"focuses on insurance and reinsurance operations, including claims, premiums, and loss reserves",2,4,5,5,4
+10k,BERTopic,4,"Discusses mining, exploration, or production of gold or other minerals.",0,4,5,5,5
+10k,BERTopic,4,"Discusses mining, exploration, or production of gold or other minerals.",1,4,5,5,5
+10k,BERTopic,4,"Discusses mining, exploration, or production of gold or other minerals.",2,4,5,4,5
+10k,BERTopic,5,"mentions ""Item 7A. Quantitative and Qualitative Disclosures About Market Risk"".",0,3,5,5,5
+10k,BERTopic,5,"mentions ""Item 7A. Quantitative and Qualitative Disclosures About Market Risk"".",1,3,5,4,5
+10k,BERTopic,5,"mentions ""Item 7A. Quantitative and Qualitative Disclosures About Market Risk"".",2,3,5,4,5
+10k,BERTopic,6,Discusses batteries or energy storage technologies.,0,4,5,5,5
+10k,BERTopic,6,Discusses batteries or energy storage technologies.,1,4,5,5,4
+10k,BERTopic,6,Discusses batteries or energy storage technologies.,2,3,5,4,5
+10k,BERTopic,7,"discusses oil and natural gas exploration, production, or reserves",0,4,5,5,5
+10k,BERTopic,7,"discusses oil and natural gas exploration, production, or reserves",1,4,5,5,4
+10k,BERTopic,7,"discusses oil and natural gas exploration, production, or reserves",2,4,5,5,5
+10k,BERTopic,8,discusses water and wastewater services or utilities,0,3,5,4,5
+10k,BERTopic,8,discusses water and wastewater services or utilities,1,3,5,4,5
+10k,BERTopic,8,discusses water and wastewater services or utilities,2,3,5,4,5
+10k,BERTopic,9,"discusses advertising revenue in broadcasting, radio, television, or newspapers",0,3,5,4,4
+10k,BERTopic,9,"discusses advertising revenue in broadcasting, radio, television, or newspapers",1,4,5,4,5
+10k,BERTopic,9,"discusses advertising revenue in broadcasting, radio, television, or newspapers",2,4,5,5,5
+10k,BERTopic,10,discusses coal mining and its use in steel production or electricity generation,0,3,5,4,5
+10k,BERTopic,10,discusses coal mining and its use in steel production or electricity generation,1,3,5,4,5
+10k,BERTopic,10,discusses coal mining and its use in steel production or electricity generation,2,3,4,5,4
+10k,BERTopic,11,"discusses vehicles, automotive sales, or automotive parts and services",0,3,5,4,5
+10k,BERTopic,11,"discusses vehicles, automotive sales, or automotive parts and services",1,3,5,4,5
+10k,BERTopic,11,"discusses vehicles, automotive sales, or automotive parts and services",2,3,5,4,5
+10k,BERTopic,12,discusses revenue recognition in the context of multiple-element arrangements,0,4,5,5,4
+10k,BERTopic,12,discusses revenue recognition in the context of multiple-element arrangements,1,4,5,5,4
+10k,BERTopic,12,discusses revenue recognition in the context of multiple-element arrangements,2,4,5,5,4
+10k,BERTopic,13,"discusses investments in equity and debt securities, particularly in portfolio companies.",0,4,5,4,4
+10k,BERTopic,13,"discusses investments in equity and debt securities, particularly in portfolio companies.",1,4,5,4,4
+10k,BERTopic,13,"discusses investments in equity and debt securities, particularly in portfolio companies.",2,4,5,4,4
+10k,BERTopic,14,discusses online advertising or digital marketing strategies,0,4,5,4,5
+10k,BERTopic,14,discusses online advertising or digital marketing strategies,1,4,5,4,5
+10k,BERTopic,14,discusses online advertising or digital marketing strategies,2,4,5,5,5
+10k,BERTopic,15,"discusses education programs, institutions, or services for students.",0,2,5,4,5
+10k,BERTopic,15,"discusses education programs, institutions, or services for students.",1,2,4,3,4
+10k,BERTopic,15,"discusses education programs, institutions, or services for students.",2,2,5,4,5
+10k,BERTopic,16,Discusses exposure to and management of financial risks related to interest rates and foreign currency exchange rates.,0,5,5,5,4
+10k,BERTopic,16,Discusses exposure to and management of financial risks related to interest rates and foreign currency exchange rates.,1,5,5,5,4
+10k,BERTopic,16,Discusses exposure to and management of financial risks related to interest rates and foreign currency exchange rates.,2,5,5,5,4
+10k,BERTopic,17,discusses wireless communication technologies or services.,0,3,5,4,4
+10k,BERTopic,17,discusses wireless communication technologies or services.,1,3,5,4,5
+10k,BERTopic,17,discusses wireless communication technologies or services.,2,3,5,4,5
+10k,BERTopic,18,mentions risks or uncertainties that could adversely affect business operations or financial results.,0,5,5,4,4
+10k,BERTopic,18,mentions risks or uncertainties that could adversely affect business operations or financial results.,1,5,5,4,4
+10k,BERTopic,18,mentions risks or uncertainties that could adversely affect business operations or financial results.,2,5,5,4,4
+10k,BERTopic,19,discusses beverages or coffee products,0,2,5,4,5
+10k,BERTopic,19,discusses beverages or coffee products,1,2,5,3,5
+10k,BERTopic,19,discusses beverages or coffee products,2,2,5,4,5
+10k,HypoGeniC,0,"Companies that highlight challenges related to market competition and the need for strategic adaptations in their MD&A sections are more likely to have high stock return volatility, as these factors can create uncertainty about future performance and market positioning.",0,5,5,4,3
+10k,HypoGeniC,0,"Companies that highlight challenges related to market competition and the need for strategic adaptations in their MD&A sections are more likely to have high stock return volatility, as these factors can create uncertainty about future performance and market positioning.",1,4,5,4,4
+10k,HypoGeniC,0,"Companies that highlight challenges related to market competition and the need for strategic adaptations in their MD&A sections are more likely to have high stock return volatility, as these factors can create uncertainty about future performance and market positioning.",2,4,4,3,3
+10k,HypoGeniC,1,"Companies that discuss significant joint ventures or acquisitions in their MD&A sections are more likely to experience high stock return volatility, as these events often introduce uncertainty and risk related to integration and performance outcomes.",0,5,5,4,4
+10k,HypoGeniC,1,"Companies that discuss significant joint ventures or acquisitions in their MD&A sections are more likely to experience high stock return volatility, as these events often introduce uncertainty and risk related to integration and performance outcomes.",1,5,5,4,3
+10k,HypoGeniC,1,"Companies that discuss significant joint ventures or acquisitions in their MD&A sections are more likely to experience high stock return volatility, as these events often introduce uncertainty and risk related to integration and performance outcomes.",2,5,5,4,3
+10k,HypoGeniC,2,"Companies that provide detailed financial metrics and stable historical performance indicators in their MD&A sections are more likely to experience low stock return volatility, as this transparency can foster investor confidence and reduce perceived risk.",0,4,4,3,3
+10k,HypoGeniC,2,"Companies that provide detailed financial metrics and stable historical performance indicators in their MD&A sections are more likely to experience low stock return volatility, as this transparency can foster investor confidence and reduce perceived risk.",1,4,4,3,3
+10k,HypoGeniC,2,"Companies that provide detailed financial metrics and stable historical performance indicators in their MD&A sections are more likely to experience low stock return volatility, as this transparency can foster investor confidence and reduce perceived risk.",2,4,5,4,3
+10k,HypoGeniC,3,"Companies that express optimism about future earnings growth and operational efficiencies in their MD&A sections are more likely to experience high stock return volatility, as such forward-looking statements can lead to heightened investor expectations and reactions to performance fluctuations.",0,4,4,3,3
+10k,HypoGeniC,3,"Companies that express optimism about future earnings growth and operational efficiencies in their MD&A sections are more likely to experience high stock return volatility, as such forward-looking statements can lead to heightened investor expectations and reactions to performance fluctuations.",1,4,5,4,3
+10k,HypoGeniC,3,"Companies that express optimism about future earnings growth and operational efficiencies in their MD&A sections are more likely to experience high stock return volatility, as such forward-looking statements can lead to heightened investor expectations and reactions to performance fluctuations.",2,4,4,3,3
+10k,HypoGeniC,4,"Companies that emphasize regulatory compliance and stable operational frameworks in their MD&A sections are more likely to have low stock return volatility, as this suggests a lower risk profile and a more predictable business environment.",0,4,4,3,3
+10k,HypoGeniC,4,"Companies that emphasize regulatory compliance and stable operational frameworks in their MD&A sections are more likely to have low stock return volatility, as this suggests a lower risk profile and a more predictable business environment.",1,4,4,3,3
+10k,HypoGeniC,4,"Companies that emphasize regulatory compliance and stable operational frameworks in their MD&A sections are more likely to have low stock return volatility, as this suggests a lower risk profile and a more predictable business environment.",2,4,4,3,3
+10k,HypoGeniC,5,"Companies that emphasize operational improvements and strategic goals in their MD&A, particularly those related to profitability and cost management, are more likely to experience high stock return volatility in the following year.",0,4,4,3,3
+10k,HypoGeniC,5,"Companies that emphasize operational improvements and strategic goals in their MD&A, particularly those related to profitability and cost management, are more likely to experience high stock return volatility in the following year.",1,4,4,4,3
+10k,HypoGeniC,5,"Companies that emphasize operational improvements and strategic goals in their MD&A, particularly those related to profitability and cost management, are more likely to experience high stock return volatility in the following year.",2,4,4,3,3
+10k,HypoGeniC,6,"Firms that detail successful capital market transactions or significant changes in financial structure, such as debt refinancing or equity issuance, in their MD&A are more likely to exhibit high stock return volatility in the subsequent year.",0,5,5,5,4
+10k,HypoGeniC,6,"Firms that detail successful capital market transactions or significant changes in financial structure, such as debt refinancing or equity issuance, in their MD&A are more likely to exhibit high stock return volatility in the subsequent year.",1,5,5,5,4
+10k,HypoGeniC,6,"Firms that detail successful capital market transactions or significant changes in financial structure, such as debt refinancing or equity issuance, in their MD&A are more likely to exhibit high stock return volatility in the subsequent year.",2,5,5,5,4
+10k,HypoGeniC,7,"Companies that report substantial fluctuations in commodity prices or raw material costs in their MD&A are likely to face high stock return volatility, especially if they indicate a reactive rather than proactive approach to managing these costs.",0,5,4,4,3
+10k,HypoGeniC,7,"Companies that report substantial fluctuations in commodity prices or raw material costs in their MD&A are likely to face high stock return volatility, especially if they indicate a reactive rather than proactive approach to managing these costs.",1,5,4,4,3
+10k,HypoGeniC,7,"Companies that report substantial fluctuations in commodity prices or raw material costs in their MD&A are likely to face high stock return volatility, especially if they indicate a reactive rather than proactive approach to managing these costs.",2,4,4,4,3
+10k,HypoGeniC,8,"MD&A sections that include extensive discussions of regulatory challenges or compliance issues are correlated with higher future stock return volatility, as these factors can introduce uncertainty into the company's operational stability.",0,5,5,4,3
+10k,HypoGeniC,8,"MD&A sections that include extensive discussions of regulatory challenges or compliance issues are correlated with higher future stock return volatility, as these factors can introduce uncertainty into the company's operational stability.",1,5,5,4,4
+10k,HypoGeniC,8,"MD&A sections that include extensive discussions of regulatory challenges or compliance issues are correlated with higher future stock return volatility, as these factors can introduce uncertainty into the company's operational stability.",2,5,5,4,4
+10k,HypoGeniC,9,"MD&A excerpts that highlight significant challenges or uncertainties in revenue generation, such as reliance on external market conditions or customer relationships, are associated with higher future stock return volatility.",0,5,5,4,3
+10k,HypoGeniC,9,"MD&A excerpts that highlight significant challenges or uncertainties in revenue generation, such as reliance on external market conditions or customer relationships, are associated with higher future stock return volatility.",1,5,4,4,3
+10k,HypoGeniC,9,"MD&A excerpts that highlight significant challenges or uncertainties in revenue generation, such as reliance on external market conditions or customer relationships, are associated with higher future stock return volatility.",2,5,5,4,3
+10k,HypoGeniC,10,"Firms that mention reliance on subjective assumptions in their financial reporting, such as stock option valuations or impairment assessments, are more likely to experience high stock return volatility, as these assumptions can lead to significant earnings adjustments based on market perceptions.",0,5,5,5,4
+10k,HypoGeniC,10,"Firms that mention reliance on subjective assumptions in their financial reporting, such as stock option valuations or impairment assessments, are more likely to experience high stock return volatility, as these assumptions can lead to significant earnings adjustments based on market perceptions.",1,5,5,5,4
+10k,HypoGeniC,10,"Firms that mention reliance on subjective assumptions in their financial reporting, such as stock option valuations or impairment assessments, are more likely to experience high stock return volatility, as these assumptions can lead to significant earnings adjustments based on market perceptions.",2,5,5,4,4
+10k,HypoGeniC,11,"Companies that highlight a strong trend of recurring revenue growth in their MD&A are more likely to have low stock return volatility, as this indicates a stable and predictable income stream that can buffer against market fluctuations.",0,4,5,4,3
+10k,HypoGeniC,11,"Companies that highlight a strong trend of recurring revenue growth in their MD&A are more likely to have low stock return volatility, as this indicates a stable and predictable income stream that can buffer against market fluctuations.",1,4,5,4,3
+10k,HypoGeniC,11,"Companies that highlight a strong trend of recurring revenue growth in their MD&A are more likely to have low stock return volatility, as this indicates a stable and predictable income stream that can buffer against market fluctuations.",2,4,4,4,3
+10k,HypoGeniC,12,"Companies that report on their strategic collaborations and partnerships in the context of developing new products or services are more likely to have high stock return volatility, as these initiatives can introduce both opportunities and risks that affect investor sentiment and market performance.",0,4,5,4,3
+10k,HypoGeniC,12,"Companies that report on their strategic collaborations and partnerships in the context of developing new products or services are more likely to have high stock return volatility, as these initiatives can introduce both opportunities and risks that affect investor sentiment and market performance.",1,4,4,4,3
+10k,HypoGeniC,12,"Companies that report on their strategic collaborations and partnerships in the context of developing new products or services are more likely to have high stock return volatility, as these initiatives can introduce both opportunities and risks that affect investor sentiment and market performance.",2,4,5,4,3
+10k,HypoGeniC,13,"Firms that discuss significant regulatory risks or uncertainties, particularly in industries like healthcare or finance, are more likely to face high stock return volatility, as these factors introduce unpredictability in their operations and financial performance.",0,5,5,4,3
+10k,HypoGeniC,13,"Firms that discuss significant regulatory risks or uncertainties, particularly in industries like healthcare or finance, are more likely to face high stock return volatility, as these factors introduce unpredictability in their operations and financial performance.",1,5,5,4,3
+10k,HypoGeniC,13,"Firms that discuss significant regulatory risks or uncertainties, particularly in industries like healthcare or finance, are more likely to face high stock return volatility, as these factors introduce unpredictability in their operations and financial performance.",2,5,5,4,3
+10k,HypoGeniC,14,"Companies that emphasize stable market share and consistent demand growth in their MD&A sections are more likely to experience low stock return volatility, as they project confidence in their operational stability and market position.",0,4,4,3,3
+10k,HypoGeniC,14,"Companies that emphasize stable market share and consistent demand growth in their MD&A sections are more likely to experience low stock return volatility, as they project confidence in their operational stability and market position.",1,4,4,3,3
+10k,HypoGeniC,14,"Companies that emphasize stable market share and consistent demand growth in their MD&A sections are more likely to experience low stock return volatility, as they project confidence in their operational stability and market position.",2,4,4,3,3
+10k,HypoGeniC,15,"Companies that indicate a reliance on external economic conditions, such as consumer confidence or economic recovery, in their MD&A are more likely to have high stock return volatility, as these external factors can lead to unpredictable revenue changes.",0,5,5,4,4
+10k,HypoGeniC,15,"Companies that indicate a reliance on external economic conditions, such as consumer confidence or economic recovery, in their MD&A are more likely to have high stock return volatility, as these external factors can lead to unpredictable revenue changes.",1,4,5,4,3
+10k,HypoGeniC,15,"Companies that indicate a reliance on external economic conditions, such as consumer confidence or economic recovery, in their MD&A are more likely to have high stock return volatility, as these external factors can lead to unpredictable revenue changes.",2,5,4,4,3
+10k,HypoGeniC,16,"Companies that frequently mention ""forward-looking statements"" and associated ""risks and uncertainties"" in their MD&A sections are more likely to experience high stock return volatility, as these statements indicate a reliance on uncertain future outcomes.",0,4,5,4,5
+10k,HypoGeniC,16,"Companies that frequently mention ""forward-looking statements"" and associated ""risks and uncertainties"" in their MD&A sections are more likely to experience high stock return volatility, as these statements indicate a reliance on uncertain future outcomes.",1,4,5,4,5
+10k,HypoGeniC,16,"Companies that frequently mention ""forward-looking statements"" and associated ""risks and uncertainties"" in their MD&A sections are more likely to experience high stock return volatility, as these statements indicate a reliance on uncertain future outcomes.",2,4,5,4,5
+10k,HypoGeniC,17,"Companies that disclose plans for significant business transformations, exits from certain markets, or changes in operational strategies in their MD&A are more likely to experience high stock return volatility, as these actions can create uncertainty about future performance.",0,5,5,5,4
+10k,HypoGeniC,17,"Companies that disclose plans for significant business transformations, exits from certain markets, or changes in operational strategies in their MD&A are more likely to experience high stock return volatility, as these actions can create uncertainty about future performance.",1,5,5,4,4
+10k,HypoGeniC,17,"Companies that disclose plans for significant business transformations, exits from certain markets, or changes in operational strategies in their MD&A are more likely to experience high stock return volatility, as these actions can create uncertainty about future performance.",2,5,5,4,3
+10k,HypoGeniC,18,"Companies that report on the impact of foreign currency translation on their revenues and costs are more likely to experience high stock return volatility, as currency fluctuations can significantly affect financial performance.",0,4,5,5,4
+10k,HypoGeniC,18,"Companies that report on the impact of foreign currency translation on their revenues and costs are more likely to experience high stock return volatility, as currency fluctuations can significantly affect financial performance.",1,4,5,4,4
+10k,HypoGeniC,18,"Companies that report on the impact of foreign currency translation on their revenues and costs are more likely to experience high stock return volatility, as currency fluctuations can significantly affect financial performance.",2,4,5,5,4
+10k,HypoGeniC,19,"Companies that discuss significant fluctuations in commodity prices or raw material costs in their MD&A are more likely to have high stock return volatility, as these factors introduce unpredictability in their cost structures and profit margins.",0,5,5,5,4
+10k,HypoGeniC,19,"Companies that discuss significant fluctuations in commodity prices or raw material costs in their MD&A are more likely to have high stock return volatility, as these factors introduce unpredictability in their cost structures and profit margins.",1,5,5,5,4
+10k,HypoGeniC,19,"Companies that discuss significant fluctuations in commodity prices or raw material costs in their MD&A are more likely to have high stock return volatility, as these factors introduce unpredictability in their cost structures and profit margins.",2,5,5,4,4

@@ -1,0 +1,8 @@
+model,C,val_auc,holdout_auc
+"linear SVM, log1p TF, unigram",1.0,0.9533931359318357,0.9618094308035715
+"linear SVM, TF-IDF, unigram",0.3,0.9578269958455718,0.9665664738906926
+"linear SVM, log1p TF, uni+bigram",1.0,0.9668937048503612,0.9765339640827921
+"linear SVM, TF-IDF, uni+bigram",1.0,0.9718208038951073,0.9810500372023809
+logistic on text-embedding-3-small,1.0,0.8955730200312243,0.8837171942640695
+logistic on 50 LASSO-selected SAE neurons (HypotheSAEs features),1.0,0.9129369426583049,0.9099448728354977
+"HypotheSAEs 50 hypotheses (gpt-4o-mini annotations, in-sample logit on holdout)",,,0.8898561155641234

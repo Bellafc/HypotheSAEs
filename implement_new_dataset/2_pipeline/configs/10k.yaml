@@ -1,0 +1,39 @@
+# 10-K Corpus (real task: post-filing log volatility). Everything not listed here uses the paper defaults in
+# run_pipeline.py (PAPER_DEFAULTS). Every value below is either dataset-specific or a change we made.
+#   python implement_new_dataset/2_pipeline/run_pipeline.py --config 10k --stage grid | select | llm | holdout
+name: 10k
+
+data:
+  dir: data/10k                # made by implement_new_dataset/1_datasets/prepare_10k.py
+  label_col: y                 # log volatility minus the train filing-year mean, z-scored
+  task: regression
+  group_col: key               # report id: chunk predictions are also averaged per report (grid stage)
+
+# paths ({embedding_tag} = last part of embedding.model); they are also cache keys, renaming them re-calls the API
+cache_name: 10k_{embedding_tag}
+checkpoint_dir: checkpoints/10k_{embedding_tag}
+output_dir: implement_new_dataset/2_pipeline/results/10k
+
+embedding:
+  model: text-embedding-3-small        # paper default; written out because it names the cache and output folder
+
+sae:
+  grid: [[32, 4], [32, 8], [64, 4], [64, 8], [64, 16], [128, 4], [128, 8], [128, 16], [256, 8], [256, 16], [512, 8], [512, 16]]   # (M, K) searched on validation, as in the paper
+  n_epochs: 200                # changed: library defaults are 100 epochs, patience 3
+  patience: 5
+
+interpretation:
+  model: gpt-4o-2024-11-20     # changed: pinned snapshot of the paper's gpt-4o
+  max_words: 256               # changed: library default (the paper's notebook uses 128)
+  task_instructions: |         # added: the texts are masked MD&A excerpts
+    All of the texts are excerpts (about ten sentences each) from the Management's Discussion and Analysis (MD&A) section of U.S. public companies' 10-K annual reports.
+    Company names, tickers, people and dates are masked with placeholders such as [COMPANY], [OTHER_COMPANY], [TICKER], [PERSON] and [DATE]; years are written relative to the report's fiscal year, e.g. [YEAR_T] is the current fiscal year and [YEAR_T-1] the previous one.
+    Features should describe a specific aspect of the excerpt's content or language. For example:
+    - "describes a restructuring plan with plant closures or workforce reductions"
+    - "discusses dependence on a small number of large customers"
+
+scoring:
+  model: gpt-4o-mini-2024-07-18  # changed: pinned snapshot of the paper's gpt-4o-mini
+
+annotation:
+  model: gpt-4o-mini-2024-07-18  # changed: pinned snapshot of the paper's gpt-4o-mini

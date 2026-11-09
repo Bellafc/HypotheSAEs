@@ -1,0 +1,7 @@
+dataset,method,n_hyp,AUC,n_sig_0.05/H,R2
+dbpedia,HypotheSAEs,50,0.757,13,
+dbpedia,BERTopic,50,0.751,9,
+dbpedia,HypoGeniC,40,0.697,3,
+10k,HypotheSAEs,20,,5,0.128
+10k,BERTopic,20,,9,0.153
+10k,HypoGeniC,20,,6,0.09

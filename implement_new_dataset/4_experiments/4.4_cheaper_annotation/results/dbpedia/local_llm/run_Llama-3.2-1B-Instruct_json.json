@@ -1,0 +1,18 @@
+{
+  "model": "meta-llama/Llama-3.2-1B-Instruct",
+  "prompt": "json",
+  "wall_min": 41.486960637569425,
+  "n_annotations": 100000,
+  "parse_failures": 11350,
+  "calls": 100000,
+  "prompt_tokens": 72642000,
+  "completion_tokens": 5047308,
+  "throughput_per_s": 40.173265070601005,
+  "auroc": 0.6259881882440477,
+  "r2": 0.039036825003297526,
+  "significant": [
+    2,
+    50
+  ],
+  "n_dropped_constant": 0
+}

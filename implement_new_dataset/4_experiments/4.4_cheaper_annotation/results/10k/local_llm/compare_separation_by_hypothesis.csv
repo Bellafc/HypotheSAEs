@@ -1,0 +1,21 @@
+hypothesis,sep_gpt-4o-mini,sep_Qwen3-0.6B_simple,sep_Llama-3.2-1B-Instruct_json
+describes clinical trials or studies focused on cancer treatment involving targeted therapies or immunotherapies,1.3727156992796277,0.18079773393594872,-0.06129262810636744
+describes operating as a development stage company with significant losses and no substantial product revenue since inception,1.0227667755326586,,0.19644607221913418
+"describes clinical trial results, including phases (e.g., Phase I, II, III), patient populations, dosages, and efficacy or safety outcomes",1.006220122601724,-0.011259571865705809,-0.095183593187312
+"describes clinical trials or studies involving drug development, including mentions of trial phases, endpoints, or patient enrollment",0.9768758985364503,0.081431530634867,-0.10020703011876203
+"discusses significant uncertainties and risks associated with clinical trials, including patient enrollment challenges, regulatory approval processes, and the inability to predict costs or timelines for completing drug development",0.9464734283581088,0.2926220836156977,-0.10781066244309917
+"discusses proprietary drug discovery or development platforms aimed at addressing specific unmet medical needs, often involving chemical/biological innovation or novel production methods",0.8969682053375285,0.3345609302026111,-0.08286246734692797
+mentions the development or commercialization of small molecule therapeutics or biotechnology products,0.8690204480139451,0.29174024108834035,-0.08019281956920594
+"discusses collaborative agreements involving licensing, milestone payments, or royalties in the context of pharmaceutical or biopharmaceutical development",0.4817815927304603,0.061330316470470866,-0.07495726588448617
+"focuses on business operations or growth strategies specifically tied to China, including market opportunities, customer bases, or regulatory impacts",0.47044654068006453,-0.07578027496653555,-0.09503949886127293
+"discusses exploration, development, or production of gold and/or silver mineral properties",0.40031196398841484,0.07221344083525026,-0.13176793661738093
+discusses warrant liabilities and their fair value adjustments,0.3130234049756397,-0.5608781547778697,-0.0384795814567066
+"discusses production performance or estimates specifically related to oil, gas, or liquids reserves",0.03154928957631072,-0.16511748604064302,-0.12480313930979044
+"discusses year-over-year changes in net income or earnings per share, including specific numerical comparisons and reasons for the changes",-0.25923844838815746,-0.12254493052859051,-0.054903817663322516
+references quantitative and qualitative disclosures about market risk,-0.25981996587503675,-0.41195657469787744,-0.08412130972721975
+discusses regulatory compliance and supervision specific to the insurance industry,-0.34041292201281337,-0.16043699791692925,-0.10865850469172306
+"discusses leasing activity or tenant agreements in terms of square footage, power capacity (e.g., kilowatts), or specific lease terms such as commencements, expirations, or pre-leased developments",-0.4907401617563472,-0.04788899322438509,-0.09688902284868134
+"discusses regulatory matters related to electric utility operations, including rate increases, regulatory accounting, or compliance with state and federal regulations",-0.4951937820384015,-0.10979354283085344,-0.07926805286728732
+"describes investments in middle-market companies, including specifics on loan types, equity participation, and risk mitigation strategies",-0.6702649391611905,-0.26174099999847955,-0.08182994972918341
+discusses REIT (Real Estate Investment Trust) structure and related tax implications,-0.9747603159069061,-0.15161855491062667,-0.07797744801002884
+describes a financial structure where a Sponsor covers most expenses and any excess interest is converted into another asset and distributed to shareholders,,-0.9215904083537519,-0.07915096719686616
