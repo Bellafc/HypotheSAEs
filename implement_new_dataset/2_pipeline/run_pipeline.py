@@ -1,6 +1,6 @@
 """HypotheSAEs pipeline for any dataset, driven by a YAML config.
 
-The code defaults below (PAPER_DEFAULTS) are the paper's settings; configs/sample.yaml (next to this file) lists every
+The code defaults below (PAPER_DEFAULTS) are the paper's settings; configs/sample.yaml lists every
 option with these default values. Each dataset has one config file in configs/ (configs/dbpedia.yaml, configs/10k.yaml) that
 holds its data paths and every setting we changed from the paper, with a comment on why. `--set key.sub=value` overrides any config value for a one-off run (written to the log).
 
@@ -9,7 +9,7 @@ Stages (run in this order; each one is resumable and saves its outputs in output
              validation metric -> grid_MK.csv, chosen_MK.json. Not needed if the grid has one entry.   [no LLM]
              Also a reference: ridge (regression) / logistic (classification) on all embedding dimensions, saved
              in chosen_MK.json.
-             With a local embedder and its own output folder it is the free signal check of a new embedding:
+             With a local embedder and its own output folder:
                --set embedding.model=Qwen/Qwen3-Embedding-4B --set embedding.backend=local \
                --set output_dir=implement_new_dataset/4_experiments/4.1_embedding/results/10k/{embedding_tag}
   select     embeddings, baselines (raw embeddings / all SAE neurons / selected neurons), SAE, neuron selection
@@ -18,7 +18,7 @@ Stages (run in this order; each one is resumable and saves its outputs in output
              -> pre_eval_hypotheses_<run>.json, <run> = timestamp YYYYMMDD-HHMMSS of this run, so a new run
              never overwrites an earlier one (at T=0.7 every run gives different hypotheses)
   holdout    annotate the holdout and evaluate (cached annotations are reused). Every annotation is appended to a JSONL
-             log as soon as it returns, so an interruption loses nothing. Then runs the analyses in after_holdout.
+             log as soon as it returns. Then runs the analyses in after_holdout.
              -> holdout_hypotheses_<run>.csv, holdout_metrics_<run>.json, usage_holdout_<run>.csv
   recovery   ground-truth recovery for synthetic tasks (paper section 5.2): Hungarian matching of hypotheses to the
              positive classes, F1 and LLM surface similarity -> recovery_{summary.json,matches.csv,corrmatrix.csv}
