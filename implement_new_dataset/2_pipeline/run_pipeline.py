@@ -322,13 +322,10 @@ def top_values(col_values, mask, k=3):
 def stage_grid(cfg, dfs, E, y):
     out = cfg["output_dir"]
     split_key = cfg["data"]["group_col"]
-    if cfg["classification"]:
-        emb = fit_metric(cfg, E["train"], y["train"], E["val"], y["val"])
-        print(f"[baseline] logistic on raw embeddings, val AUC = {emb:.4f}")
-    else:  # ridge: plain OLS on 1,000+ embedding dimensions overfits
-        emb = fit_metric(cfg, E["train"], y["train"], E["val"], y["val"], regularized=True)
-        print(f"[baseline] {'logistic' if cfg['classification'] else 'ridge'} on raw embeddings, "
-        f"val {'AUC' if cfg['classification'] else 'R2'} = {emb:.4f}")
+    # reference: all embedding dimensions. 
+    emb = fit_metric(cfg, E["train"], y["train"], E["val"], y["val"], regularized=True)
+    print(f"[baseline] {'logistic' if cfg['classification'] else 'ridge'} on raw embeddings, "
+          f"val {'AUC' if cfg['classification'] else 'R2'} = {emb:.4f}")
     rows = []
     for M, K in cfg["sae"]["grid"]:
         t = time.time()
