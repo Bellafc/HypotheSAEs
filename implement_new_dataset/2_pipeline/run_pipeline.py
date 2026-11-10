@@ -172,10 +172,15 @@ def score_col(cfg):
     return "lasso_coef" if m == "lasso" else f"{m}_score"
 
 
-def fit_metric(cfg, Xtr, ytr, Xte, yte):
-    """out-of-sample metric of a plain model on features: logistic AUC (classification) or OLS R^2 (regression)."""
+def fit_metric(cfg, Xtr, ytr, Xte, yte, regularized=False):
+    """out-of-sample metric of a linear model on features: AUC (classification) or R^2 (regression).
+    regularized=False: plain OLS / logistic, like the paper's shared regression on the H hypotheses.
+    regularized=True : RidgeCV (regression) for high-dimensional baselines (raw embeddings, all SAE neurons),
+                       where plain OLS overfits; same alpha grid as stage_grid and kogan_baseline_10k.py."""
     if cfg["classification"]:
         return roc_auc_score(yte, LogisticRegression(max_iter=2000).fit(Xtr, ytr).predict_proba(Xte)[:, 1])
+    if regularized:
+        return r2(yte, RidgeCV(alphas=np.logspace(-2, 4, 25)).fit(Xtr, ytr).predict(Xte))
     return r2(yte, LinearRegression().fit(Xtr, ytr).predict(Xte))
 
 
@@ -321,9 +326,9 @@ def stage_grid(cfg, dfs, E, y):
         emb = fit_metric(cfg, E["train"], y["train"], E["val"], y["val"])
         print(f"[baseline] logistic on raw embeddings, val AUC = {emb:.4f}")
     else:  # ridge: plain OLS on 1,000+ embedding dimensions overfits
-        p = RidgeCV(alphas=np.logspace(-2, 4, 25)).fit(E["train"], y["train"]).predict(E["val"])
-        emb = r2(y["val"], p)
-        print(f"[baseline] ridge on raw embeddings, val R2 = {emb:.4f}")
+        emb = fit_metric(cfg, E["train"], y["train"], E["val"], y["val"], regularized=True)
+        print(f"[baseline] {'logistic' if cfg['classification'] else 'ridge'} on raw embeddings, "
+        f"val {'AUC' if cfg['classification'] else 'R2'} = {emb:.4f}")
     rows = []
     for M, K in cfg["sae"]["grid"]:
         t = time.time()
@@ -359,11 +364,11 @@ def stage_select(cfg, dfs, E, y):
     out, rs = cfg["output_dir"], cfg["select_report_split"]
     M, K = chosen_MK(cfg)
     met = "auc" if cfg["classification"] else "r2"
-    res = {"emb": fit_metric(cfg, E["train"], y["train"], E[rs], y[rs])}
+    res = {"emb": fit_metric(cfg, E["train"], y["train"], E[rs], y[rs], regularized=True)}
     sae = get_sae(cfg, E, M, K)
     A = {s: sae.get_activations(E[s]) for s in E}
     dead = int((A["train"].max(axis=0) == 0).sum())
-    res["sae_all"] = fit_metric(cfg, A["train"], y["train"], A[rs], y[rs])
+    res["sae_all"] = fit_metric(cfg, A["train"], y["train"], A[rs], y[rs], regularized=True)
     sel, scores = select(cfg, A["train"], y["train"], verbose=True)
     res["sae_selected"] = fit_metric(cfg, A["train"][:, sel], y["train"], A[rs][:, sel], y[rs])
     for k, v in res.items():
