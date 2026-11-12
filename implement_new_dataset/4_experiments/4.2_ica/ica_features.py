@@ -23,20 +23,30 @@ then keep only the top of each component on train: z = max(s - tau, 0), tau = a 
 common features; 75 / 90 / 97 on the synthetic ones, because a feature kept on 1% of texts cannot match a topic that
 covers 3-5% and LASSO on such sparse features took >10 min per fit).
 
-Stages
-  --stage screen   free. LASSO picks H features (dbpedia 50, 10k 20, the paper's H elsewhere) on train; validation
-                   metrics without any LLM (feature activation > 0 stands in for an annotation): AUC or R^2 of the
-                   continuous and of the 0/1 features, topic recovery for datasets with ground-truth topics (Hungarian
-                   matching of positive topics to binarized features, F1), report-level R^2 on 10k.
-                   -> screen_<ds>.csv; then summary.csv (best configuration of each kind per dataset) and
-                   chosen.json (its name), picked by the dataset's criterion (0/1-feature metric, or recovery F1 on
-                   the synthetic sets), since hypotheses are finally evaluated as 0/1 annotations.
-  --stage llm      paid. For --method <kind> (its chosen configuration from screen): gpt-4o interpretations
-                   (3 candidates, T=0.7), gpt-4o-mini fidelity scoring (200 examples), then gpt-4o-mini annotation of
-                   100 validation texts: for dbpedia / 10k the SAME 100 used for the baselines
-                   (implement_new_dataset/3_baselines/results/eval1_llm_labels_val100/), for the other datasets 100 drawn once (seed 0) and saved
-                   as <ds>_val100.json. A spend ledger enforces --budget across runs.
-                   Sampling bins and task instructions: configs/<ds>.yaml for our data, the paper defaults otherwise.
+Stages (numbered as the HypotheSAEs pipeline: (1) embed -> (2) SAE -> (3) LASSO -> (4) interpret -> (5) fidelity
+-> (6) annotate + regression)
+  --stage screen   free, no LLM:
+                   (1) unchanged: our data reuse the text-embedding-3-small cache; the paper's datasets use local
+                       Qwen3-Embedding-0.6B
+                   (2) REPLACED by the feature source (sign flip + truncation above); sae = the dataset's SAE
+                   (3) unchanged: LASSO picks H features on train (dbpedia 50, 10k 20, the paper's H elsewhere)
+                   (4), (5) SKIPPED
+                   (6) REPLACED: no hypotheses yet, so each selected feature itself plays the hypothesis; fit on
+                       train, evaluate on val (sklearn, out-of-sample):
+                       - 0/1 features: activation > 0 stands in for an LLM "yes";
+                       - continuous features: the truncated activations z = max(s - tau, 0) themselves; 
+                         Reference only (what is lost by going to yes/no); not used to choose the configuration.
+  --stage llm      paid. For --method <kind>, using its configuration in chosen.json:
+                   (1) unchanged
+                   (2) REPLACED by the chosen ICA / PCA configuration
+                   (3) unchanged: LASSO, H features
+                   (4) unchanged: gpt-4o, 3 candidates, T=0.7; sampling bins and task instructions from
+                       configs/<ds>.yaml for our data, the paper defaults otherwise
+                   (5) unchanged: gpt-4o-mini fidelity scoring, 200 examples
+                   (6) CHANGED data: gpt-4o-mini annotates 100 VALIDATION texts instead of the holdout (dbpedia / 10k:
+                       the same 100 as the baselines in 3_baselines/results/eval1_llm_labels_val100/; other datasets:
+                       100 drawn once with seed 0, saved as <ds>_val100.json), then score_hypotheses and an in-sample
+                       Logit AUC (+ recovery) or OLS R^2 / adj. R^2 -> compare with Evaluation 1, not with the holdout
 
 Usage:
   python implement_new_dataset/4_experiments/4.2_ica/ica_features.py --stage screen --dataset dbpedia,10k,headlines
